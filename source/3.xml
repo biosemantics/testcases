@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <meta>
+    <source>285.txt from Cycad</source>
+    <test_target>compound phrases connected by ‘or’, e.g. palm- or fern-like</test_target>
+  </meta>
+  <taxon_identification />
+  <description>Pollen cones 2-6, decumbent, cylindrical to ovoid, light brown to dark beige, 6.5-7.5 cm long, 1.8-2.5 cm in diameter, apiculate apically;</description>
+</treatment>
