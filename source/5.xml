@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <meta>
+    <source>CycadType2</source>
+    <test_target>compound character values e.g. bright green</test_target>
+  </meta>
+  <taxon_identification />
+  <description>Leaves light or bright green, semiglossy, 50-100 cm long, flat (not keeled )in section, with 30-80 leaflets;</description>
+</treatment>
