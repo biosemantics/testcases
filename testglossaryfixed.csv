@@ -43,4 +43,7 @@ arborescent, habit
 cones, structure
 end” name=”end” constraint=”anterior, structure
 null, structure
+toothed, shape
+teeth, structure
+tooth, structure
 
