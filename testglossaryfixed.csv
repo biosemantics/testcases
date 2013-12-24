@@ -46,4 +46,9 @@ null, structure
 toothed, shape
 teeth, structure
 tooth, structure
+light, coloration
+bright green, coloration
+semiglossy, reflectance
+flat, prominence_or_shape
+keeled, shape
 
