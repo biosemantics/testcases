@@ -41,4 +41,6 @@ apiculate, shape
 nullstems, structure
 arborescent, habit
 cones, structure
+end” name=”end” constraint=”anterior, structure
+null, structure
 
