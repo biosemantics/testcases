@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <meta>
+    <source>more than 3</source>
+    <test_target>CycadType2</test_target>
+  </meta>
+  <taxon_identification />
+  <description>upper margin heavily toothed (more than 3 teeth );</description>
+</treatment>
