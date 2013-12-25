@@ -1,68 +1,65 @@
-shrubs, structure
-shrub, structure
-dioecious, reproduction
-palm_or_fern_like, shape
-stems, structure
-stem, structure
-aerial, location
-subterranean, location
-pachycaul, feature
-cylindrical, shape
-globose, shape
-leaves, structure
-leaf, structure
-few, count
-many, count
-muscles, structure
-muscle, structure
-anterior, structure
-pharynx, structure
-cuticle, structure
-capsule, structure
-nullshrubs, structure
-leaflets, structure
-leaflet, structure
-papyraceous, internal_texture
-lanceolate, shape
-acute, shape
-cuneate, shape
-apex, structure
-base, structure
-margins, structure
-margin, structure
-serrate, shape
-nullcones, structure
-cone, structure
-decumbent, habit
-ovoid, shape
-light brown, coloration
-dark beige, coloration
-apiculate, shape
-nullstems, structure
-arborescent, habit
-cones, structure
-end” name=”end” constraint=”anterior, structure
-null, structure
-toothed, shape
-teeth, structure
-tooth, structure
-light, coloration
-bright green, coloration
-semiglossy, reflectance
-flat, prominence_or_shape
-keeled, shape
-palpi, structure
-palpus, structure
-more than 3_jointed, architecture
-one_jointed, architecture
-postpetiole, structure
-separated, arrangement_or_shape
-narrowed, size
-constriction, structure
-segment, structure
-simple, architecture
-erect, orientation
-branched, architecture
-several, count
-0.8, atypical_size
-
+shrubs,structure
+shrub,structure
+dioecious,reproduction
+palm_or_fern_like,shape
+stems,structure
+stem,structure
+aerial,location
+subterranean,location
+pachycaul,feature
+cylindrical,shape
+globose,shape
+leaves,structure
+leaf,structure
+few,count
+many,count
+muscles,structure
+muscle,structure
+anterior,structure
+pharynx,structure
+cuticle,structure
+capsule,structure
+nullshrubs,structure
+leaflets,structure
+leaflet,structure
+papyraceous,internal_texture
+lanceolate,shape
+acute,shape
+cuneate,shape
+apex,structure
+base,structure
+margins,structure
+margin,structure
+serrate,shape
+nullcones,structure
+cone,structure
+decumbent,habit
+ovoid,shape
+light brown,coloration
+dark beige,coloration
+apiculate,shape
+nullstems,structure
+arborescent,habit
+cones,structure
+end,structure
+toothed,shape
+teeth,structure
+tooth,structure
+light,coloration
+bright green,coloration
+semiglossy,reflectance
+flat,prominence_or_shape
+keeled,shape
+palpi,structure
+palpus,structure
+more than 3_jointed,architecture
+one_jointed,architecture
+postpetiole,structure
+separated,arrangement_or_shape
+narrowed,size
+constriction,structure
+segment,structure
+simple,architecture
+erect,orientation
+branched,architecture
+several,count
