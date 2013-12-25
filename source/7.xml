@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <meta>
+    <source>Plazi</source>
+    <test_target>taxon names</test_target>
+  </meta>
+  <taxon_identification />
+  <description>Postpetiole not always separated by a constriction from the third segment;</description>
+</treatment>
