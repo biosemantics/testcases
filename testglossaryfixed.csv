@@ -19,7 +19,7 @@ anterior,structure
 pharynx,structure
 cuticle,structure
 capsule,structure
-nullshrubs,structure
+shrubs,structure
 leaflets,structure
 leaflet,structure
 papyraceous,internal_texture
@@ -31,14 +31,13 @@ base,structure
 margins,structure
 margin,structure
 serrate,shape
-nullcones,structure
+cones,structure
 cone,structure
 decumbent,habit
 ovoid,shape
 light brown,coloration
 dark beige,coloration
 apiculate,shape
-nullstems,structure
 arborescent,habit
 cones,structure
 end,structure
