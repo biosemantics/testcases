@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <meta>
+    <source>Plazi_20597</source>
+    <test_target>taxon names</test_target>
+  </meta>
+  <taxon_identification />
+  <description>
+    <statement id="6.txt">
+      <text>Palpi at most 3-jointed, in taxonname-Leptanilla only one_jointed.</text>
+      <structure id="o1" name_original="palpi" name="palpus">
+        <character name="architecture" value="more than 3_jointed" modifier="no" />
+        <character name="architecture" value="one_jointed" modifier="only" taxon_constraint="in taxonname-leptanilla" />
+      </structure>
+    </statement>
+  </description>
+</treatment>
