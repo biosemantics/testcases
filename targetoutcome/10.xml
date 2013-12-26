@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <meta>
+    <source>FNAV7</source>
+    <test_target>bracketed info</test_target>
+  </meta>
+  <taxon_identification />
+  <description>
+    <statement id="10.txtp0.txt-0">
+      <text>Fruiting pedicels divaricate, straight, 7–28 (–35 )mm [(1 .5– )2–7 times longer than fruit ], glabrous.</text>
+      <structure id="o1" name="pedicel" constraint="fruiting">
+        <character name="arrangement" value="divaricate" />
+        <character name="course" value="straight" />
+        <character char_type="range_value" name="atypical_size" from="28" to="35" from_unit="mm" to_unit="mm" from_inclusive="false" />
+        <character char_type="range_value" name="size" from="7" from_unit="mm" to="28" to_unit="mm" />
+        <character char_type="range_value" name="atypical_size" from="1.5" to="2" to_inclusive="false" geographical_constraint="outside of North America" constraint="times longer than fruit" constraintid="o2" />
+        <character char_type="range_value" name="size" from="2" to="7" geographical_constraint="outside of North America" constraint="times longer than fruit" constraintid="o2" />
+        <character name="external_texture" value="glabrous" />
+      </structure>
+      <structure id="o2" name="fruit" geographical_constraint="outside of North America" />
+    </statement>
+  </description>
+</treatment>
