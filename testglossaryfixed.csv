@@ -33,4 +33,7 @@ end,structure
 pharynx,structure
 cuticle,structure
 capsule,structure
+toothed,shape
+teeth,structure
+tooth,structure
 
