@@ -36,4 +36,15 @@ capsule,structure
 toothed,shape
 teeth,structure
 tooth,structure
+leaves,structure
+leaf,structure
+light,coloration
+green,coloration
+bright green,coloration
+semiglossy,reflectance
+reflectance,character
+flat,prominence
+prominence,character
+flat,shape
+keeled,shape
 
