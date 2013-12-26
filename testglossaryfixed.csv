@@ -47,4 +47,10 @@ flat,prominence
 prominence,character
 flat,shape
 keeled,shape
+palpi,structure
+palpus,structure
+3_jointed,architecture
+more than 3_jointed,architecture
+architecture,character
+one_jointed,architecture
 
