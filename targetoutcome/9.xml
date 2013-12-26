@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <meta>
+    <source>FNAV7</source>
+    <test_target>numerical expressions</test_target>
+  </meta>
+  <taxon_identification />
+  <description>
+    <statement id="9.txtp0.txt-0">
+      <text>Stems often simple from base, erect, branched (several )distally, (0 .8 )1.2–4.9 (–6 )dm.</text>
+      <structure id="o1" name="stem">
+        <character name="architecture" value="simple" modifier="often" constraint="from base" constraintid="o985" />
+        <character name="orientation" value="erect" />
+        <character name="architecture" value="branched" />
+        <character name="count" value="several" in_brackets="true" />
+        <character char_type="range_value" name="atypical_size" from="4.9" to="6" from_unit="dm" to_unit="dm" from_inclusive="false" />
+        <character name="atypical_size" value="0.8" unit="dm" />
+        <character char_type="range_value" name="size" from="1.2" from_unit="dm" to="4.9" to_unit="dm" />
+      </structure>
+      <structure id="o2" name="base" />
+    </statement>
+  </description>
+</treatment>
