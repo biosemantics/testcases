@@ -60,4 +60,7 @@ separated,shape
 narrowed,size
 constriction,structure
 segment,structure
+joint,structure
+pedicel,structure
+two_jointed,architecture
 
