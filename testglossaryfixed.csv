@@ -11,4 +11,6 @@ base,structure
 margins,structure
 margin,structure
 serrate,shape
+length,character
+width,character
 
