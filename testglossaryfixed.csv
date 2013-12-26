@@ -13,4 +13,18 @@ margin,structure
 serrate,shape
 length,character
 width,character
+cones,structure
+cone,structure
+count,character
+decumbent,habit
+habit,character
+cylindrical,shape
+ovoid,shape
+coloration,character
+brown,coloration
+light brown,coloration
+beige,coloration
+dark beige,coloration
+size,character
+apiculate,shape
 
