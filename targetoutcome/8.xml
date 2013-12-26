@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <meta>
+    <source>test</source>
+    <test_target>taxon names</test_target>
+  </meta>
+  <taxon_identification />
+  <description>
+    <statement id="8.txtp0.txt-0">
+      <text>however, in taxonname-Eciton , taxonname-Aenictus , and taxonname-Leptanilla , narrowed into the second joint of a two_jointed pedicel.</text>
+      <structure id="o1" name_original="joint" name="joint" taxon_constraint="in taxonname-eciton, taxonname-aenictus, and taxonname-leptanilla" constraint="second" />
+      <structure id="o2" name_original="pedicel" name="pedicel" taxon_constraint="in taxonname-eciton, taxonname-aenictus, and taxonname-leptanilla">
+        <character name="architecture" value="two_jointed" taxon_constraint="in taxonname-eciton, taxonname-aenictus, and taxonname-leptanilla" />
+      </structure>
+      <relation id="r1" name="part_of" from="o1" to="o2" negation="false" taxon_constraint="in taxonname-eciton, taxonname-aenictus, and taxonname-leptanilla" />
+    </statement>
+  </description>
+</treatment>
