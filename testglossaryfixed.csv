@@ -63,4 +63,13 @@ segment,structure
 joint,structure
 pedicel,structure
 two_jointed,architecture
+null,structure
+stem,structure
+simple,architecture
+erect,orientation
+orientation,character
+branched,architecture
+several,count
+atypical_size,character
+0.8,atypical_size
 
