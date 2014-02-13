@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <meta>
+    <source>synthesized</source>
+    <test_target>pre-parsing normalization to merged charaparser</test_target>
+  </meta>
+  <taxon_identification />
+  <description>flowers between 1 . 0 and 2 . 0 cm long ; few to many ; brownish red to bright orange .</description>
+</treatment>
