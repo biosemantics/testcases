@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <treatment>
   <meta>
-    <source>CycadType2</source>
-    <test_target>preposition+character, e.g. in diameter</test_target>
+    <source>synthesized</source>
+    <test_target>pre-parsing normalization to merged charaparser</test_target>
   </meta>
   <taxon_identification />
   <description>
     <statement id="2.txtp0.txt-0">
-      <text>Pollen cones 2-6, decumbent, cylindrical to ovoid, light brown to dark beige, 6.5-7.5 cm long, 1.8-2.5 cm in diameter, apiculate apically;</text>
-      <structure id="o1" name_original="cones" name="cone" constraint="pollen">
-        <character char_type="range_value" name="count" from="2" to="6" />
-        <character name="habit" value="decumbent" />
-        <character char_type="range_value" name="shape" from="cylindrical" to="ovoid" />
-        <character name="shape" value="cylindrical" />
-        <character name="shape" value="ovoid" />
-        <character char_type="range_value" name="coloration" from="light brown" to="dark beige" />
-        <character name="coloration" value="light brown" />
-        <character name="coloration" value="dark beige" />
-        <character char_type="range_value" name="length" from="6.5" from_unit="cm" to="7.5" to_unit="cm" />
-        <character char_type="range_value" name="size" from="1.8" from_unit="cm" to="2.5" to_unit="cm" modifier="in diameter" />
-        <character name="shape" value="apiculate" modifier="apically" />
+      <text>nectar glands ( 1 - ) 2 - 5 ( - 10 + ) , lateral , two on each side of lateral stamen ,
+        median glands absent .</text>
+      <structure constraint="nectar" id="o1" name="gland">
+        <character char_type="range_value" from="1" name="atypical_count" to="2" to_inclusive="false" />
+        <character char_type="range_value" from="5" from_inclusive="false" name="atypical_count" to="10" upper_restricted="false" />
+        <character char_type="range_value" from="2" name="count" to="5" />
+        <character name="position" value="lateral" />
+        <character constraint="on side" constraintid="o1" name="count" value="2" />
       </structure>
+      <structure id="o2" name="side" />
+      <structure constraint="lateral" id="o3" name="stamen" />
+      <structure constraint="median" id="o4" name="gland">
+        <character name="count" value="absent" />
+      </structure>
+      <relation from="o2" id="r1" name="part_of" negation="false" to="o3" />
     </statement>
   </description>
 </treatment>
