@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <treatment>
   <meta>
-    <source>CycadType2</source>
-    <test_target>bracketed info</test_target>
+    <source>synthesized</source>
+    <test_target>pre-parsing normalization to merged charaparser</test_target>
   </meta>
   <taxon_identification />
   <description>
     <statement id="4.txtp0.txt-0">
-      <text>upper margin heavily toothed (more than 3 teeth );</text>
-      <structure id="o1" name_original="margin" name="margin" constraint="upper">
-        <character name="shape" value="toothed" modifier="heavily" />
+      <text>petioles as long as blades , 2 - 5 cm x 5 + cm ;</text>
+      <structure id="o1" name="petiole">
+        <character char_type="range_value" from="2" from_unit="cm" name="length" to="5" to_unit="cm" />
+        <character char_type="range_value" from="5" from_unit="cm" name="width" upper_restricted="false" />
       </structure>
-      <structure id="o2" name_original="teeth" name="tooth" in_brackets="true">
-        <character name="count" char_type="range_value" from="3" upper_restricted="false" in_brackets="true" />
-      </structure>
+      <structure id="o2" name="blade" />
+      <relation from="o1" id="r1" name="as long as" negation="false" to="o2" />
     </statement>
   </description>
 </treatment>
