@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <treatment>
   <meta>
-    <source>CycadType2</source>
-    <test_target>compound character states, e.g. bright green</test_target>
+    <source>synthesized</source>
+    <test_target>pre-parsing normalization to merged charaparser</test_target>
   </meta>
   <taxon_identification />
   <description>
     <statement id="5.txtp0.txt-0">
-      <text>Leaves light or bright green, semiglossy, 50-100 cm long, flat (not keeled )in section, with 30-80 leaflets;</text>
-      <structure id="o1" name_original="leaves" name="leaf">
-        <character name="coloration" value="light" />
-        <character name="coloration" value="bright green" />
-        <character name="reflectance" value="semiglossy" />
-        <character char_type="range_value" name="length" from="50" from_unit="cm" to="100" to_unit="cm" />
-        <character name="prominence_or_shape" value="flat" modifier="in section" />
-        <character name="shape" value="keeled" modifier="not" in_brackets="true" />
+      <text>stems to 5 m . , narrow to broad , weakly to strongly hairy , more than 3 , at most 8
+        .</text>
+      <structure id="o1" name="stem">
+        <character char_type="range_value" from="0" from_unit="m" name="size" to="5" to_unit="m" />
+        <character name="width" value="narrow" />
+        <character name="width" value="broad" />
+        <character char_type="range_value" from="narrow" name="width" to="broad" />
+        <character modifier="weakly to strongly" name="external_texture" value="hairy" />
+        <character char_type="range_value" from="3" name="count" upper_restricted="false" />
+        <character char_type="range_value" from="0" name="count" to="8" />
       </structure>
-      <structure id="o2" name_original="leaflets" name="leaflet">
-        <character char_type="range_value" name="count" from="30" to="80" />
-      </structure>
-      <relation id="r1" name="with" from="o1" to="o2" negation="false" />
     </statement>
   </description>
 </treatment>
