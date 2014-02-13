@@ -96,4 +96,12 @@ blade,structure
 narrow,width
 broad,width
 hairy,external_texture
+flower,structure
+long,length
+few,count
+many,count
+red,coloration
+brownish red,coloration
+orange,coloration
+bright orange,coloration
 
