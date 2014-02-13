@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<treatment><meta><source>Plazi_20597</source><test_target>taxon names</test_target></meta><taxon_identification /><description>
-<statement id="7.txtp0.txt-0">
-    <text>Postpetiole not always separated by a constriction from the third segment;</text>
-    <structure id="o1" name_original="postpetiole" name="postpetiole">
-      <character name="arrangement_or_shape" value="separated" modifier="not always" constraint="by constriction" constraintid="o2" />
-      <character name="size" value="narrowed" taxon_constraint="in taxonname-eciton, taxonname-aenictus, and taxonname-leptanilla" constraint="into joint" constraintid="o4" />
-    </structure>
-    <structure id="o2" name_original="constriction" name="constriction" />
-    <structure id="o3" name_original="segment" name="segment" constraint="third" />
-    <relation id="r1" name="from" from="o2" to="o3" negation="false" />
-  </statement>
- <statement id="7.txtp0.txt-1">
-    <text>however, in taxonname-Eciton , taxonname-Aenictus , and taxonname-Leptanilla , narrowed into the second joint of a two_jointed pedicel.</text>
-    <structure id="o4" name_original="joint" name="joint" taxon_constraint="in taxonname-eciton, taxonname-aenictus, and taxonname-leptanilla" constraint="second" />
-    <structure id="o5" name_original="pedicel" name="pedicel" taxon_constraint="in taxonname-eciton, taxonname-aenictus, and taxonname-leptanilla">
-      <character name="architecture" value="two_jointed" taxon_constraint="in taxonname-eciton, taxonname-aenictus, and taxonname-leptanilla" />
-    </structure>
-    <relation id="r2" name="part_of" from="o4" to="o5" negation="false" taxon_constraint="in taxonname-eciton, taxonname-aenictus, and taxonname-leptanilla" />
-  </statement>
-</description></treatment>
+<treatment>
+  <meta>
+    <source>synthesized</source>
+    <test_target>pre-parsing normalization to merged charaparser</test_target>
+  </meta>
+  <taxon_identification />
+  <description>
+    <statement id="7.txtp0.txt-0">
+      <text>branches in contact with flowers .</text>
+      <structure id="o1" name="branch" />
+      <structure id="o2" name="flower" />
+      <relation from="o1" id="r1" name="in contact with" negation="false" to="o2" />
+    </statement>
+  </description>
+</treatment>
