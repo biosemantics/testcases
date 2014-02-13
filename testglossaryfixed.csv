@@ -78,4 +78,12 @@ course,character
 glabrous,external_texture
 external_texture,character
 fruit,structure
+gland,structure
+atypical_count,character
+lateral,position
+position,character
+2,count
+side,structure
+stamen,structure
+absent,count
 
