@@ -93,4 +93,7 @@ lobed,shape
 2-3-or-5-ribbed,shape
 petiole,structure
 blade,structure
+narrow,width
+broad,width
+hairy,external_texture
 
