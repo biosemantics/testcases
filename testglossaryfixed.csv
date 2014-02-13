@@ -86,4 +86,9 @@ position,character
 side,structure
 stamen,structure
 absent,count
+2/3,l_w_ratio
+l_w_ratio,character
+lobed,shape
+2-3-or-5-ribbed,architecture
+2-3-or-5-ribbed,shape
 
