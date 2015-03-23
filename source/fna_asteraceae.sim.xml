@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.github.com/biosemantics 
+	http://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupInput.xsd">
+  <meta>
+    <source>
+      <author>Hong Cui</author>
+      <date>2014</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="example">Synthesised</taxon_name>
+  </taxon_identification>
+  <description type="morphology">
+  Blades lanceolate to oblong , (8-)10-15(-18)×(2-)3-5(-9) cm overall;
+  Leaves obovate, ( 2 – ) 5 – 20 ( – 30 + ) × ( 1 – ) 2 – 5 ( – 7 ) cm , margins pinnati_sect;
+  Pappi usually ± equaling corollas , sometimes coroniform or 0 . 2n = ( 22 – ) 34 ( – 54 ) univalents , less often 17 pairs;
+  Basal and proximal cauline 1_nerved , narrowly oblanceolate , ( 50 – ) 90 – 150 × ( 2 – ) 4 – 9 ( – 12 ) mm wide;
+  Basal and proximal cauline leaves red;
+  Outer scales 20-25, 0.5-1 mm, contrasting with 35-40+, 4.5-6+ mm inner bristles.
+  Leaves opposite, or proximal opposite and distal alternate.
+  Pappi of 2–3 awns plus shorter bristles or scales, or wholly of minute scales.
+  Roots usually taproots, sometime fibrous.
+  Tips of outer and mid phyllaries acute;
+	 
+   Subulate leaves inserted at 62°.
+   
+   mid-stems (30-100+);
+   
+   Rachis widths mostly 2-3 times lobe widths, leaves green;
+
+   Cypselae flattened, 2–(3–4)-nerved; pappi of outer, shorter bristles or scales plus inner, longer bristles; apices of inner erect , abaxial faces gray-tomentose , ± twisted .
+   
+   Phyllaries in 5–7 series, weakly unequal, dark green to brownish, lanceolate (outer) to linear (inner), abaxial faces without (or with very obscure) glutinous ridge; outer and middle appressed or apices spreading, at least outer irregularly spiny-fringed, finely serrulate, spines slender, 3–5 mm; apices of inner erect, abaxial faces gray-tomentose, ± twisted.
+
+   Pistillate heads : phyllaries 12 – 30 ( – 80 + ) in 1–8 + series , outer , ( 1 – ) 5 – 8 distinct or ± connate , the rest ± connate
+   
+   Pappi usually of 2 series , outer of readily falling , short bristles , inner persistent or falling as unit , of basally connate , usually longer , plumose bristles .
+   
+
+	
+   Margins 1-2 times divided into linear or oblong segments;
+	
+	petioles reduced distally 0-1/4 lengths of blades;
+	branches 0-10+, usually arising in distal 1/2, ascending, usually reaching a moreorless common height;
+	outer pectinately spiny 1/2 their length with many lateral spines;
+	
+
+	
+	leaves, 1-, 2-3 times ternately lobed or dissected;
+	peduncle lengths 0.5-3 times cypsela bodies at flowering;
+	corolla lobes 2 times as-long-as corolla throat;
+	leaves usually 0-5 times longer than wide;
+	leaf lengths usually 10+ times longer widths;
+	lengths, 1/2, 2 times bodies; 
+	blades usually 1-2+ times pinnately lobed; 
+	peduncle lengths 2-5 times leafy portions of stems;
+	lengths of proximal branches 2 times array heights; 
+	tubes 2 times longer than narrowly funnelform throats;
+	tubes 1/4-1/2 times more or less funnelform throats;
+	lengths mostly 3.5-6 times longest diams;
+	arrays 2-3 times as-long-as wide; 
+	blades of cauline leaves mostly oblanceolate, lengths 4–7+ times widths;
+	leaf-blades oblong or elliptic to lance-elliptic or lanceolate, lengths 1.5–4+ widths;
+	cypsela widths 0.6 – 0.75 times lengths;
+	cypsela beaks, 3–, 4–10 mm, lengths, 1/2–, 2 times bodies;
+	capitular leaves mostly not appressed to heads, spatulate to obovate, lengths mostly 2-5 widths;
+
+
+	
+	heads radiate, borne singly or in 2s or 3s, or in tight to loose, corymbiform arrays;
+		
+	phyllaries green or often purple, with appressed, green or tan, coarse setae, sometimes reduced to a single seta per phyllary;
+	ray corollas yellow to orange-yellow or occasionally suffused with red;
+	corollas yellow, laminae 6-15 mm;
+	arrays not leafy, narrowly to broadly secund pyramidal or club-shaped, much longer than broad;
+	subtending bracts ovate, usually large, leaflike, well differentiated;
+	ray laminae yellow, usually each with a proximal, red-brown to purple spot or band, 15-20+ mm;
+	stems ascending to erect, branched from at or near bases;
+	blades pinnately veined or ± 3-nerved from at or near bases, deltate-ovate, lance-elliptic, lanceolate, lance-ovate, or ovate, margins serrate, abaxial faces usually gland-dotted and hirsute, puberulent, pubescent, scabrous, or stipitate-glandular, sometimes glabrate, adaxial faces mostly puberulent to scabrous-hirsute and glabrescent, sometimes glabrate or glabrous;
+	pappi of 1–4 scales in 1 series, or of, 5–8 scales in 2, abruptly unequal series, longest scales, 1–, 2–8 mm. 2n = 12;
+
+  </description>
+</bio:treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+-->

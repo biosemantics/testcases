@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.github.com/biosemantics 
+	http://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupInput.xsd">
+  <meta>
+    <source>
+      <author>Hong Cui</author>
+      <date>2014</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="example">Synthesised</taxon_name>
+  </taxon_identification>
+  <description type="morphology">
+    Rachis widths mostly 2-3 times lobe widths, leaves green;
+    Margins 1-2 times divided into linear or oblong segments;
+    Petioles reduced distally 0-1/4 lengths of blades;
+    Branches 0-10+, usually arising in distal 1/2, ascending, usually reaching a moreorless common height;
+    Outer pectinately spiny 1/2 their length with many lateral spines;
+	Leaves, 2-3 times ternately lobed or dissected;
+	Peduncle lengths 0.5-3 times cypsela bodies at flowering;
+	Corolla lobes 2 times as-long-as corolla throat;
+	Leaves usually 0-5 times longer than wide;
+	Leaf lengths usually 10+ times longer widths;
+	Lengths, 1/2-2 times bodies; 
+	Blades usually 1-2+ times pinnately lobed; 
+	Peduncle lengths 2-5 times leafy portions of stems;
+	Lengths of proximal branches 2 times array heights; 
+	Tubes 2 times longer than narrowly funnelform throats;
+	Tubes 1/4-1/2 times more or less funnelform throats;
+	Lengths mostly 3.5-6 times longest diams;
+	Arrays 2-3 times as-long-as wide; 
+	Blades of cauline leaves mostly oblanceolate, lengths 4–7+ times widths;
+	Leaf-blades oblong or elliptic to lance-elliptic or lanceolate, lengths 1.5–4+ widths;
+	Cypsela widths 0.6 – 0.75 times lengths;
+	Cypsela beaks, 3–, 4–10 mm, lengths, 1/2–, 2 times bodies;
+	Capitular leaves mostly not appressed to heads, spatulate to obovate, lengths mostly 2-5 widths;
+	Heads radiate, borne singly or in 2s or 3s, or in tight to loose, corymbiform arrays;
+		
+ </description>
+</bio:treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+-->

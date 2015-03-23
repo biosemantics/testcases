@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.github.com/biosemantics 
+	http://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupInput.xsd">
+  <meta>
+    <source>
+      <author>Hong Cui</author>
+      <date>2014</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="example">Synthesised</taxon_name>
+  </taxon_identification>
+  <description type="morphology">
+
+  Pappi usually ± equaling corollas , sometimes coroniform or 0. 2n = ( 22–) 34 (–54) univalents , less often 17 pairs;
+  Pappi of 2–3 awns plus shorter bristles or scales, or wholly of minute scales.
+  Roots usually taproots, sometime fibrous.
+  Heads radiate, borne singly or in 2s or 3s, or in tight to loose, corymbiform arrays;
+  Phyllaries green or often purple, with appressed, green or tan, coarse setae, sometimes reduced to a single seta per phyllary;
+  Ray corollas yellow to orange-yellow or occasionally suffused with red;
+  Corollas yellow, laminae 6-15 mm;
+  Arrays not leafy, narrowly to broadly secund pyramidal or club-shaped, much longer than broad;
+  Subtending bracts ovate, usually large, leaflike, well differentiated;
+  Ray laminae yellow, usually each with a proximal, red-brown to purple spot or band, 15-20+ mm;
+  Stems ascending to erect, branched from at or near bases;
+  Blades pinnately veined or ± 3-nerved from at or near bases, deltate-ovate, lance-elliptic, lanceolate, lance-ovate, or ovate, margins serrate, abaxial faces usually gland-dotted and hirsute, puberulent, pubescent, scabrous, or stipitate-glandular, sometimes glabrate, adaxial faces mostly puberulent to scabrous-hirsute and glabrescent, sometimes glabrate or glabrous;
+  Pappi of 1–4 scales in 1 series, or of, 5–8 scales in 2, abruptly unequal series, longest scales, 1–, 2–8 mm. 2n = 12;
+
+  </description>
+</bio:treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+-->

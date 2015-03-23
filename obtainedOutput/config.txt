@@ -1,0 +1,50 @@
+GuiceModule configuration of Run 
+---------------------
+{
+  "version" : "0.1.111-SNAPSHOT",
+  "databaseHost" : "localhost",
+  "databasePort" : "3306",
+  "databaseName" : "markedupdatasets_thomas_cp",
+  "databaseUser" : "root",
+  "databasePassword" : "root",
+  "databaseTablePrefix" : "test11",
+  "databaseGlossaryTable" : "fnaglossaryfixed",
+  "otoLiteReviewFile" : "TermReview.txt",
+  "otoLiteTermReviewURL" : "http://etc-dev.cs.umb.edu/oto2/",
+  "otoLiteClientURL" : "http://etc-dev.cs.umb.edu/oto2",
+  "otoClientUrl" : "http://biosemantics.arizona.edu:8080/OTO/",
+  "perlDirectory" : "C:\\Users\\updates\\git\\charaparser\\src\\main\\perl\\edu\\arizona\\biosemantics\\semanticmarkup\\markupelement\\description\\ling\\learn\\lib\\perll",
+  "workspaceDirectory" : "workspace",
+  "glossaryFile" : "edu/arizona/biosemantics/semanticmarkup/know/glossaries/fnaglossaryfixed.csv",
+  "wordNetSource" : "C:\\Users\\updates\\workspace-biosemantics\\charaparser\\resources\\wordNet3.1\\dict",
+  "descriptionReader" : "edu.arizona.biosemantics.semanticmarkup.markupelement.description.io.lib.MOXyBinderDescriptionReader",
+  "inputDirectory" : "C:\\Users\\updates\\CharaParserTest\\CharaParserUpdating\\test11",
+  "descriptionWriter" : "edu.arizona.biosemantics.semanticmarkup.markupelement.description.io.lib.MOXyBinderDescriptionWriter",
+  "markupRunValidateSchemaFile" : "edu/arizona/biosemantics/semanticmarkup/markupelement/description/io/schemas/iplantOutputTreatment.xsd",
+  "taxonGroup" : "PLANT",
+  "run" : "edu.arizona.biosemantics.semanticmarkup.run.etc.ETCMarkupRun",
+  "runRootDirectory" : "workspace\\test11",
+  "runOutDirectory" : "workspace\\test11\\out",
+  "runTemporaryDirectory" : "workspace\\test11\\temp",
+  "glossary" : "edu.arizona.biosemantics.semanticmarkup.know.lib.InMemoryGlossary",
+  "markupCreator" : "edu.arizona.biosemantics.semanticmarkup.markup.MarkupChain",
+  "descriptionMarkupCreator" : "edu.arizona.biosemantics.semanticmarkup.markupelement.description.markup.DescriptionMarkupAndOntologyMappingCreator",
+  "markupDescriptionTreatmentTransformerParallelProcessing" : false,
+  "markupDescriptionTreatmentTransformerDescriptionExtractorRunMaximum" : 3,
+  "markupDescriptionTreatmentTransformerSentenceChunkerRunMaximum" : 3,
+  "terminologyLearner" : "edu.arizona.biosemantics.semanticmarkup.markupelement.description.ling.learn.lib.DatabaseInputNoLearner",
+  "normalizer" : "edu.arizona.biosemantics.semanticmarkup.ling.normalize.lib.FNAv19Normalizer",
+  "evaluationRunEvaluator" : "edu.arizona.biosemantics.semanticmarkup.markupelement.description.eval.lib.PerfectPartialPrecisionRecallEvaluator",
+  "termCategorizationRequired" : false,
+  "useOtoCommuntiyDownload" : false,
+  "sourceOfDescriptions" : "",
+  "etcUser" : "",
+  "bioportalAPIKey" : "",
+  "bioportalUserId" : ""
+}---------------------
+
+started at 1426808359527
+
+was done at 1426808385011
+took me 25484 milliseconds
+that's 0 hours, 0 minutes, and 25 seconds

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.github.com/biosemantics 
+	http://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupInput.xsd">
+  <meta>
+    <source>
+      <author>Hong Cui</author>
+      <date>2014</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="example">Synthesised</taxon_name>
+  </taxon_identification>
+  <description type="morphology">
+   Proximal leaves larger than distal leaves.
+   Basal and proximal cauline 1_nerved , narrowly oblanceolate , (50–) 90–150×(2–) 4–9 (–12) mm wide;
+   Basal and proximal cauline leaves red;
+   Outer scales 20-25, 0.5-1 mm, contrasting with 35-40+, 4.5-6+ mm inner bristles.
+   Leaves opposite, or proximal opposite and distal alternate.
+   Pappi of 2–3 awns plus shorter bristles or scales, or wholly of minute scales.
+   Tips of outer and mid phyllaries acute;
+   Mid-stems (30-100+);
+   Cypselae flattened, 2–(3–4)-nerved; pappi of outer, shorter bristles or scales plus inner, longer bristles; apices of inner erect , abaxial faces gray-tomentose , ± twisted .
+   Phyllaries in 5–7 series, weakly unequal, dark green to brownish, lanceolate (outer) to linear (inner), abaxial faces without (or with very obscure) glutinous ridge; outer and middle appressed or apices spreading, at least outer irregularly spiny-fringed, finely serrulate, spines slender, 3–5 mm; apices of inner erect, abaxial faces gray-tomentose, ± twisted.
+   Pistillate heads : phyllaries 12–30 (–80+) in 1–8+ series , outer , (1–)5–8 distinct or ± connate, the rest ± connate
+   Pappi usually of 2 series, outer of readily falling, short bristles, inner persistent or falling as unit, of basally connate, usually longer, plumose bristles .
+   Outer phyllaries appressed.
+   Middle phyllaries appressed.
+   Innter phyllaries lanceolate.
+   Outer pappi 20-30;
+   Inner pappi 10-50;
+
+  </description>
+</bio:treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+-->
