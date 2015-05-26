@@ -1,45 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
   <meta>
-      <source>
-         <author>Hong Cui</author>
-         <date>2014</date>
-      </source>
-      <processed_by>
-         <processor>
-            <date>2015/03/23 15:08:54</date>
-            <software type="Semantic Markup" version="0.1.112-SNAPSHOT">CharaParser</software>
-            <operator>Hong cui (hong1.cui@gmail.com) </operator>
-            <resource type="OTO Glossary" version="0.19">Plant</resource>
-         </processor>
-         <processor>
-            <date>2015/03/23 15:08:54</date>
-            <software type="Semantic Markup" version="0.1.112-SNAPSHOT">CharaParser - Ontology Mapping</software>
-            <operator>Hong cui (hong1.cui@gmail.com) </operator>
-            <resource type="Ontology(ies)" version="N/A">PO,  RO,  PATO,  BSPO,</resource>
-         </processor>
-      </processed_by>
+    <source>
+      <author>Hong Cui</author>
+      <date>2014</date>
+    </source>
+<processed_by>
+<processor>
+<date>2015/05/26 09:58:08</date>
+<software type="Semantic Markup" version="0.1.128-SNAPSHOT">CharaParser</software>
+<operator />
+<resource type="OTO Glossary" version="0.19">Plant</resource>
+</processor>
+<processor>
+<date>2015/05/26 09:58:09</date>
+<software type="Semantic Markup" version="0.1.128-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<operator />
+<resource type="Ontology(ies)" version="N/A">PATO,  BSPO,  RO,  PO,</resource>
+</processor>
+</processed_by>
   </meta>
   <taxon_identification status="ACCEPTED">
-      <taxon_name authority="example" rank="genus">Synthesised</taxon_name>
+    <taxon_name authority="example" rank="genus">Synthesised</taxon_name>
   </taxon_identification>
   <description type="morphology">
-      <statement id="d0_s0">
-         <text>Leaflets papyraceous, lanceolate, acute at apex, cuneate at base, margins serrate in upper two-thirds, 12-15 cm long, 1-2 cm wide.</text>
-         <biological_entity id="o0" name="leaflet" name_original="leaflets" ontologyid="http://purl.obolibrary.org/obo/PO_0020049" type="structure">
-            <character is_modifier="false" name="shape" value="lanceolate" />
-            <character constraint="at apex" constraintid="o1" is_modifier="false" name="shape" value="acute" />
-            <character constraint="at base" constraintid="o2" is_modifier="false" name="shape" value="cuneate" />
-         </biological_entity>
-         <biological_entity id="o1" name="apex" name_original="apex" type="structure" />
-         <biological_entity id="o2" name="base" name_original="base" type="structure" />
-         <biological_entity id="o3" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
-            <character constraint="in upper 2/3" constraintid="o4" is_modifier="false" name="architecture_or_shape" value="serrate" />
-            <character char_type="range_value" from="12" from_unit="cm" name="length" to="15" to_unit="cm" />
-            <character char_type="range_value" from="1" from_unit="cm" name="width" to="2" to_unit="cm" />
-         </biological_entity>
-         <biological_entity constraint="upper" id="o4" name="2/3" name_original="2/3" type="structure" />
-      </statement>
-   </description>
+<statement id="d0_s0">
+<text>Leaflets papyraceous, lanceolate, acute at apex, cuneate at base, margins serrate in upper two-thirds, 12-15 cm long, 1-2 cm wide.</text>
+<biological_entity id="o288" name="leaflet" name_original="leaflets" ontologyid="http://purl.obolibrary.org/obo/PO_0020049" type="structure">
+<character is_modifier="false" name="texture" value="papyraceous" />
+<character is_modifier="false" name="shape" value="lanceolate" />
+<character constraint="at apex" constraintid="o289" is_modifier="false" name="shape" value="acute" />
+<character constraint="at base" constraintid="o290" is_modifier="false" name="shape" value="cuneate" />
+</biological_entity>
+<biological_entity id="o289" name="apex" name_original="apex" type="structure" />
+<biological_entity id="o290" name="base" name_original="base" type="structure" />
+<biological_entity id="o291" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
+<character constraint="in upper 2/3" constraintid="o292" is_modifier="false" name="architecture_or_shape" value="serrate" />
+<character char_type="range_value" from="12" from_unit="cm" name="length" to="15" to_unit="cm" />
+<character char_type="range_value" from="1" from_unit="cm" name="width" to="2" to_unit="cm" />
+</biological_entity>
+<biological_entity constraint="upper" id="o292" name="2/3" name_original="2/3" type="structure" />
+</statement>
+</description>
 </bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
 -->

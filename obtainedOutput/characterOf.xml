@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+  <meta>
+    <source>
+      <author>Hong Cui</author>
+      <date>2014</date>
+    </source>
+<processed_by>
+<processor>
+<date>2015/05/26 09:58:08</date>
+<software type="Semantic Markup" version="0.1.128-SNAPSHOT">CharaParser</software>
+<operator />
+<resource type="OTO Glossary" version="0.19">Plant</resource>
+</processor>
+<processor>
+<date>2015/05/26 09:58:09</date>
+<software type="Semantic Markup" version="0.1.128-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<operator />
+<resource type="Ontology(ies)" version="N/A">PATO,  BSPO,  RO,  PO,</resource>
+</processor>
+</processed_by>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name authority="Ramirez" rank="genus">Spider</taxon_name>
+  </taxon_identification>
+  <description type="morphology">
+<statement id="d0_s0">
+<text>Peduncle lengths 2-5 times leafy portions of stems;</text>
+<biological_entity id="o6" name="peduncle" name_original="peduncle" ontologyid="http://purl.obolibrary.org/obo/PO_0009053" type="structure">
+<character constraint="of stems" constraintid="o8" is_modifier="false" name="length" value="2-5 times leafy portions" />
+</biological_entity>
+<biological_entity id="o7" name="portion" name_original="portions" type="structure" />
+<biological_entity id="o8" name="stem" name_original="stems" ontologyid="http://purl.obolibrary.org/obo/PO_0009047" type="structure" />
+</statement>
+<statement id="d0_s1">
+<text>petioles reduced distally 0-1/4 lengths of blades;</text>
+<biological_entity id="o9" name="petiole" name_original="petioles" ontologyid="http://purl.obolibrary.org/obo/PO_0020038" type="structure">
+<character is_modifier="false" modifier="distally" name="size" value="reduced" />
+<character char_type="range_value" from="0 lengths of blades" name="length" to="1/4 lengths of blades" />
+</biological_entity>
+</statement>
+<statement id="d0_s2">
+<text>Chelicerae strong, length of spiracle 0.93 mm, width 0.60 mm.</text>
+<biological_entity id="o11" name="spiracle" name_original="spiracle" type="structure">
+<character name="length" unit="mm" value="0.93" />
+<character name="width" unit="mm" value="0.60" />
+</biological_entity>
+</statement>
+<statement id="d0_s3">
+<text>Length of proximal epigastrium 2 times array heights;</text>
+<biological_entity constraint="proximal" id="o12" name="epigastrium" name_original="epigastrium" type="structure">
+<character constraint="array" constraintid="o13" is_modifier="false" name="length" value="2 times array heights" />
+</biological_entity>
+<biological_entity id="o13" name="array" name_original="array" type="structure" />
+</statement>
+<statement id="d0_s4">
+<text>Length of proximal spinnerets 2 times height of array;</text>
+<biological_entity constraint="proximal" id="o14" name="spinneret" name_original="spinnerets" type="structure">
+<character constraint="array" constraintid="o15" is_modifier="false" name="length" value="2 times height of array" />
+</biological_entity>
+<biological_entity id="o15" name="array" name_original="array" type="structure" />
+</statement>
+<statement id="d0_s5">
+<text>Length of proximal branches 2 times longer than height of array;</text>
+<biological_entity id="o10" name="chelicera" name_original="chelicerae" type="structure">
+<character is_modifier="false" name="fragility" value="strong" />
+</biological_entity>
+<biological_entity constraint="proximal" id="o16" name="branch" name_original="branches" type="structure">
+<character constraint="array" constraintid="o17" is_modifier="false" name="length" value="2 times longer than height of array" />
+</biological_entity>
+<biological_entity id="o17" name="array" name_original="array" type="structure" />
+</statement>
+<statement id="d0_s6">
+<text>Prosoma length 1.97 mm, width 0.97 mm, wider at chelicerae bases and at leg III.</text>
+<biological_entity id="o18" name="prosomum" name_original="prosoma" type="structure">
+<character name="length" unit="mm" value="1.97" />
+<character name="width" unit="mm" value="0.97" />
+<character constraint="at chelicerae bases and at leg iii" constraintid="o19" is_modifier="false" name="width" value="wider" />
+</biological_entity>
+<biological_entity constraint="leg" id="o19" name="iii" name_original="iii" type="structure" />
+</statement>
+<statement id="d0_s7">
+<text>Length of tibia/metatarsus: leg I, 0.83/0.70 mm;</text>
+<biological_entity constraint="leg" id="o20" name="tibia/metatarsu" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="0.83/0.70" />
+</biological_entity>
+</statement>
+<statement id="d0_s8">
+<text>Length of tibia/metatarsus: leg II, 0.83/0.67 mm;</text>
+<biological_entity constraint="leg ii" id="o21" name="tibia/metatarsu" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="0.83/0.67" />
+</biological_entity>
+</statement>
+<statement id="d0_s9">
+<text>Length of tibia/metatarsus: leg III, 0.50/0.53 mm;</text>
+<biological_entity constraint="leg iii" id="o22" name="tibia/metatarsu" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="0.50/0.53" />
+</biological_entity>
+</statement>
+<statement id="d0_s10">
+<text>Length of tibia/metatarsus: leg IV, 0.87/0.67 mm.</text>
+<biological_entity constraint="leg iv" id="o23" name="tibia/metatarsu" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="0.87/0.67" />
+</biological_entity>
+</statement>
+<statement id="d0_s11">
+<text>Length of sternum 0.93 mm, width 0.60 mm.</text>
+<biological_entity id="o24" name="sternum" name_original="sternum" type="structure">
+<character name="length" unit="mm" value="0.93" />
+<character name="width" unit="mm" value="0.60" />
+</biological_entity>
+</statement>
+<statement id="d0_s12">
+<text>Abdomen badly preserved, spiracle–epigastrium 2.77 mm, spiracle–spinnerets 0.43 mm.</text>
+<biological_entity id="o25" name="abdomen" name_original="abdomen" type="structure">
+<character is_modifier="false" modifier="badly" name="condition" value="preserved" />
+</biological_entity>
+<biological_entity id="o26" name="spiracle-epigastrium" name_original="spiracle-epigastrium" type="structure">
+<character name="distance" unit="mm" value="2.77" />
+</biological_entity>
+<biological_entity id="o27" name="spiracle-spinneret" name_original="spiracle-spinnerets" type="structure">
+<character name="distance" unit="mm" value="0.43" />
+</biological_entity>
+</statement>
+</description>
+</bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+-->

@@ -7,16 +7,16 @@
     </source>
 <processed_by>
 <processor>
-<date>2015/03/19 16:39:43</date>
-<software type="Semantic Markup" version="0.1.111-SNAPSHOT">CharaParser</software>
+<date>2015/05/26 09:58:08</date>
+<software type="Semantic Markup" version="0.1.128-SNAPSHOT">CharaParser</software>
 <operator />
 <resource type="OTO Glossary" version="0.19">Plant</resource>
 </processor>
 <processor>
-<date>2015/03/19 16:39:43</date>
-<software type="Semantic Markup" version="0.1.111-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<date>2015/05/26 09:58:09</date>
+<software type="Semantic Markup" version="0.1.128-SNAPSHOT">CharaParser - Ontology Mapping</software>
 <operator />
-<resource type="Ontology(ies)" version="N/A">RO,  BSPO,  PO,  PATO,</resource>
+<resource type="Ontology(ies)" version="N/A">PATO,  BSPO,  RO,  PO,</resource>
 </processor>
 </processed_by>
   </meta>
@@ -26,34 +26,36 @@
   <description type="morphology">
 <statement id="d0_s0">
 <text>Basal and proximal cauline leaves red;</text>
-<biological_entity constraint="basal and proximal cauline" id="o38" name="leaf" name_original="leaves" type="structure">
+<biological_entity constraint="basal and proximal cauline" id="o65" name="leaf" name_original="leaves" type="structure">
 <character is_modifier="false" name="coloration" value="red" />
 </biological_entity>
 </statement>
 <statement id="d0_s1">
 <text>Outer scales 20-25, 0.5-1 mm, contrasting with 35-40+, 4.5-6+ mm inner bristles.</text>
-<biological_entity constraint="outer" id="o39" name="scale" name_original="scales" type="structure">
+<biological_entity constraint="outer" id="o66" name="scale" name_original="scales" type="structure">
 <character char_type="range_value" from="20" name="quantity" to="25" />
-<character char_type="range_value" from="0.5" from_unit="mm" name="size_or_shape" to="1" to_unit="mm" />
+<character char_type="range_value" from="0.5" from_unit="mm" name="size" to="1" to_unit="mm" />
 </biological_entity>
-<biological_entity constraint="inner" id="o40" name="bristle" name_original="bristles" type="structure">
+<biological_entity constraint="inner" id="o67" name="bristle" name_original="bristles" type="structure">
 <character char_type="range_value" from="35" is_modifier="true" name="quantity" to="40" upper_restricted="false" />
-<character char_type="range_value" from="4.5" from_unit="mm" is_modifier="true" name="size_or_shape" to="6" to_unit="mm" upper_restricted="false" />
+<character char_type="range_value" from="4.5" from_unit="mm" is_modifier="true" name="size" to="6" to_unit="mm" upper_restricted="false" />
 </biological_entity>
-<relation from="o39" id="r1" name="contrasting with" negation="false" to="o40" />
+<relation from="o66" id="r2" name="contrasting with" negation="false" to="o67" />
 </statement>
 <statement id="d0_s2">
 <text>Tips of outer and mid phyllaries acute;</text>
-<biological_entity id="o41" name="tip" name_original="tips" type="structure">
+<biological_entity id="o68" name="tip" name_original="tips" type="structure">
 <character is_modifier="false" name="shape" value="acute" />
 </biological_entity>
-<biological_entity constraint="outer and mid" id="o42" name="phyllary" name_original="phyllaries" type="structure" />
-<relation from="o41" id="r2" name="part_of" negation="false" to="o42" />
+<biological_entity constraint="outer and mid" id="o69" name="phyllary" name_original="phyllaries" type="structure" />
+<relation from="o68" id="r3" name="part_of" negation="false" to="o69" />
 </statement>
 <statement id="d0_s3">
 <text>Roots usually taproots, sometime fibrous.</text>
-<biological_entity id="o43" name="root" name_original="roots" type="structure" />
-<biological_entity id="o44" name="taproot" name_original="taproots" type="structure" />
+<biological_entity id="o70" name="root" name_original="roots" ontologyid="http://purl.obolibrary.org/obo/PO_0009005" type="structure">
+<character is_modifier="false" modifier="sometime" name="texture" value="fibrous" />
+</biological_entity>
+<biological_entity id="o71" name="taproot" name_original="taproots" type="structure" />
 </statement>
 </description>
 </bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $

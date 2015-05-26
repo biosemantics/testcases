@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.github.com/biosemantics 
+	http://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupInput.xsd">
+  <meta>
+    <source>
+      <author>Hong Cui</author>
+      <date>2014</date>
+    </source>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="genus" authority="Ramirez">Spider</taxon_name>
+  </taxon_identification>
+  <description type="morphology">
+	 Peduncle lengths 2-5 times leafy portions of stems;
+  
+	 petioles reduced distally 0-1/4 lengths of blades;
+	 
+	 Chelicerae strong, length of spiracle 0.93 mm, width 0.60 mm.
+  
+     Length of proximal epigastrium 2 times array heights;
+	 
+     Length of proximal spinnerets 2 times height of array;
+	 
+	 Length of proximal branches 2 times longer than height of array;
+	  
+	 Prosoma length 1.97 mm, width 0.97 mm, wider at chelicerae bases and at leg III. 
+	 
+	 Length of tibia/metatarsus: leg I, 0.83/0.70 mm ; Length of tibia/metatarsus: leg II, 0.83/0.67 mm; Length of tibia/metatarsus: leg III, 0.50/0.53 mm; Length of tibia/metatarsus: leg IV, 0.87/0.67 mm. 
+	 
+	 Length of sternum 0.93 mm, width 0.60 mm.
+	 
+	 Abdomen badly preserved, spiracle–epigastrium 2.77 mm, spiracle–spinnerets 0.43 mm.
+  </description>
+</bio:treatment>
+
+<!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+-->
