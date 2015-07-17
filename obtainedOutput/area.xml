@@ -7,16 +7,16 @@
     </source>
 <processed_by>
 <processor>
-<date>2015/05/26 09:58:08</date>
-<software type="Semantic Markup" version="0.1.128-SNAPSHOT">CharaParser</software>
+<date>2015/07/17 15:54:25</date>
+<software type="Semantic Markup" version="0.1.143-SNAPSHOT">CharaParser</software>
 <operator />
 <resource type="OTO Glossary" version="0.19">Plant</resource>
 </processor>
 <processor>
-<date>2015/05/26 09:58:09</date>
-<software type="Semantic Markup" version="0.1.128-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<date>2015/07/17 15:54:26</date>
+<software type="Semantic Markup" version="0.1.143-SNAPSHOT">CharaParser - Ontology Mapping</software>
 <operator />
-<resource type="Ontology(ies)" version="N/A">PATO,  BSPO,  RO,  PO,</resource>
+<resource type="Ontology(ies)" version="N/A">PO,  BSPO,  PATO,  RO,</resource>
 </processor>
 </processed_by>
   </meta>
@@ -26,16 +26,16 @@
   <description type="morphology">
 <statement id="d0_s0">
 <text>Petioles as long as blades, 2-5 cm x 5+ cm;</text>
-<biological_entity id="o0" name="petiole" name_original="petioles" ontologyid="http://purl.obolibrary.org/obo/PO_0020038" type="structure">
+<biological_entity id="o11" name="petiole" name_original="petioles" type="structure">
 <character char_type="range_value" from="2" from_unit="cm" name="length" to="5" to_unit="cm" />
 <character char_type="range_value" from="5" from_unit="cm" name="width" upper_restricted="false" />
 </biological_entity>
-<biological_entity id="o1" name="blade" name_original="blades" ontologyid="http://purl.obolibrary.org/obo/PO_0025060" type="structure" />
-<relation from="o0" id="r0" name="as long as" negation="false" to="o1" />
+<biological_entity id="o12" name="blade" name_original="blades" ontologyid="http://purl.obolibrary.org/obo/PO_0025060" type="structure" />
+<relation from="o11" id="r1" name="as long as" negation="false" to="o12" />
 </statement>
 <statement id="d0_s1">
 <text>Blades lanceolate to oblong, (8-) 10-15 (-18) × (2-) 3-5 (-9) cm overall;</text>
-<biological_entity id="o2" name="blade" name_original="blades" ontologyid="http://purl.obolibrary.org/obo/PO_0025060" type="structure">
+<biological_entity id="o13" name="blade" name_original="blades" ontologyid="http://purl.obolibrary.org/obo/PO_0025060" type="structure">
 <character is_modifier="false" name="shape" notes="[duplicate value]" value="lanceolate" />
 <character is_modifier="false" name="shape" notes="[duplicate value]" value="oblong" />
 <character char_type="range_value" from="lanceolate" name="shape" to="oblong" />
@@ -49,7 +49,7 @@
 </statement>
 <statement id="d0_s2">
 <text>Leaves obovate, (2–) 5–20 (–30+) × (1–) 2–5 (–7) cm, margins pinnati-sect;</text>
-<biological_entity id="o3" name="leaf" name_original="leaves" ontologyid="http://purl.obolibrary.org/obo/PO_0025034" type="structure">
+<biological_entity id="o14" name="leaf" name_original="leaves" type="structure">
 <character is_modifier="false" name="shape" value="obovate" />
 <character char_type="range_value" from="2" from_unit="cm" name="atypical_length" to="5" to_inclusive="false" to_unit="cm" />
 <character char_type="range_value" from="20" from_inclusive="false" from_unit="cm" name="atypical_length" to="30" to_unit="cm" upper_restricted="false" />
@@ -58,11 +58,11 @@
 <character char_type="range_value" from="5" from_inclusive="false" from_unit="cm" name="atypical_width" to="7" to_unit="cm" />
 <character char_type="range_value" from="2" from_unit="cm" name="width" to="5" to_unit="cm" />
 </biological_entity>
-<biological_entity constraint="margins" id="o4" name="pinnati-sect" name_original="pinnati-sect" type="taxon_name" />
+<biological_entity constraint="margins" id="o15" name="pinnati-sect" name_original="pinnati-sect" type="taxon_name" />
 </statement>
 <statement id="d0_s3">
 <text>Basal and proximal cauline leaves 1-nerved, narrowly oblanceolate, (50–) 90–150 × (2–) 4–9 (–12) mm wide;</text>
-<biological_entity constraint="basal and proximal cauline" id="o5" name="leaf" name_original="leaves" type="structure">
+<biological_entity constraint="basal and proximal cauline" id="o16" name="leaf" name_original="leaves" type="structure">
 <character is_modifier="false" name="architecture" value="1-nerved" />
 <character is_modifier="false" modifier="narrowly" name="shape" value="oblanceolate" />
 <character char_type="range_value" from="50" from_unit="mm" name="width" to="90" to_inclusive="false" to_unit="mm" />

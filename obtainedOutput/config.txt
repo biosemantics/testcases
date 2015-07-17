@@ -1,7 +1,7 @@
 GuiceModule configuration of Run 
 ---------------------
 {
-  "version" : "0.1.128-SNAPSHOT",
+  "version" : "0.1.143-SNAPSHOT",
   "databaseHost" : "localhost",
   "databasePort" : "3306",
   "databaseName" : "markedupdatasets_thomas_cp",
@@ -43,8 +43,8 @@ GuiceModule configuration of Run
   "bioportalUserId" : ""
 }---------------------
 
-started at 1432659467223
+started at 1437173640588
 
-was done at 1432659490644
-took me 23421 milliseconds
-that's 0 hours, 0 minutes, and 23 seconds
+was done at 1437173668304
+took me 27716 milliseconds
+that's 0 hours, 0 minutes, and 27 seconds

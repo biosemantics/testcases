@@ -7,16 +7,16 @@
     </source>
 <processed_by>
 <processor>
-<date>2015/05/26 09:58:08</date>
-<software type="Semantic Markup" version="0.1.128-SNAPSHOT">CharaParser</software>
+<date>2015/07/17 15:54:25</date>
+<software type="Semantic Markup" version="0.1.143-SNAPSHOT">CharaParser</software>
 <operator />
 <resource type="OTO Glossary" version="0.19">Plant</resource>
 </processor>
 <processor>
-<date>2015/05/26 09:58:09</date>
-<software type="Semantic Markup" version="0.1.128-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<date>2015/07/17 15:54:26</date>
+<software type="Semantic Markup" version="0.1.143-SNAPSHOT">CharaParser - Ontology Mapping</software>
 <operator />
-<resource type="Ontology(ies)" version="N/A">PATO,  BSPO,  RO,  PO,</resource>
+<resource type="Ontology(ies)" version="N/A">PO,  BSPO,  PATO,  RO,</resource>
 </processor>
 </processed_by>
   </meta>
@@ -26,7 +26,7 @@
   <description type="morphology">
 <statement id="d0_s0">
 <text>Subulate leaves inserted at 62°.</text>
-<biological_entity id="o295" name="leaf" name_original="leaves" ontologyid="http://purl.obolibrary.org/obo/PO_0025034" type="structure">
+<biological_entity id="o309" name="leaf" name_original="leaves" type="structure">
 <character is_modifier="true" name="shape" value="subulate" />
 <character is_modifier="false" modifier="62°" name="position" value="inserted" />
 </biological_entity>
