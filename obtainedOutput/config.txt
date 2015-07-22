@@ -10,7 +10,7 @@ GuiceModule configuration of Run
   "databaseTablePrefix" : "src",
   "databaseGlossaryTable" : "fnaglossaryfixed",
   "otoLiteReviewFile" : "TermReview.txt",
-  "otoLiteTermReviewURL" : "http://etc.cs.umb.edu/otolite/",
+  "otoLiteTermReviewURL" : "http://etc-dev.cs.umb.edu/oto2/",
   "otoLiteClientURL" : "http://etc-dev.cs.umb.edu/oto2",
   "otoClientUrl" : "http://biosemantics.arizona.edu:8080/OTO/",
   "perlDirectory" : "C:\\Users\\updates\\git\\charaparser\\src\\main\\perl\\edu\\arizona\\biosemantics\\semanticmarkup\\markupelement\\description\\ling\\learn\\lib\\perll",
@@ -43,8 +43,8 @@ GuiceModule configuration of Run
   "bioportalUserId" : ""
 }---------------------
 
-started at 1437173640588
+started at 1437589903226
 
-was done at 1437173668304
-took me 27716 milliseconds
-that's 0 hours, 0 minutes, and 27 seconds
+was done at 1437589985936
+took me 82710 milliseconds
+that's 0 hours, 1 minutes, and 22 seconds
