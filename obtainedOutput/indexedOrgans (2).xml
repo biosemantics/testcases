@@ -8,13 +8,13 @@
 <processed_by>
 <processor>
 <date>2015/07/22 11:57:03</date>
-<software type="Semantic Markup" version="0.1.143-SNAPSHOT">CharaParser</software>
+<software type="Semantic Markup" version="0.1.145-SNAPSHOT">CharaParser</software>
 <operator />
 <resource type="OTO Glossary" version="0.2">Spider</resource>
 </processor>
 <processor>
 <date>2015/07/22 11:57:04</date>
-<software type="Semantic Markup" version="0.1.143-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<software type="Semantic Markup" version="0.1.145-SNAPSHOT">CharaParser - Ontology Mapping</software>
 <operator />
 <resource type="Ontology(ies)" version="N/A">RO,  PATO,  BSPO,  SPD,</resource>
 </processor>
