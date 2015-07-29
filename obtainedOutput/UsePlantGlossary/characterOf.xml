@@ -7,16 +7,16 @@
     </source>
 <processed_by>
 <processor>
-<date>2015/07/22 11:33:02</date>
-<software type="Semantic Markup" version="0.1.145-SNAPSHOT">CharaParser</software>
+<date>2015/07/29 13:45:19</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
 <operator />
 <resource type="OTO Glossary" version="0.19">Plant</resource>
 </processor>
 <processor>
-<date>2015/07/22 11:33:03</date>
-<software type="Semantic Markup" version="0.1.145-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<date>2015/07/29 13:45:20</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
 <operator />
-<resource type="Ontology(ies)" version="N/A">RO,  PO,  PATO,  BSPO,</resource>
+<resource type="Ontology(ies)" version="N/A">PO,  PATO,  BSPO,  RO,</resource>
 </processor>
 </processed_by>
   </meta>
@@ -72,7 +72,7 @@
 </statement>
 <statement id="d0_s6">
 <text>Prosoma length 1.97 mm, width 0.97 mm, wider at chelicerae bases and at leg III.</text>
-<biological_entity id="o29" name="prosomum" name_original="prosoma" type="structure">
+<biological_entity id="o29" name="prosoma" name_original="prosoma" type="structure">
 <character name="length" unit="mm" value="1.97" />
 <character name="width" unit="mm" value="0.97" />
 <character constraint="at chelicerae bases and at leg iii" constraintid="o30" is_modifier="false" name="width" value="wider" />
@@ -81,26 +81,38 @@
 </statement>
 <statement id="d0_s7">
 <text>Length of tibia/metatarsus: leg I, 0.83/0.70 mm;</text>
-<biological_entity constraint="leg" id="o31" name="tibia/metatarsu" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="0.83/0.70" />
+<biological_entity constraint="leg" id="o31_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="0.70" />
+</biological_entity>
+<biological_entity constraint="leg" id="o31_1" name="tibia" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="0.83" />
 </biological_entity>
 </statement>
 <statement id="d0_s8">
 <text>Length of tibia/metatarsus: leg II, 0.83/0.67 mm;</text>
-<biological_entity constraint="ii" id="o32" name="tibia/metatarsu" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="0.83/0.67" />
+<biological_entity constraint="ii" id="o32_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="0.67" />
+</biological_entity>
+<biological_entity constraint="ii" id="o32_1" name="tibia" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="0.83" />
 </biological_entity>
 </statement>
 <statement id="d0_s9">
 <text>Length of tibia/metatarsus: leg III, 0.50/0.53 mm;</text>
-<biological_entity constraint="iii" id="o33" name="tibia/metatarsu" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="0.50/0.53" />
+<biological_entity constraint="iii" id="o33_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="0.53" />
+</biological_entity>
+<biological_entity constraint="iii" id="o33_1" name="tibia" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="0.50" />
 </biological_entity>
 </statement>
 <statement id="d0_s10">
 <text>Length of tibia/metatarsus: leg IV, 0.87/0.67 mm.</text>
-<biological_entity constraint="iv" id="o34" name="tibia/metatarsu" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="0.87/0.67" />
+<biological_entity constraint="iv" id="o34_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="0.67" />
+</biological_entity>
+<biological_entity constraint="iv" id="o34_1" name="tibia" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="0.87" />
 </biological_entity>
 </statement>
 <statement id="d0_s11">

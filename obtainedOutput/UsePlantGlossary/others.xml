@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+  <meta>
+    <source>
+      <author>Hong Cui</author>
+      <date>2014</date>
+    </source>
+<processed_by>
+<processor>
+<date>2015/07/29 13:45:19</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
+<operator />
+<resource type="OTO Glossary" version="0.19">Plant</resource>
+</processor>
+<processor>
+<date>2015/07/29 13:45:20</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<operator />
+<resource type="Ontology(ies)" version="N/A">PO,  PATO,  BSPO,  RO,</resource>
+</processor>
+</processed_by>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name authority="example" rank="genus">Synthesised</taxon_name>
+  </taxon_identification>
+  <description type="morphology">
+<statement id="d0_s0">
+<text>Pappi usually ± equaling corollas, sometimes coroniform or 0.2n = (22–) 34 (–54) univalents, less often 17 pairs;</text>
+<biological_entity id="o285" name="pappus" name_original="pappi" type="structure">
+<character is_modifier="false" modifier="sometimes" name="shape" value="coroniform" />
+<character name="presence" value="absent" />
+</biological_entity>
+<biological_entity id="o286" name="corolla" name_original="corollas" type="structure">
+<character is_modifier="true" modifier="usually more or less" name="variability" value="equaling" />
+</biological_entity>
+<biological_entity id="o287" name="chromosome" name_original="" type="structure">
+<character char_type="range_value" from="22" name="atypical_quantity" to="34" to_inclusive="false" unit=", less often  pairs" />
+<character char_type="range_value" from="34" from_inclusive="false" name="atypical_quantity" to="54" unit=", less often  pairs" />
+<character name="quantity" unit=", less often  pairs" value="34" />
+<character name="quantity" unit=", less often  pairs" value="17" />
+</biological_entity>
+<biological_entity id="o288" name="univalent" name_original="univalents" type="structure" />
+<biological_entity id="o289" name="chromosome" name_original="" type="structure">
+<character char_type="range_value" from="22" name="atypical_quantity" to="34" to_inclusive="false" unit=", less often  pairs" />
+<character char_type="range_value" from="34" from_inclusive="false" name="atypical_quantity" to="54" unit=", less often  pairs" />
+<character name="quantity" unit=", less often  pairs" value="34" />
+<character name="quantity" unit=", less often  pairs" value="17" />
+</biological_entity>
+</statement>
+<statement id="d0_s1">
+<text>Pappi of 2–3 awns plus shorter bristles or scales, or wholly of minute scales.</text>
+<biological_entity id="o290" name="pappus" name_original="pappi" type="structure" />
+<biological_entity id="o291" name="awn" name_original="awns" type="structure">
+<character char_type="range_value" from="2" is_modifier="true" name="quantity" to="3" />
+</biological_entity>
+<biological_entity constraint="shorter" id="o292" name="bristle" name_original="bristles" type="structure" />
+<biological_entity constraint="shorter" id="o293" name="scale" name_original="scales" type="structure" />
+<biological_entity id="o294" name="scale" name_original="scales" type="structure">
+<character is_modifier="true" name="size" value="minute" />
+</biological_entity>
+<relation from="o290" id="r45" name="consist_of" negation="false" to="o291" />
+<relation from="o290" id="r46" modifier="wholly" name="consists_of" negation="false" to="o294" />
+</statement>
+<statement id="d0_s2">
+<text>Roots usually taproots, sometime fibrous.</text>
+<biological_entity id="o295" name="root" name_original="roots" type="structure">
+<character is_modifier="false" modifier="sometime" name="texture" value="fibrous" />
+</biological_entity>
+<biological_entity id="o296" name="taproot" name_original="taproots" type="structure" />
+</statement>
+<statement id="d0_s3">
+<text>Heads radiate, borne singly or in 2s or 3s, or in tight to loose, corymbiform arrays;</text>
+<biological_entity id="o297" name="head" name_original="heads" type="structure">
+<character is_modifier="false" name="architecture_or_arrangement" value="radiate" />
+<character constraint="in " constraintid="o298" is_modifier="false" name="arrangement" value="singly" />
+<character is_modifier="false" name="arrangement" value="in 2s or 3s , or in tight to loose , corymbiform arrays" />
+</biological_entity>
+<biological_entity id="o298" name="array" name_original="arrays" type="structure">
+<character is_modifier="true" name="arrangement_or_density" value="tight" />
+<character is_modifier="true" name="architecture_or_fragility" value="loose" />
+<character is_modifier="true" name="architecture" value="corymbiform" />
+</biological_entity>
+</statement>
+<statement id="d0_s4">
+<text>Phyllaries green or often purple, with appressed, green or tan, coarse setae, sometimes reduced to a single seta per phyllary;</text>
+<biological_entity id="o299" name="phyllary" name_original="phyllaries" type="structure">
+<character is_modifier="false" name="coloration" value="green" />
+<character is_modifier="false" modifier="often" name="coloration_or_density" value="purple" />
+</biological_entity>
+<biological_entity id="o300" name="seta" name_original="setae" type="structure">
+<character is_modifier="true" name="fixation_or_orientation" value="appressed" />
+<character is_modifier="true" name="coloration" value="green" />
+<character is_modifier="true" name="coloration" value="tan" />
+<character is_modifier="true" name="relief" value="coarse" />
+</biological_entity>
+<biological_entity id="o301" name="seta" name_original="seta" type="structure">
+<character is_modifier="true" name="quantity" value="single" />
+</biological_entity>
+<biological_entity id="o302" name="phyllary" name_original="phyllary" type="structure" />
+<relation from="o299" id="r47" name="with" negation="false" to="o300" />
+<relation from="o299" id="r48" modifier="sometimes" name="reduced to a" negation="false" to="o301" />
+<relation from="o299" id="r49" name="per" negation="false" to="o302" />
+</statement>
+<statement id="d0_s5">
+<text>Ray corollas yellow to orange-yellow or occasionally suffused with red;</text>
+<biological_entity constraint="ray" id="o303" name="corolla" name_original="corollas" type="structure">
+<character is_modifier="false" name="coloration" notes="[duplicate value]" value="yellow" />
+<character is_modifier="false" name="coloration" notes="[duplicate value]" value="orange-yellow" />
+<character is_modifier="false" modifier="occasionally" name="coloration" notes="[duplicate value]" value="suffused with red" />
+<character char_type="range_value" from="yellow" name="coloration" to="orange-yellow or occasionally suffused with red" />
+</biological_entity>
+</statement>
+<statement id="d0_s6">
+<text>Corollas yellow, laminae 6-15 mm;</text>
+<biological_entity id="o304" name="corolla" name_original="corollas" type="structure">
+<character is_modifier="false" name="coloration" value="yellow" />
+</biological_entity>
+<biological_entity id="o305" name="lamina" name_original="laminae" type="structure">
+<character char_type="range_value" from="6" from_unit="mm" name="size" to="15" to_unit="mm" />
+</biological_entity>
+</statement>
+<statement id="d0_s7">
+<text>Arrays not leafy, narrowly to broadly secund pyramidal or club-shaped, much longer than broad;</text>
+</statement>
+<statement id="d0_s8">
+<text>Subtending bracts ovate, usually large, leaflike, well differentiated;</text>
+<biological_entity id="o306" name="array" name_original="arrays" type="structure">
+<character is_modifier="false" modifier="not" name="architecture" value="leafy" />
+<character is_modifier="false" modifier="narrowly to broadly" name="architecture" value="secund" />
+<character is_modifier="false" name="architecture" value="pyramidal" />
+<character is_modifier="false" name="architecture" value="club-shaped" />
+<character is_modifier="false" name="length_or_size" value="much longer than broad" />
+<character is_modifier="false" name="shape" value="ovate" />
+<character is_modifier="false" modifier="usually" name="size" value="large" />
+<character is_modifier="false" name="architecture_or_shape" value="leaflike" />
+<character is_modifier="false" modifier="well" name="variability" value="differentiated" />
+</biological_entity>
+<biological_entity id="o307" name="bract" name_original="bracts" type="structure" />
+<relation from="o306" id="r50" name="subtending" negation="false" to="o307" />
+</statement>
+<statement id="d0_s9">
+<text>Ray laminae yellow, usually each with a proximal, red-brown to purple spot or band, 15-20+ mm;</text>
+<biological_entity constraint="ray" id="o308" name="lamina" name_original="laminae" type="structure">
+<character is_modifier="false" name="coloration" value="yellow" />
+<character is_modifier="false" name="coloration" value="red-brown to purple spot" />
+<character char_type="range_value" from="15" from_unit="mm" name="size" to="20" to_unit="mm" upper_restricted="false" />
+</biological_entity>
+<biological_entity id="o309" name="proximal" name_original="proximal" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000061" type="structure">
+<character is_modifier="true" name="quantity" value="1" />
+</biological_entity>
+<biological_entity id="o310" name="band" name_original="band" type="structure" />
+<relation from="o308" id="r51" modifier="usually" name="with" negation="false" to="o309" />
+</statement>
+<statement id="d0_s10">
+<text>Stems ascending to erect, branched from at or near bases;</text>
+<biological_entity id="o311" name="stem" name_original="stems" type="structure">
+<character is_modifier="false" name="orientation" notes="[duplicate value]" value="ascending" />
+<character is_modifier="false" name="orientation" notes="[duplicate value]" value="erect" />
+<character char_type="range_value" from="ascending" name="orientation" to="erect" />
+<character constraint="at or near bases" constraintid="o312" is_modifier="false" name="architecture" value="branched" />
+</biological_entity>
+<biological_entity id="o312" name="base" name_original="bases" type="structure" />
+</statement>
+<statement id="d0_s11">
+<text>Blades pinnately veined or ± 3-nerved from at or near bases, deltate-ovate, lance-elliptic, lanceolate, lance-ovate, or ovate, margins serrate, abaxial faces usually gland-dotted and hirsute, puberulent, pubescent, scabrous, or stipitate-glandular, sometimes glabrate, adaxial faces mostly puberulent to scabrous-hirsute and glabrescent, sometimes glabrate or glabrous;</text>
+<biological_entity id="o313" name="blade" name_original="blades" ontologyid="http://purl.obolibrary.org/obo/PO_0025060" type="structure">
+<character is_modifier="false" modifier="pinnately" name="architecture" value="veined" />
+<character constraint="from " constraintid="o314" is_modifier="false" modifier="more or less" name="architecture" value="3-nerved" />
+<character is_modifier="false" name="shape" value="deltate-ovate" />
+<character is_modifier="false" name="shape" value="lance-elliptic" />
+<character is_modifier="false" name="shape" value="lanceolate" />
+<character is_modifier="false" name="shape" value="lance-ovate" />
+<character is_modifier="false" name="shape" value="ovate" />
+<character is_modifier="false" name="shape" value="lance-ovate" />
+<character is_modifier="false" name="shape" value="ovate" />
+</biological_entity>
+<biological_entity id="o314" name="base" name_original="bases" type="structure" />
+<biological_entity id="o315" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
+<character is_modifier="false" name="architecture_or_shape" value="serrate" />
+</biological_entity>
+<biological_entity constraint="abaxial" id="o316" name="face" name_original="faces" type="structure">
+<character is_modifier="false" modifier="usually" name="coloration" value="gland-dotted" />
+<character is_modifier="false" name="pubescence" value="hirsute" />
+<character is_modifier="false" name="pubescence" value="puberulent" />
+<character is_modifier="false" name="pubescence" value="pubescent" />
+<character is_modifier="false" name="pubescence" value="scabrous" />
+<character is_modifier="false" name="pubescence" value="stipitate-glandular" />
+<character is_modifier="false" name="pubescence" value="scabrous" />
+<character is_modifier="false" name="pubescence" value="stipitate-glandular" />
+<character is_modifier="false" modifier="sometimes" name="pubescence" value="glabrate" />
+</biological_entity>
+<biological_entity constraint="adaxial" id="o317" name="face" name_original="faces" type="structure">
+<character is_modifier="false" modifier="mostly" name="pubescence" notes="[duplicate value]" value="puberulent" />
+<character is_modifier="false" name="pubescence" notes="[duplicate value]" value="scabrous-hirsute" />
+<character char_type="range_value" from="mostly puberulent" name="pubescence" to="scabrous-hirsute" />
+<character is_modifier="false" name="pubescence" value="glabrescent" />
+<character is_modifier="false" modifier="sometimes" name="pubescence" value="glabrate" />
+<character is_modifier="false" name="pubescence" value="glabrous" />
+</biological_entity>
+</statement>
+<statement id="d0_s12">
+<text>Pappi of 1–4 scales in 1 series, or of, 5–8 scales in 2, abruptly unequal series, longest scales, 1–, 2–8 mm. 2n = 12;</text>
+<biological_entity id="o318" name="pappus" name_original="pappi" type="structure" />
+<biological_entity id="o319" name="scale" name_original="scales" type="structure">
+<character char_type="range_value" from="1" is_modifier="true" name="quantity" to="4" />
+</biological_entity>
+<biological_entity id="o320" name="series" name_original="series" type="structure">
+<character is_modifier="true" name="quantity" value="1" />
+<character char_type="range_value" from="5" name="quantity" to="8" />
+</biological_entity>
+<biological_entity id="o321" name="scale" name_original="scales" type="structure" />
+<biological_entity id="o322" name="series" name_original="series" type="structure">
+<character is_modifier="true" name="quantity" value="2" />
+<character is_modifier="true" modifier="abruptly" name="size" value="unequal" />
+</biological_entity>
+<biological_entity constraint="longest" id="o323" name="scale" name_original="scales" type="structure">
+<character char_type="range_value" from="2" from_unit="mm" name="size" to="8" to_unit="mm" />
+</biological_entity>
+<biological_entity id="o324" name="chromosome" name_original="" type="structure">
+<character name="quantity" value="12" />
+</biological_entity>
+<relation from="o318" id="r52" name="consist_of" negation="false" to="o319" />
+<relation from="o319" id="r53" name="in" negation="false" to="o320" />
+<relation from="o321" id="r54" name="in" negation="false" to="o322" />
+</statement>
+</description>
+</bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+-->

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+  <meta>
+    <source>
+      <author>Hong Cui</author>
+      <date>2014</date>
+    </source>
+<processed_by>
+<processor>
+<date>2015/07/29 14:38:49</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
+<operator />
+<resource type="OTO Glossary" version="0.2">Spider</resource>
+</processor>
+<processor>
+<date>2015/07/29 14:38:49</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<operator />
+<resource type="Ontology(ies)" version="N/A">BSPO,  RO,  SPD,  PATO,</resource>
+</processor>
+</processed_by>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name authority="example" rank="genus">Synthesised</taxon_name>
+  </taxon_identification>
+  <description type="morphology">
+<statement id="d0_s0">
+<text>Petioles as long as blades, 2-5 cm x 5+ cm;</text>
+<biological_entity id="o11" name="petiole" name_original="petioles" type="structure">
+<character char_type="range_value" from="2" from_unit="cm" name="length" to="5" to_unit="cm" />
+<character char_type="range_value" from="5" from_unit="cm" name="width" upper_restricted="false" />
+</biological_entity>
+<biological_entity id="o12" name="blade" name_original="blades" type="structure" />
+<relation from="o11" id="r1" name="as long as" negation="false" to="o12" />
+</statement>
+<statement id="d0_s1">
+<text>Blades lanceolate to oblong, (8-) 10-15 (-18) × (2-) 3-5 (-9) cm overall;</text>
+<biological_entity id="o13" name="blade" name_original="blades" type="structure">
+<character is_modifier="false" name="shape" notes="[duplicate value]" value="lanceolate" />
+<character is_modifier="false" name="shape" notes="[duplicate value]" value="oblong" />
+<character char_type="range_value" from="lanceolate" name="shape" to="oblong" />
+<character char_type="range_value" from="8" from_unit="cm" name="atypical_length" to="10" to_inclusive="false" to_unit="cm" />
+<character char_type="range_value" from="15" from_inclusive="false" from_unit="cm" name="atypical_length" to="18" to_unit="cm" />
+<character char_type="range_value" from="10" from_unit="cm" name="length" to="15" to_unit="cm" />
+<character char_type="range_value" from="2" from_unit="cm" name="atypical_width" to="3" to_inclusive="false" to_unit="cm" />
+<character char_type="range_value" from="5" from_inclusive="false" from_unit="cm" name="atypical_width" to="9" to_unit="cm" />
+<character char_type="range_value" from="3" from_unit="cm" name="width" to="5" to_unit="cm" />
+</biological_entity>
+</statement>
+<statement id="d0_s2">
+<text>Leaves obovate, (2–) 5–20 (–30+) × (1–) 2–5 (–7) cm, margins pinnati-sect;</text>
+<biological_entity id="o14" name="leaf" name_original="leaves" type="structure">
+<character is_modifier="false" name="shape" value="obovate" />
+<character char_type="range_value" from="2" from_unit="cm" name="atypical_length" to="5" to_inclusive="false" to_unit="cm" />
+<character char_type="range_value" from="20" from_inclusive="false" from_unit="cm" name="atypical_length" to="30" to_unit="cm" upper_restricted="false" />
+<character char_type="range_value" from="5" from_unit="cm" name="length" to="20" to_unit="cm" />
+<character char_type="range_value" from="1" from_unit="cm" name="atypical_width" to="2" to_inclusive="false" to_unit="cm" />
+<character char_type="range_value" from="5" from_inclusive="false" from_unit="cm" name="atypical_width" to="7" to_unit="cm" />
+<character char_type="range_value" from="2" from_unit="cm" name="width" to="5" to_unit="cm" />
+</biological_entity>
+<biological_entity constraint="margins" id="o15" name="pinnati-sect" name_original="pinnati-sect" type="taxon_name" />
+</statement>
+<statement id="d0_s3">
+<text>Basal and proximal cauline leaves 1-nerved, narrowly oblanceolate, (50–) 90–150 × (2–) 4–9 (–12) mm wide;</text>
+<biological_entity constraint="basal and proximal cauline" id="o16" name="leaf" name_original="leaves" type="structure">
+<character is_modifier="false" name="architecture" value="1-nerved" />
+<character is_modifier="false" modifier="narrowly" name="shape" value="oblanceolate" />
+<character char_type="range_value" from="50" from_unit="mm" name="width" to="90" to_inclusive="false" to_unit="mm" />
+<character char_type="range_value" from="90" from_unit="mm" name="width" to="150" to_unit="mm" />
+<character char_type="range_value" from="2" from_unit="mm" name="width" to="4" to_inclusive="false" to_unit="mm" />
+<character char_type="range_value" from="9" from_inclusive="false" from_unit="mm" name="width" to="12" to_unit="mm" />
+<character char_type="range_value" from="4" from_unit="mm" name="width" to="9" to_unit="mm" />
+</biological_entity>
+</statement>
+</description>
+</bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+-->

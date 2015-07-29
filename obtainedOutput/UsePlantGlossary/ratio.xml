@@ -7,16 +7,16 @@
     </source>
 <processed_by>
 <processor>
-<date>2015/07/22 11:33:02</date>
-<software type="Semantic Markup" version="0.1.145-SNAPSHOT">CharaParser</software>
+<date>2015/07/29 13:45:19</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
 <operator />
 <resource type="OTO Glossary" version="0.19">Plant</resource>
 </processor>
 <processor>
-<date>2015/07/22 11:33:03</date>
-<software type="Semantic Markup" version="0.1.145-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<date>2015/07/29 13:45:20</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
 <operator />
-<resource type="Ontology(ies)" version="N/A">RO,  PO,  PATO,  BSPO,</resource>
+<resource type="Ontology(ies)" version="N/A">PO,  PATO,  BSPO,  RO,</resource>
 </processor>
 </processed_by>
   </meta>
@@ -25,10 +25,12 @@
   </taxon_identification>
   <description type="morphology">
 <statement id="d0_s0">
-<text>Subulate leaves inserted at 62°.</text>
-<biological_entity id="o319" name="leaf" name_original="leaves" type="structure">
-<character is_modifier="true" name="shape" value="subulate" />
-<character is_modifier="false" modifier="62°" name="position" value="inserted" />
+<text>Peduncle short, width/length 1.00, width/height 2, l/w = 1.00.</text>
+<biological_entity id="o334" name="peduncle" name_original="peduncle" type="structure">
+<character is_modifier="false" name="height_or_length_or_size" value="short" />
+<character name="width/length" value="1.00" />
+<character name="width/height" value="2" />
+<character name="l/w" value="1.00" />
 </biological_entity>
 </statement>
 </description>

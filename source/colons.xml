@@ -10,15 +10,15 @@
     </source>
   </meta>
   <taxon_identification status="ACCEPTED">
-    <taxon_name rank="genus" authority="example">Synthesised</taxon_name>
+    <taxon_name rank="genus" authority="example">Spider</taxon_name>
   </taxon_identification>
   <description type="morphology">
-  Basal and proximal cauline leaves red;
-  Outer scales 20-25, 0.5-1 mm, contrasting with 35-40+, 4.5-6+ mm inner bristles.
-  Tips of outer and mid phyllaries acute;
-  Roots usually taproots, sometime fibrous.
-   Length of tibia/metatarsus: leg I, 1.17/1.03 mm;
-   Tibia/metatarsus length: leg I, 1.17/1.03 mm;
+ Tibia/metatarsus length: leg I, 1.17/1.03 mm; leg II, 1.13/1.07 mm; leg III, 0.97/1.13 mm; leg IV, 1.40/1.63 mm. Chelicerae with three teeth on promargin (middle tooth larger), four on retromargin. Color: brown with dark-brown pattern. 
+ 
+ Spiracle-epigastrium 0.18 mm. Color: leg brown with dark-brown pattern. 
+
+ Length of tibia/metatarsus: leg I, 1.17/1.03 mm; leg II, 1.13/1.07 mm; leg III, 0.97/1.13 mm; leg IV, 1.40/1.63 mm.
+   
   </description>
 </bio:treatment>
 

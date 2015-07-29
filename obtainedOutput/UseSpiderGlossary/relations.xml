@@ -7,16 +7,16 @@
     </source>
 <processed_by>
 <processor>
-<date>2015/07/22 11:33:02</date>
-<software type="Semantic Markup" version="0.1.145-SNAPSHOT">CharaParser</software>
+<date>2015/07/29 14:38:49</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
 <operator />
-<resource type="OTO Glossary" version="0.19">Plant</resource>
+<resource type="OTO Glossary" version="0.2">Spider</resource>
 </processor>
 <processor>
-<date>2015/07/22 11:33:03</date>
-<software type="Semantic Markup" version="0.1.145-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<date>2015/07/29 14:38:49</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
 <operator />
-<resource type="Ontology(ies)" version="N/A">RO,  PO,  PATO,  BSPO,</resource>
+<resource type="Ontology(ies)" version="N/A">BSPO,  RO,  SPD,  PATO,</resource>
 </processor>
 </processed_by>
   </meta>
@@ -25,13 +25,10 @@
   </taxon_identification>
   <description type="morphology">
 <statement id="d0_s0">
-<text>Peduncle short, width/length 1.00, width/height 2, l/w = 1.00.</text>
-<biological_entity id="o316" name="peduncle" name_original="peduncle" type="structure">
-<character is_modifier="false" name="height_or_length_or_size" value="short" />
-<character name="width/length" value="1.00" />
-<character name="width/height" value="2" />
-<character name="l/w" value="1.00" />
-</biological_entity>
+<text>Branches in contact with flowers;</text>
+<biological_entity id="o339" name="branch" name_original="branches" type="structure" />
+<biological_entity id="o340" name="flower" name_original="flowers" type="structure" />
+<relation from="o339" id="r60" name="in contact with" negation="false" to="o340" />
 </statement>
 </description>
 </bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $

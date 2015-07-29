@@ -7,16 +7,16 @@
     </source>
 <processed_by>
 <processor>
-<date>2015/07/22 11:33:02</date>
-<software type="Semantic Markup" version="0.1.145-SNAPSHOT">CharaParser</software>
+<date>2015/07/29 13:45:19</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
 <operator />
 <resource type="OTO Glossary" version="0.19">Plant</resource>
 </processor>
 <processor>
-<date>2015/07/22 11:33:03</date>
-<software type="Semantic Markup" version="0.1.145-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<date>2015/07/29 13:45:20</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
 <operator />
-<resource type="Ontology(ies)" version="N/A">RO,  PO,  PATO,  BSPO,</resource>
+<resource type="Ontology(ies)" version="N/A">PO,  PATO,  BSPO,  RO,</resource>
 </processor>
 </processed_by>
   </meta>
@@ -26,20 +26,20 @@
   <description type="morphology">
 <statement id="d0_s0">
 <text>Leaflets papyraceous, lanceolate, acute at apex, cuneate at base, margins serrate in upper two-thirds, 12-15 cm long, 1-2 cm wide.</text>
-<biological_entity id="o311" name="leaflet" name_original="leaflets" type="structure">
+<biological_entity id="o329" name="leaflet" name_original="leaflets" type="structure">
 <character is_modifier="false" name="texture" value="papyraceous" />
 <character is_modifier="false" name="shape" value="lanceolate" />
-<character constraint="at apex" constraintid="o312" is_modifier="false" name="shape" value="acute" />
-<character constraint="at base" constraintid="o313" is_modifier="false" name="shape" value="cuneate" />
+<character constraint="at apex" constraintid="o330" is_modifier="false" name="shape" value="acute" />
+<character constraint="at base" constraintid="o331" is_modifier="false" name="shape" value="cuneate" />
 </biological_entity>
-<biological_entity id="o312" name="apex" name_original="apex" type="structure" />
-<biological_entity id="o313" name="base" name_original="base" type="structure" />
-<biological_entity id="o314" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
-<character constraint="in upper 2/3" constraintid="o315" is_modifier="false" name="architecture_or_shape" value="serrate" />
+<biological_entity id="o330" name="apex" name_original="apex" type="structure" />
+<biological_entity id="o331" name="base" name_original="base" type="structure" />
+<biological_entity id="o332" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
+<character constraint="in upper 2/3" constraintid="o333" is_modifier="false" name="architecture_or_shape" value="serrate" />
 <character char_type="range_value" from="12" from_unit="cm" name="length" to="15" to_unit="cm" />
 <character char_type="range_value" from="1" from_unit="cm" name="width" to="2" to_unit="cm" />
 </biological_entity>
-<biological_entity constraint="upper" id="o315" name="2/3" name_original="2/3" type="structure" />
+<biological_entity constraint="upper" id="o333" name="2/3" name_original="2/3" type="structure" />
 </statement>
 </description>
 </bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $

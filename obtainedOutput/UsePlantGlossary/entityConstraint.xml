@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+  <meta>
+    <source>
+      <author>Hong Cui</author>
+      <date>2014</date>
+    </source>
+<processed_by>
+<processor>
+<date>2015/07/29 13:45:19</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
+<operator />
+<resource type="OTO Glossary" version="0.19">Plant</resource>
+</processor>
+<processor>
+<date>2015/07/29 13:45:20</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<operator />
+<resource type="Ontology(ies)" version="N/A">PO,  PATO,  BSPO,  RO,</resource>
+</processor>
+</processed_by>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name authority="example" rank="genus">Synthesised</taxon_name>
+  </taxon_identification>
+  <description type="morphology">
+<statement id="d0_s0">
+<text>Basal and proximal cauline leaves red;</text>
+<biological_entity constraint="basal and proximal cauline" id="o92" name="leaf" name_original="leaves" type="structure">
+<character is_modifier="false" name="coloration" value="red" />
+</biological_entity>
+</statement>
+<statement id="d0_s1">
+<text>Outer scales 20-25, 0.5-1 mm, contrasting with 35-40+, 4.5-6+ mm inner bristles.</text>
+<biological_entity constraint="outer" id="o93" name="scale" name_original="scales" type="structure">
+<character char_type="range_value" from="20" name="quantity" to="25" />
+<character char_type="range_value" from="0.5" from_unit="mm" name="size" to="1" to_unit="mm" />
+</biological_entity>
+<biological_entity constraint="inner" id="o94" name="bristle" name_original="bristles" type="structure">
+<character char_type="range_value" from="35" is_modifier="true" name="quantity" to="40" upper_restricted="false" />
+<character char_type="range_value" from="4.5" from_unit="mm" is_modifier="true" name="size" to="6" to_unit="mm" upper_restricted="false" />
+</biological_entity>
+<relation from="o93" id="r5" name="contrasting with" negation="false" to="o94" />
+</statement>
+<statement id="d0_s2">
+<text>Tips of outer and mid phyllaries acute;</text>
+<biological_entity id="o95" name="tip" name_original="tips" type="structure">
+<character is_modifier="false" name="shape" value="acute" />
+</biological_entity>
+<biological_entity constraint="outer and mid" id="o96" name="phyllary" name_original="phyllaries" type="structure" />
+<relation from="o95" id="r6" name="part_of" negation="false" to="o96" />
+</statement>
+<statement id="d0_s3">
+<text>Roots usually taproots, sometime fibrous.</text>
+<biological_entity id="o97" name="root" name_original="roots" type="structure">
+<character is_modifier="false" modifier="sometime" name="texture" value="fibrous" />
+</biological_entity>
+<biological_entity id="o98" name="taproot" name_original="taproots" type="structure" />
+</statement>
+<statement id="d0_s4">
+<text>Length of tibia/metatarsus: leg I, 1.17/1.03 mm;</text>
+<biological_entity constraint="leg" id="o99_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="1.03" />
+</biological_entity>
+<biological_entity constraint="leg" id="o99_1" name="tibia" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="1.17" />
+</biological_entity>
+</statement>
+<statement id="d0_s5">
+<text>Tibia/metatarsus length: leg I, 1.17/1.03 mm;</text>
+<biological_entity constraint="leg" id="o100_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="1.03" />
+</biological_entity>
+<biological_entity constraint="leg" id="o100_1" name="tibia" name_original="tibia/metatarsus" type="structure">
+<character name="length" unit="mm" value="1.17" />
+</biological_entity>
+</statement>
+</description>
+</bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+-->

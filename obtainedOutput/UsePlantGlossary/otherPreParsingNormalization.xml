@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+  <meta>
+    <source>
+      <author>Hong Cui</author>
+      <date>2014</date>
+    </source>
+<processed_by>
+<processor>
+<date>2015/07/29 13:45:19</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
+<operator />
+<resource type="OTO Glossary" version="0.19">Plant</resource>
+</processor>
+<processor>
+<date>2015/07/29 13:45:20</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<operator />
+<resource type="Ontology(ies)" version="N/A">PO,  PATO,  BSPO,  RO,</resource>
+</processor>
+</processed_by>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name authority="example" rank="genus">Synthesised</taxon_name>
+  </taxon_identification>
+  <description type="morphology">
+<statement id="d0_s0">
+<text>Leaves l/w = 2/3, 1-2-pinnately or -palmately lobed;</text>
+</statement>
+<statement id="d0_s1">
+<text>often 2-ribbed, 3-ribbed, or 5-ribbed;</text>
+<biological_entity id="o278" name="leaf" name_original="leaves" type="structure">
+<character name="l/w" value="2/3" />
+<character is_modifier="false" modifier="1-2-pinnately-or-palmately" name="shape" value="lobed" />
+<character is_modifier="false" modifier="often" name="architecture_or_shape" value="2-ribbed" />
+<character is_modifier="false" name="architecture_or_shape" value="3-ribbed" />
+<character is_modifier="false" name="architecture_or_shape" value="5-ribbed" />
+</biological_entity>
+</statement>
+<statement id="d0_s2">
+<text>Glands (1-) 2-5 (-10+), lateral, two on each side of lateral stamen, median glands absent;</text>
+<biological_entity id="o279" name="gland" name_original="glands" type="structure">
+<character char_type="range_value" from="1" name="atypical_quantity" to="2" to_inclusive="false" />
+<character char_type="range_value" from="5" from_inclusive="false" name="atypical_quantity" to="10" upper_restricted="false" />
+<character char_type="range_value" from="2" name="quantity" to="5" />
+<character is_modifier="false" name="position" value="lateral" />
+<character constraint="on side" constraintid="o280" name="quantity" value="2" />
+</biological_entity>
+<biological_entity id="o280" name="side" name_original="side" type="structure" />
+<biological_entity constraint="lateral" id="o281" name="stamen" name_original="stamen" type="structure" />
+<biological_entity constraint="median" id="o282" name="gland" name_original="glands" type="structure">
+<character is_modifier="false" name="presence" value="absent" />
+</biological_entity>
+<relation from="o280" id="r44" name="part_of" negation="false" to="o281" />
+</statement>
+<statement id="d0_s3">
+<text>Flowers between 1.0 and 2.0 cm long;</text>
+</statement>
+<statement id="d0_s4">
+<text>few-to-many;</text>
+</statement>
+<statement id="d0_s5">
+<text>brownish red to bright orange;</text>
+<biological_entity id="o283" name="flower" name_original="flowers" type="structure">
+<character char_type="range_value" from="1.0" from_unit="cm" name="length" to="2.0" to_unit="cm" />
+<character char_type="range_value" from="few" name="quantity" to="many" />
+<character is_modifier="false" name="coloration" notes="[duplicate value]" value="brownish red" />
+<character is_modifier="false" name="coloration" notes="[duplicate value]" value="bright orange" />
+<character char_type="range_value" from="brownish red" name="coloration" to="bright orange" />
+</biological_entity>
+</statement>
+<statement id="d0_s6">
+<text>Stems to 5 m., narrow to broad, weakly to strongly hairy, more than 3, at most 8..</text>
+<biological_entity id="o284" name="stem" name_original="stems" type="structure">
+<character char_type="range_value" from="0" from_unit="m" name="size" to="5" to_unit="m" />
+<character is_modifier="false" name="width" notes="[duplicate value]" value="narrow" />
+<character is_modifier="false" name="width" notes="[duplicate value]" value="broad" />
+<character char_type="range_value" from="narrow" name="width" to="broad" />
+<character is_modifier="false" modifier="weakly to strongly" name="pubescence" value="hairy" />
+<character char_type="range_value" from="3" name="quantity" upper_restricted="false" />
+<character char_type="range_value" from="0" name="quantity" to="8" />
+</biological_entity>
+</statement>
+</description>
+</bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+-->

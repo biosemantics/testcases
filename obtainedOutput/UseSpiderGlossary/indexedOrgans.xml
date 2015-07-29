@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+  <meta>
+    <source>
+      <author>Hong Cui</author>
+      <date>2014</date>
+    </source>
+<processed_by>
+<processor>
+<date>2015/07/29 14:38:49</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
+<operator />
+<resource type="OTO Glossary" version="0.2">Spider</resource>
+</processor>
+<processor>
+<date>2015/07/29 14:38:49</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<operator />
+<resource type="Ontology(ies)" version="N/A">BSPO,  RO,  SPD,  PATO,</resource>
+</processor>
+</processed_by>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name authority="example" rank="genus">CycadsOthers</taxon_name>
+  </taxon_identification>
+  <description type="morphology">
+<statement id="d0_s0">
+<text>legs I-III long, touch leg-IV.</text>
+<biological_entity constraint="legs" id="o271_1" name="i" name_original="i-iii" type="structure">
+<character is_modifier="false" name="length_or_size" value="long" />
+</biological_entity>
+<biological_entity constraint="legs" id="o271_2" name="ii" name_original="i-iii" type="structure">
+<character is_modifier="false" name="length_or_size" value="long" />
+</biological_entity>
+<biological_entity constraint="legs" id="o271_3" name="iii" name_original="i-iii" type="structure">
+<character is_modifier="false" name="length_or_size" value="long" />
+</biological_entity>
+<biological_entity id="o272" name="leg-4" name_original="leg-iv" type="structure" />
+<relation from="o271_3" id="r44" name="touch" negation="false" to="o272" />
+<relation from="o271_2" id="r44" name="touch" negation="false" to="o272" />
+<relation from="o271_1" id="r44" name="touch" negation="false" to="o272" />
+</statement>
+<statement id="d0_s1">
+<text>legs I and II darker from tibia to tarsus;</text>
+<biological_entity constraint="legs" id="o273" name="i" name_original="i" type="structure">
+<character constraint="from tibia" constraintid="o275" is_modifier="false" name="coloration" value="darker" />
+</biological_entity>
+<biological_entity constraint="legs" id="o274" name="ii" name_original="ii" type="structure">
+<character constraint="from tibia" constraintid="o275" is_modifier="false" name="coloration" value="darker" />
+</biological_entity>
+<biological_entity id="o275" name="tibia" name_original="tibia" type="structure" />
+<biological_entity id="o276" name="tarsus" name_original="tarsus" type="structure" />
+<relation from="o275" id="r45" name="to" negation="false" to="o276" />
+</statement>
+<statement id="d0_s2">
+<text>legs I, II, and III darker.</text>
+<biological_entity constraint="legs" id="o277" name="i" name_original="i" type="structure">
+<character is_modifier="false" name="coloration" value="darker" />
+</biological_entity>
+<biological_entity constraint="legs" id="o278" name="ii" name_original="ii" type="structure">
+<character is_modifier="false" name="coloration" value="darker" />
+</biological_entity>
+<biological_entity constraint="legs" id="o279" name="iii" name_original="iii" type="structure">
+<character is_modifier="false" name="coloration" value="darker" />
+</biological_entity>
+</statement>
+<statement id="d0_s3">
+<text>legs I to IV strong.</text>
+<biological_entity constraint="legs" id="o280_1" name="i" name_original="i-iv" type="structure">
+<character is_modifier="false" name="fragility" value="strong" />
+</biological_entity>
+<biological_entity constraint="legs" id="o280_2" name="ii" name_original="i-iv" type="structure">
+<character is_modifier="false" name="fragility" value="strong" />
+</biological_entity>
+<biological_entity constraint="legs" id="o280_3" name="iii" name_original="i-iv" type="structure">
+<character is_modifier="false" name="fragility" value="strong" />
+</biological_entity>
+<biological_entity constraint="legs" id="o280_4" name="iv" name_original="i-iv" type="structure">
+<character is_modifier="false" name="fragility" value="strong" />
+</biological_entity>
+</statement>
+</description>
+</bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+-->

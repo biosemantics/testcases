@@ -7,16 +7,16 @@
     </source>
 <processed_by>
 <processor>
-<date>2015/07/22 11:33:02</date>
-<software type="Semantic Markup" version="0.1.145-SNAPSHOT">CharaParser</software>
+<date>2015/07/29 13:45:19</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
 <operator />
 <resource type="OTO Glossary" version="0.19">Plant</resource>
 </processor>
 <processor>
-<date>2015/07/22 11:33:03</date>
-<software type="Semantic Markup" version="0.1.145-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<date>2015/07/29 13:45:20</date>
+<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
 <operator />
-<resource type="Ontology(ies)" version="N/A">RO,  PO,  PATO,  BSPO,</resource>
+<resource type="Ontology(ies)" version="N/A">PO,  PATO,  BSPO,  RO,</resource>
 </processor>
 </processed_by>
   </meta>
