@@ -7,16 +7,16 @@
     </source>
 <processed_by>
 <processor>
-<date>2015/07/29 14:38:49</date>
-<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
+<date>2015/08/20 11:09:35</date>
+<software type="Semantic Markup" version="0.1.152-SNAPSHOT">CharaParser</software>
 <operator />
 <resource type="OTO Glossary" version="0.2">Spider</resource>
 </processor>
 <processor>
-<date>2015/07/29 14:38:49</date>
-<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<date>2015/08/20 11:09:35</date>
+<software type="Semantic Markup" version="0.1.152-SNAPSHOT">CharaParser - Ontology Mapping</software>
 <operator />
-<resource type="Ontology(ies)" version="N/A">BSPO,  RO,  SPD,  PATO,</resource>
+<resource type="Ontology(ies)" version="N/A">SPD,  PATO,  BSPO,  RO,</resource>
 </processor>
 </processed_by>
   </meta>
@@ -26,7 +26,7 @@
   <description type="morphology">
 <statement id="d0_s0">
 <text>Peduncle short, width/length 1.00, width/height 2, l/w = 1.00.</text>
-<biological_entity id="o338" name="peduncle" name_original="peduncle" type="structure">
+<biological_entity id="o340" name="peduncle" name_original="peduncle" type="structure">
 <character is_modifier="false" name="height_or_length_or_size" value="short" />
 <character name="width/length" value="1.00" />
 <character name="width/height" value="2" />

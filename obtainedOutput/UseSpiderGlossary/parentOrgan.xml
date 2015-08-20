@@ -7,16 +7,16 @@
     </source>
 <processed_by>
 <processor>
-<date>2015/07/29 14:38:49</date>
-<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
+<date>2015/08/20 11:09:35</date>
+<software type="Semantic Markup" version="0.1.152-SNAPSHOT">CharaParser</software>
 <operator />
 <resource type="OTO Glossary" version="0.2">Spider</resource>
 </processor>
 <processor>
-<date>2015/07/29 14:38:49</date>
-<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
+<date>2015/08/20 11:09:35</date>
+<software type="Semantic Markup" version="0.1.152-SNAPSHOT">CharaParser - Ontology Mapping</software>
 <operator />
-<resource type="Ontology(ies)" version="N/A">BSPO,  RO,  SPD,  PATO,</resource>
+<resource type="Ontology(ies)" version="N/A">SPD,  PATO,  BSPO,  RO,</resource>
 </processor>
 </processed_by>
   </meta>
@@ -26,16 +26,16 @@
   <description type="morphology">
 <statement id="d0_s0">
 <text>Chelicerae with three teeth on promargin (middle tooth larger), four on retromargin.</text>
-<biological_entity id="o329" name="chelicera" name_original="chelicerae" type="structure" />
-<biological_entity id="o330" name="tooth" name_original="teeth" type="structure">
+<biological_entity id="o331" name="chelicera" name_original="chelicerae" type="structure" />
+<biological_entity id="o332" name="tooth" name_original="teeth" type="structure">
 <character is_modifier="true" name="quantity" value="3" />
 </biological_entity>
-<biological_entity id="o331" name="promargin" name_original="promargin" type="structure">
-<character constraint="on retromargin" constraintid="o332" name="quantity" value="4" />
+<biological_entity id="o333" name="promargin" name_original="promargin" type="structure">
+<character constraint="on retromargin" constraintid="o334" name="quantity" value="4" />
 </biological_entity>
-<biological_entity id="o332" name="retromargin" name_original="retromargin" type="structure" />
-<relation from="o329" id="r58" name="with" negation="false" to="o330" />
-<relation from="o330" id="r59" name="on" negation="false" to="o331" />
+<biological_entity id="o334" name="retromargin" name_original="retromargin" type="structure" />
+<relation from="o331" id="r59" name="with" negation="false" to="o332" />
+<relation from="o332" id="r60" name="on" negation="false" to="o333" />
 </statement>
 </description>
 </bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
