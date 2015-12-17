@@ -5,206 +5,207 @@
       <author>Hong Cui</author>
       <date>2014</date>
     </source>
-<processed_by>
-<processor>
-<date>2015/08/20 11:09:35</date>
-<software type="Semantic Markup" version="0.1.152-SNAPSHOT">CharaParser</software>
-<operator />
-<resource type="OTO Glossary" version="0.2">Spider</resource>
-</processor>
-<processor>
-<date>2015/08/20 11:09:35</date>
-<software type="Semantic Markup" version="0.1.152-SNAPSHOT">CharaParser - Ontology Mapping</software>
-<operator />
-<resource type="Ontology(ies)" version="N/A">SPD,  PATO,  BSPO,  RO,</resource>
-</processor>
-</processed_by>
+    <processed_by>
+      <processor>
+        <date>2015/12/17 13:19:33</date>
+        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <operator />
+        <resource type="OTO Glossary" version="0.2">Spider</resource>
+      </processor>
+      <processor>
+        <date>2015/12/17 13:19:34</date>
+        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <operator />
+        <resource type="Ontology(ies)" version="N/A">RO,  SPD,  PATO,  BSPO,</resource>
+      </processor>
+    </processed_by>
   </meta>
   <taxon_identification status="ACCEPTED">
     <taxon_name authority="example" rank="genus">Synthesised</taxon_name>
   </taxon_identification>
   <description type="morphology">
-<statement id="d0_s0">
-<text>Rachis widths mostly 2-3 times lobe widths, leaves green;</text>
-<biological_entity id="o55" name="rachis" name_original="rachis" type="structure">
-<character constraint="lobe" constraintid="o56" is_modifier="false" modifier="mostly" name="width" value="2-3 times lobe widths" />
-</biological_entity>
-<biological_entity id="o56" name="lobe" name_original="lobe" type="structure" />
-<biological_entity id="o57" name="leaf" name_original="leaves" type="structure">
-<character is_modifier="false" name="coloration" value="green" />
-</biological_entity>
-</statement>
-<statement id="d0_s1">
-<text>Margins 1-2 times divided into linear or oblong segments;</text>
-<biological_entity id="o58" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
-<character constraint="segment" constraintid="o59" is_modifier="false" name="size_or_quantity" value="1-2 times divided into linear or oblong segments" />
-</biological_entity>
-<biological_entity id="o59" name="segment" name_original="segments" type="structure" />
-</statement>
-<statement id="d0_s2">
-<text>Petioles reduced distally 0-1/4 lengths of blades;</text>
-<biological_entity id="o60" name="petiole" name_original="petioles" type="structure">
-<character is_modifier="false" modifier="distally" name="size" value="reduced" />
-<character char_type="range_value" from="0 lengths of blades" name="length" to="1/4 lengths of blades" />
-</biological_entity>
-</statement>
-<statement id="d0_s3">
-<text>Branches 0-10+, usually arising in distal 1/2, ascending, usually reaching a moreorless common height;</text>
-<biological_entity constraint="distal" id="o62" name="1/2" name_original="1/2" type="structure" />
-</statement>
-<statement id="d0_s4">
-<text>Outer pectinately spiny 1/2 their length with many lateral spines;</text>
-<biological_entity id="o61" name="branch" name_original="branches" type="structure">
-<character char_type="range_value" from="0" name="quantity" to="10" upper_restricted="false" />
-<character constraint="in distal 1/2" constraintid="o62" is_modifier="false" modifier="usually" name="orientation" value="arising" />
-<character is_modifier="false" name="orientation" value="ascending" />
-<character is_modifier="false" modifier="usually" name="position_relational" value="reaching" />
-<character is_modifier="false" modifier="more or less" name="height" value="common" />
-<character is_modifier="false" name="position" value="outer" />
-<character is_modifier="false" modifier="pectinately" name="architecture_or_shape" value="spiny" />
-<character name="quantity" value="1/2" />
-</biological_entity>
-</statement>
-<statement id="d0_s5">
-<text>Leaves, 2-3 times ternately lobed or dissected;</text>
-<biological_entity id="o63" name="leaf" name_original="leaves" type="structure">
-<character is_modifier="false" name="shape" value="2-3 times ternately lobed or dissected " />
-</biological_entity>
-</statement>
-<statement id="d0_s6">
-<text>Peduncle lengths 0.5-3 times cypsela bodies at flowering;</text>
-<biological_entity id="o64" name="peduncle" name_original="peduncle" type="structure">
-<character constraint="body; at flowering" constraintid="o65" is_modifier="false" name="length" value="0.5-3 times cypsela bodies" />
-</biological_entity>
-<biological_entity constraint="cypsela" id="o65" name="body" name_original="bodies" type="structure" />
-</statement>
-<statement id="d0_s7">
-<text>Corolla lobes 2 times as-long-as corolla throat;</text>
-<biological_entity constraint="corolla" id="o66" name="lobe" name_original="lobes" type="structure">
-<character constraint="throat" constraintid="o67" is_modifier="false" name="length" value="2 times as long as corolla throat" />
-</biological_entity>
-<biological_entity constraint="corolla" id="o67" name="throat" name_original="throat" type="structure" />
-</statement>
-<statement id="d0_s8">
-<text>Leaves usually 0-5 times longer than wide;</text>
-<biological_entity id="o68" name="leaf" name_original="leaves" type="structure">
-<character is_modifier="false" name="l_w_ratio" value="0-5" />
-</biological_entity>
-</statement>
-<statement id="d0_s9">
-<text>Leaf lengths usually 10+ times longer widths;</text>
-</statement>
-<statement id="d0_s10">
-<text>Lengths, 1/2-2 times bodies;</text>
-<biological_entity id="o69" name="leaf" name_original="leaf" type="structure">
-<character is_modifier="false" modifier="usually" name="l_w_ratio" value="10+" />
-<character constraint="body" constraintid="o70" is_modifier="false" name="length" value="1/2-2 times bodies" />
-</biological_entity>
-<biological_entity id="o70" name="body" name_original="bodies" type="structure" />
-</statement>
-<statement id="d0_s11">
-<text>Blades usually 1-2+ times pinnately lobed;</text>
-<biological_entity id="o71" name="blade" name_original="blades" type="structure">
-<character is_modifier="false" name="shape" value="1-2+ times pinnately lobed " />
-</biological_entity>
-</statement>
-<statement id="d0_s12">
-<text>Peduncle lengths 2-5 times leafy portions of stems;</text>
-<biological_entity id="o73" name="portion" name_original="portions" type="structure" />
-<biological_entity id="o74" name="stem" name_original="stems" type="structure" />
-</statement>
-<statement id="d0_s13">
-<text>Lengths of proximal branches 2 times array heights;</text>
-<biological_entity id="o72" name="peduncle" name_original="peduncle" type="structure">
-<character constraint="of stems" constraintid="o74" is_modifier="false" name="length" value="2-5 times leafy portions" />
-</biological_entity>
-<biological_entity constraint="proximal" id="o75" name="branch" name_original="branches" type="structure">
-<character constraint="array" constraintid="o76" is_modifier="false" name="length" value="2 times array heights" />
-</biological_entity>
-<biological_entity id="o76" name="array" name_original="array" type="structure" />
-</statement>
-<statement id="d0_s14">
-<text>Tubes 2 times longer than narrowly funnelform throats;</text>
-<biological_entity id="o77" name="tube" name_original="tubes" type="structure">
-<character constraint="throat" constraintid="o78" is_modifier="false" name="length_or_size" value="2 times longer than narrowly funnelform throats" />
-</biological_entity>
-<biological_entity id="o78" name="throat" name_original="throats" type="structure" />
-</statement>
-<statement id="d0_s15">
-<text>Tubes 1/4-1/2 times more or less funnelform throats;</text>
-<biological_entity id="o80" name="throat" name_original="throats" type="structure" />
-</statement>
-<statement id="d0_s16">
-<text>Lengths mostly 3.5-6 times longest diams;</text>
-<biological_entity id="o79" name="tube" name_original="tubes" type="structure">
-<character constraint="throat" constraintid="o80" is_modifier="false" name="size_or_quantity" value="1/4-1/2 times more or less funnelform throats" />
-<character is_modifier="false" modifier="mostly" name="length" value="3.5-6 times longest diams" />
-</biological_entity>
-</statement>
-<statement id="d0_s17">
-<text>Arrays 2-3 times as-long-as wide;</text>
-<biological_entity id="o81" name="array" name_original="arrays" type="structure">
-<character is_modifier="false" name="l_w_ratio" value="2-3" />
-</biological_entity>
-</statement>
-<statement id="d0_s18">
-<text>Blades of cauline leaves mostly oblanceolate, lengths 4–7+ times widths;</text>
-<biological_entity id="o82" name="blade" name_original="blades" type="structure">
-<character is_modifier="false" modifier="mostly" name="shape" value="oblanceolate" />
-<character is_modifier="false" name="l_w_ratio" value="4-7+" />
-</biological_entity>
-<biological_entity constraint="cauline" id="o83" name="leaf" name_original="leaves" type="structure" />
-<relation from="o82" id="r4" name="part_of" negation="false" to="o83" />
-</statement>
-<statement id="d0_s19">
-<text>Leaf-blades oblong or elliptic to lance-elliptic or lanceolate, lengths 1.5–4+ widths;</text>
-<biological_entity id="o84" name="leaf-blade" name_original="leaf-blades" type="structure">
-<character is_modifier="false" name="shape" value="oblong" />
-<character is_modifier="false" name="arrangement_or_shape" value="elliptic" />
-<character is_modifier="false" name="shape" value="lance-elliptic" />
-<character is_modifier="false" name="shape" value="lanceolate" />
-<character is_modifier="false" name="l_w_ratio" value="1.5-4+" />
-</biological_entity>
-</statement>
-<statement id="d0_s20">
-<text>Cypsela widths 0.6 – 0.75 times lengths;</text>
-<biological_entity id="o85" name="cypselum" name_original="cypsela" type="structure">
-<character is_modifier="false" name="l_w_ratio" value="1/(0.6-0.75)" />
-</biological_entity>
-</statement>
-<statement id="d0_s21">
-<text>Cypsela beaks, 3–, 4–10 mm, lengths, 1/2–, 2 times bodies;</text>
-<biological_entity constraint="cypsela" id="o86" name="beak" name_original="beaks" type="structure">
-<character char_type="range_value" from="4" from_unit="mm" name="size" to="10" to_unit="mm" />
-<character constraint="body" constraintid="o87" is_modifier="false" name="length" value="1/2- , 2 times bodies" />
-</biological_entity>
-<biological_entity id="o87" name="body" name_original="bodies" type="structure" />
-</statement>
-<statement id="d0_s22">
-<text>Capitular leaves mostly not appressed to heads, spatulate to obovate, lengths mostly 2-5 widths;</text>
-<biological_entity constraint="capitular" id="o88" name="leaf" name_original="leaves" type="structure">
-<character constraint="to heads" constraintid="o89" is_modifier="false" modifier="mostly not" name="fixation_or_orientation" value="appressed" />
-<character is_modifier="false" name="shape" notes="[duplicate value]" value="spatulate" />
-<character is_modifier="false" name="shape" notes="[duplicate value]" value="obovate" />
-<character char_type="range_value" from="spatulate" name="shape" to="obovate" />
-<character is_modifier="false" modifier="mostly" name="l_w_ratio" value="2-5" />
-</biological_entity>
-<biological_entity id="o89" name="head" name_original="heads" ontologyid="http://purl.obolibrary.org/obo/SPD_0000016" type="structure" />
-</statement>
-<statement id="d0_s23">
-<text>Heads radiate, borne singly or in 2s or 3s, or in tight to loose, corymbiform arrays;</text>
-<biological_entity id="o90" name="head" name_original="heads" ontologyid="http://purl.obolibrary.org/obo/SPD_0000016" type="structure">
-<character is_modifier="false" name="architecture_or_arrangement" value="radiate" />
-<character is_modifier="false" name="arrangement" value="singly" />
-<character is_modifier="false" name="arrangement" value="in 2s or 3s , or in tight to loose , corymbiform arrays" />
-</biological_entity>
-<biological_entity id="o91" name="array" name_original="arrays" type="structure">
-<character is_modifier="true" name="arrangement_or_density" value="tight" />
-<character is_modifier="true" name="architecture_or_fragility" value="loose" />
-<character is_modifier="true" name="architecture" value="corymbiform" />
-</biological_entity>
-<relation from="o90" id="r5" name="in 2s or 3s , or in" negation="false" to="o91" />
-</statement>
-</description>
-</bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+    <statement id="d0_s0">
+      <text>Rachis widths mostly 2-3 times lobe widths, leaves green;</text>
+      <biological_entity id="o66" name="rachis" name_original="rachis" type="structure">
+        <character constraint="lobe" constraintid="o67" is_modifier="false" modifier="mostly" name="width" value="2-3 times lobe widths" />
+      </biological_entity>
+      <biological_entity id="o67" name="lobe" name_original="lobe" type="structure" />
+      <biological_entity id="o68" name="leaf" name_original="leaves" type="structure">
+        <character is_modifier="false" name="coloration" value="green" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s1">
+      <text>Margins 1-2 times divided into linear or oblong segments;</text>
+      <biological_entity id="o69" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
+        <character constraint="segment" constraintid="o70" is_modifier="false" name="size_or_quantity" value="1-2 times divided into linear or oblong segments" />
+      </biological_entity>
+      <biological_entity id="o70" name="segment" name_original="segments" type="structure" />
+    </statement>
+    <statement id="d0_s2">
+      <text>Petioles reduced distally 0-1/4 lengths of blades;</text>
+      <biological_entity id="o71" name="petiole" name_original="petioles" type="structure">
+        <character is_modifier="false" modifier="distally" name="size" value="reduced" />
+        <character char_type="range_value" from="0 lengths of blades" name="length" to="1/4 lengths of blades" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s3">
+      <text>Branches 0-10+, usually arising in distal 1/2, ascending, usually reaching a moreorless common height;</text>
+      <biological_entity constraint="distal" id="o73" name="1/2" name_original="1/2" type="structure" />
+    </statement>
+    <statement id="d0_s4">
+      <text>Outer pectinately spiny 1/2 their length with many lateral spines;</text>
+      <biological_entity id="o72" name="branch" name_original="branches" type="structure">
+        <character char_type="range_value" from="0" name="quantity" to="10" upper_restricted="false" />
+        <character constraint="in distal 1/2" constraintid="o73" is_modifier="false" modifier="usually" name="orientation" value="arising" />
+        <character is_modifier="false" name="orientation" notes="" value="ascending" />
+        <character is_modifier="false" modifier="usually" name="position_relational" value="reaching" />
+        <character is_modifier="false" modifier="more or less" name="height" value="common" />
+        <character is_modifier="false" name="position" value="outer" />
+        <character is_modifier="false" modifier="pectinately" name="architecture_or_shape" value="spiny" />
+        <character name="quantity" value="1/2" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s5">
+      <text>Leaves, 2-3 times ternately lobed or dissected;</text>
+      <biological_entity id="o74" name="leaf" name_original="leaves" type="structure">
+        <character is_modifier="false" name="shape" value="2-3 times ternately lobed or dissected " />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s6">
+      <text>Peduncle lengths 0.5-3 times cypsela bodies at flowering;</text>
+      <biological_entity id="o75" name="peduncle" name_original="peduncle" type="structure">
+        <character constraint="body; at flowering" constraintid="o76" is_modifier="false" name="length" value="0.5-3 times cypsela bodies" />
+      </biological_entity>
+      <biological_entity constraint="cypsela" id="o76" name="body" name_original="bodies" type="structure" />
+    </statement>
+    <statement id="d0_s7">
+      <text>Corolla lobes 2 times as-long-as corolla throat;</text>
+      <biological_entity constraint="corolla" id="o77" name="lobe" name_original="lobes" type="structure">
+        <character constraint="throat" constraintid="o78" is_modifier="false" name="length" value="2 times as long as corolla throat" />
+      </biological_entity>
+      <biological_entity constraint="corolla" id="o78" name="throat" name_original="throat" type="structure" />
+    </statement>
+    <statement id="d0_s8">
+      <text>Leaves usually 0-5 times longer than wide;</text>
+      <biological_entity id="o79" name="leaf" name_original="leaves" type="structure">
+        <character is_modifier="false" name="l_w_ratio" value="0-5" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s9">
+      <text>Leaf lengths usually 10+ times longer widths;</text>
+    </statement>
+    <statement id="d0_s10">
+      <text>Lengths, 1/2-2 times bodies;</text>
+      <biological_entity id="o80" name="leaf" name_original="leaf" type="structure">
+        <character is_modifier="false" modifier="usually" name="l_w_ratio" value="10+" />
+        <character constraint="body" constraintid="o81" is_modifier="false" name="length" value="1/2-2 times bodies" />
+      </biological_entity>
+      <biological_entity id="o81" name="body" name_original="bodies" type="structure" />
+    </statement>
+    <statement id="d0_s11">
+      <text>Blades usually 1-2+ times pinnately lobed;</text>
+      <biological_entity id="o82" name="blade" name_original="blades" type="structure">
+        <character is_modifier="false" name="shape" value="1-2+ times pinnately lobed " />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s12">
+      <text>Peduncle lengths 2-5 times leafy portions of stems;</text>
+      <biological_entity id="o84" name="portion" name_original="portions" type="structure" />
+      <biological_entity id="o85" name="stem" name_original="stems" type="structure" />
+    </statement>
+    <statement id="d0_s13">
+      <text>Lengths of proximal branches 2 times array heights;</text>
+      <biological_entity id="o83" name="peduncle" name_original="peduncle" type="structure">
+        <character constraint="of stems" constraintid="o85" is_modifier="false" name="length" value="2-5 times leafy portions" />
+      </biological_entity>
+      <biological_entity constraint="proximal" id="o86" name="branch" name_original="branches" type="structure">
+        <character constraint="array" constraintid="o87" is_modifier="false" name="length" value="2 times array heights" />
+      </biological_entity>
+      <biological_entity id="o87" name="array" name_original="array" type="structure" />
+    </statement>
+    <statement id="d0_s14">
+      <text>Tubes 2 times longer than narrowly funnelform throats;</text>
+      <biological_entity id="o88" name="tube" name_original="tubes" type="structure">
+        <character constraint="throat" constraintid="o89" is_modifier="false" name="length_or_size" value="2 times longer than narrowly funnelform throats" />
+      </biological_entity>
+      <biological_entity id="o89" name="throat" name_original="throats" type="structure" />
+    </statement>
+    <statement id="d0_s15">
+      <text>Tubes 1/4-1/2 times more or less funnelform throats;</text>
+      <biological_entity id="o91" name="throat" name_original="throats" type="structure" />
+    </statement>
+    <statement id="d0_s16">
+      <text>Lengths mostly 3.5-6 times longest diams;</text>
+      <biological_entity id="o90" name="tube" name_original="tubes" type="structure">
+        <character constraint="throat" constraintid="o91" is_modifier="false" name="size_or_quantity" value="1/4-1/2 times more or less funnelform throats" />
+        <character is_modifier="false" modifier="mostly" name="length" value="3.5-6 times longest diams" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s17">
+      <text>Arrays 2-3 times as-long-as wide;</text>
+      <biological_entity id="o92" name="array" name_original="arrays" type="structure">
+        <character is_modifier="false" name="l_w_ratio" value="2-3" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s18">
+      <text>Blades of cauline leaves mostly oblanceolate, lengths 4–7+ times widths;</text>
+      <biological_entity id="o93" name="blade" name_original="blades" type="structure">
+        <character is_modifier="false" modifier="mostly" name="shape" value="oblanceolate" />
+        <character is_modifier="false" name="l_w_ratio" value="4-7+" />
+      </biological_entity>
+      <biological_entity constraint="cauline" id="o94" name="leaf" name_original="leaves" type="structure" />
+      <relation from="o93" id="r4" name="part_of" negation="false" to="o94" />
+    </statement>
+    <statement id="d0_s19">
+      <text>Leaf-blades oblong or elliptic to lance-elliptic or lanceolate, lengths 1.5–4+ widths;</text>
+      <biological_entity id="o95" name="leaf-blade" name_original="leaf-blades" type="structure">
+        <character is_modifier="false" name="shape" value="oblong" />
+        <character is_modifier="false" name="arrangement_or_shape" value="elliptic" />
+        <character is_modifier="false" name="shape" value="lance-elliptic" />
+        <character is_modifier="false" name="shape" value="lanceolate" />
+        <character is_modifier="false" name="l_w_ratio" value="1.5-4+" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s20">
+      <text>Cypsela widths 0.6 – 0.75 times lengths;</text>
+      <biological_entity id="o96" name="cypselum" name_original="cypsela" type="structure">
+        <character is_modifier="false" name="l_w_ratio" value="1/(0.6-0.75)" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s21">
+      <text>Cypsela beaks, 3–, 4–10 mm, lengths, 1/2–, 2 times bodies;</text>
+      <biological_entity constraint="cypsela" id="o97" name="beak" name_original="beaks" type="structure">
+        <character char_type="range_value" from="4" from_unit="mm" name="size" to="10" to_unit="mm" />
+        <character constraint="body" constraintid="o98" is_modifier="false" name="length" value="1/2- , 2 times bodies" />
+      </biological_entity>
+      <biological_entity id="o98" name="body" name_original="bodies" type="structure" />
+    </statement>
+    <statement id="d0_s22">
+      <text>Capitular leaves mostly not appressed to heads, spatulate to obovate, lengths mostly 2-5 widths;</text>
+      <biological_entity constraint="capitular" id="o99" name="leaf" name_original="leaves" type="structure">
+        <character constraint="to heads" constraintid="o100" is_modifier="false" modifier="mostly not" name="fixation_or_orientation" value="appressed" />
+        <character is_modifier="false" name="shape" notes="[duplicate value]" value="spatulate" />
+        <character is_modifier="false" name="shape" notes="[duplicate value]" value="obovate" />
+        <character char_type="range_value" from="spatulate" name="shape" notes="" to="obovate" />
+        <character is_modifier="false" modifier="mostly" name="l_w_ratio" value="2-5" />
+      </biological_entity>
+      <biological_entity id="o100" name="head" name_original="heads" ontologyid="http://purl.obolibrary.org/obo/SPD_0000016" type="structure" />
+    </statement>
+    <statement id="d0_s23">
+      <text>Heads radiate, borne singly or in 2s or 3s, or in tight to loose, corymbiform arrays;</text>
+      <biological_entity id="o101" name="head" name_original="heads" ontologyid="http://purl.obolibrary.org/obo/SPD_0000016" type="structure">
+        <character is_modifier="false" name="architecture_or_arrangement" value="radiate" />
+        <character is_modifier="false" name="arrangement" value="singly" />
+        <character is_modifier="false" name="arrangement" value="in 2s or 3s , or in tight to loose , corymbiform arrays" />
+      </biological_entity>
+      <biological_entity id="o102" name="array" name_original="arrays" type="structure">
+        <character is_modifier="true" name="arrangement_or_density" value="tight" />
+        <character is_modifier="true" name="architecture_or_fragility" value="loose" />
+        <character is_modifier="true" name="architecture" value="corymbiform" />
+      </biological_entity>
+      <relation from="o101" id="r5" name="in 2s or 3s , or in" negation="false" to="o102" />
+    </statement>
+  </description>
+</bio:treatment>
+<!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
 -->

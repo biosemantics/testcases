@@ -5,31 +5,32 @@
       <author>Hong Cui</author>
       <date>2014</date>
     </source>
-<processed_by>
-<processor>
-<date>2015/08/20 11:09:35</date>
-<software type="Semantic Markup" version="0.1.152-SNAPSHOT">CharaParser</software>
-<operator />
-<resource type="OTO Glossary" version="0.2">Spider</resource>
-</processor>
-<processor>
-<date>2015/08/20 11:09:35</date>
-<software type="Semantic Markup" version="0.1.152-SNAPSHOT">CharaParser - Ontology Mapping</software>
-<operator />
-<resource type="Ontology(ies)" version="N/A">SPD,  PATO,  BSPO,  RO,</resource>
-</processor>
-</processed_by>
+    <processed_by>
+      <processor>
+        <date>2015/12/17 13:19:33</date>
+        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <operator />
+        <resource type="OTO Glossary" version="0.2">Spider</resource>
+      </processor>
+      <processor>
+        <date>2015/12/17 13:19:34</date>
+        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <operator />
+        <resource type="Ontology(ies)" version="N/A">RO,  SPD,  PATO,  BSPO,</resource>
+      </processor>
+    </processed_by>
   </meta>
   <taxon_identification status="ACCEPTED">
     <taxon_name authority="example" rank="genus">Synthesised</taxon_name>
   </taxon_identification>
   <description type="morphology">
-<statement id="d0_s0">
-<text>Branches in contact with flowers;</text>
-<biological_entity id="o341" name="branch" name_original="branches" type="structure" />
-<biological_entity id="o342" name="flower" name_original="flowers" type="structure" />
-<relation from="o341" id="r61" name="in contact with" negation="false" to="o342" />
-</statement>
-</description>
-</bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+    <statement id="d0_s0">
+      <text>Branches in contact with flowers;</text>
+      <biological_entity id="o353" name="branch" name_original="branches" type="structure" />
+      <biological_entity id="o354" name="flower" name_original="flowers" type="structure" />
+      <relation from="o353" id="r62" name="in contact with" negation="false" to="o354" />
+    </statement>
+  </description>
+</bio:treatment>
+<!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
 -->

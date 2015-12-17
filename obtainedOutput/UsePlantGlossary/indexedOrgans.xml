@@ -5,80 +5,93 @@
       <author>Hong Cui</author>
       <date>2014</date>
     </source>
-<processed_by>
-<processor>
-<date>2015/07/29 13:45:19</date>
-<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
-<operator />
-<resource type="OTO Glossary" version="0.19">Plant</resource>
-</processor>
-<processor>
-<date>2015/07/29 13:45:20</date>
-<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
-<operator />
-<resource type="Ontology(ies)" version="N/A">PO,  PATO,  BSPO,  RO,</resource>
-</processor>
-</processed_by>
+    <processed_by>
+      <processor>
+        <date>2015/12/17 13:32:50</date>
+        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <operator />
+        <resource type="OTO Glossary" version="0.19">Plant</resource>
+      </processor>
+      <processor>
+        <date>2015/12/17 13:32:51</date>
+        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <operator />
+        <resource type="Ontology(ies)" version="N/A">PATO,  PO,  BSPO,  RO,</resource>
+      </processor>
+    </processed_by>
   </meta>
   <taxon_identification status="ACCEPTED">
     <taxon_name authority="example" rank="genus">CycadsOthers</taxon_name>
   </taxon_identification>
   <description type="morphology">
-<statement id="d0_s0">
-<text>legs I-III long, touch leg IV.</text>
-<biological_entity constraint="legs" id="o268_1" name="i" name_original="i-iii" type="structure">
-<character is_modifier="false" name="length_or_size" value="long" />
-</biological_entity>
-<biological_entity constraint="legs" id="o268_2" name="ii" name_original="i-iii" type="structure">
-<character is_modifier="false" name="length_or_size" value="long" />
-</biological_entity>
-<biological_entity constraint="legs" id="o268_3" name="iii" name_original="i-iii" type="structure">
-<character is_modifier="false" name="length_or_size" value="long" />
-</biological_entity>
-<biological_entity constraint="leg" id="o269" name="iv" name_original="iv" type="structure" />
-<relation from="o268_3" id="r42" name="touch" negation="false" to="o269" />
-<relation from="o268_2" id="r42" name="touch" negation="false" to="o269" />
-<relation from="o268_1" id="r42" name="touch" negation="false" to="o269" />
-</statement>
-<statement id="d0_s1">
-<text>legs I and II darker from tibia to tarsus;</text>
-<biological_entity id="o270" name="leg" name_original="legs" type="structure">
-<character constraint="from tibia" constraintid="o272" is_modifier="false" name="coloration" value="darker" />
-</biological_entity>
-<biological_entity id="o271" name="ii" name_original="ii" type="structure">
-<character constraint="from tibia" constraintid="o272" is_modifier="false" name="coloration" value="darker" />
-</biological_entity>
-<biological_entity id="o272" name="tibia" name_original="tibia" type="structure" />
-<biological_entity id="o273" name="tarsus" name_original="tarsus" type="structure" />
-<relation from="o272" id="r43" name="to" negation="false" to="o273" />
-</statement>
-<statement id="d0_s2">
-<text>legs I, II, and III darker.</text>
-<biological_entity id="o274" name="leg" name_original="legs" type="structure">
-<character is_modifier="false" name="coloration" value="darker" />
-</biological_entity>
-<biological_entity id="o275" name="ii" name_original="ii" type="structure">
-<character is_modifier="false" name="coloration" value="darker" />
-</biological_entity>
-<biological_entity id="o276" name="iii" name_original="iii" type="structure">
-<character is_modifier="false" name="coloration" value="darker" />
-</biological_entity>
-</statement>
-<statement id="d0_s3">
-<text>legs I to IV strong.</text>
-<biological_entity constraint="legs" id="o277_1" name="i" name_original="i-iv" type="structure">
-<character is_modifier="false" name="fragility" value="strong" />
-</biological_entity>
-<biological_entity constraint="legs" id="o277_2" name="ii" name_original="i-iv" type="structure">
-<character is_modifier="false" name="fragility" value="strong" />
-</biological_entity>
-<biological_entity constraint="legs" id="o277_3" name="iii" name_original="i-iv" type="structure">
-<character is_modifier="false" name="fragility" value="strong" />
-</biological_entity>
-<biological_entity constraint="legs" id="o277_4" name="iv" name_original="i-iv" type="structure">
-<character is_modifier="false" name="fragility" value="strong" />
-</biological_entity>
-</statement>
-</description>
-</bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+    <statement id="d0_s0">
+      <text>Spines as in female, except patellae legs I-iv.</text>
+      <biological_entity id="o275" name="spine" name_original="spines" type="structure" />
+      <biological_entity constraint="legs" id="o276_0" name="i" name_original="i-iv" type="structure" />
+      <biological_entity constraint="legs" id="o276_1" name="ii" name_original="i-iv" type="structure" />
+      <biological_entity constraint="legs" id="o276_2" name="iii" name_original="i-iv" type="structure" />
+      <biological_entity constraint="legs" id="o276_3" name="iv" name_original="i-iv" type="structure" />
+      <relation from="o275" id="r42_0" modifier="in as female" name="except" negation="false" to="o276_0" />
+      <relation from="o275" id="r42_1" modifier="in as female" name="except" negation="false" to="o276_1" />
+      <relation from="o275" id="r42_2" modifier="in as female" name="except" negation="false" to="o276_2" />
+      <relation from="o275" id="r42_3" modifier="in as female" name="except" negation="false" to="o276_3" />
+    </statement>
+    <statement id="d0_s1">
+      <text>legs I-iii long, touch leg IV.</text>
+      <biological_entity constraint="legs" id="o277_0" name="i" name_original="i-iii" type="structure">
+        <character is_modifier="false" name="length_or_size" value="long" />
+      </biological_entity>
+      <biological_entity constraint="legs" id="o277_1" name="ii" name_original="i-iii" type="structure">
+        <character is_modifier="false" name="length_or_size" value="long" />
+      </biological_entity>
+      <biological_entity constraint="legs" id="o277_2" name="iii" name_original="i-iii" type="structure">
+        <character is_modifier="false" name="length_or_size" value="long" />
+      </biological_entity>
+      <biological_entity constraint="leg" id="o278" name="iv" name_original="iv" type="structure" />
+      <relation from="o277_0" id="r43_0" name="touch" negation="false" to="o278" />
+      <relation from="o277_1" id="r43_1" name="touch" negation="false" to="o278" />
+      <relation from="o277_2" id="r43_2" name="touch" negation="false" to="o278" />
+    </statement>
+    <statement id="d0_s2">
+      <text>legs I and II darker from tibia to tarsus;</text>
+      <biological_entity id="o279" name="leg" name_original="legs" type="structure">
+        <character constraint="from tibia" constraintid="o281" is_modifier="false" name="coloration" value="darker" />
+      </biological_entity>
+      <biological_entity id="o280" name="ii" name_original="ii" type="structure">
+        <character constraint="from tibia" constraintid="o281" is_modifier="false" name="coloration" value="darker" />
+      </biological_entity>
+      <biological_entity id="o281" name="tibia" name_original="tibia" type="structure" />
+      <biological_entity id="o282" name="tarsus" name_original="tarsus" type="structure" />
+      <relation from="o281" id="r44" name="to" negation="false" to="o282" />
+    </statement>
+    <statement id="d0_s3">
+      <text>legs I, II, and III darker.</text>
+      <biological_entity id="o283" name="leg" name_original="legs" type="structure">
+        <character is_modifier="false" name="coloration" value="darker" />
+      </biological_entity>
+      <biological_entity id="o284" name="ii" name_original="ii" type="structure">
+        <character is_modifier="false" name="coloration" value="darker" />
+      </biological_entity>
+      <biological_entity id="o285" name="iii" name_original="iii" type="structure">
+        <character is_modifier="false" name="coloration" value="darker" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s4">
+      <text>legs I to IV strong.</text>
+      <biological_entity constraint="legs" id="o286_0" name="i" name_original="i-iv" type="structure">
+        <character is_modifier="false" name="fragility" value="strong" />
+      </biological_entity>
+      <biological_entity constraint="legs" id="o286_1" name="ii" name_original="i-iv" type="structure">
+        <character is_modifier="false" name="fragility" value="strong" />
+      </biological_entity>
+      <biological_entity constraint="legs" id="o286_2" name="iii" name_original="i-iv" type="structure">
+        <character is_modifier="false" name="fragility" value="strong" />
+      </biological_entity>
+      <biological_entity constraint="legs" id="o286_3" name="iv" name_original="i-iv" type="structure">
+        <character is_modifier="false" name="fragility" value="strong" />
+      </biological_entity>
+    </statement>
+  </description>
+</bio:treatment>
+<!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
 -->

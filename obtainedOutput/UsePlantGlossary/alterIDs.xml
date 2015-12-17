@@ -5,84 +5,85 @@
       <author>Hong Cui</author>
       <date>2014</date>
     </source>
-<processed_by>
-<processor>
-<date>2015/07/29 13:45:19</date>
-<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
-<operator />
-<resource type="OTO Glossary" version="0.19">Plant</resource>
-</processor>
-<processor>
-<date>2015/07/29 13:45:20</date>
-<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
-<operator />
-<resource type="Ontology(ies)" version="N/A">PO,  PATO,  BSPO,  RO,</resource>
-</processor>
-</processed_by>
+    <processed_by>
+      <processor>
+        <date>2015/12/17 13:32:50</date>
+        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <operator />
+        <resource type="OTO Glossary" version="0.19">Plant</resource>
+      </processor>
+      <processor>
+        <date>2015/12/17 13:32:51</date>
+        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <operator />
+        <resource type="Ontology(ies)" version="N/A">PATO,  PO,  BSPO,  RO,</resource>
+      </processor>
+    </processed_by>
   </meta>
   <taxon_identification status="ACCEPTED">
     <taxon_name authority="example" rank="genus">CycadsOthers</taxon_name>
   </taxon_identification>
   <description type="morphology">
-<statement id="d0_s0">
-<text>Megasporophylls 8-12 cm long, brown-tomentose;</text>
-<biological_entity id="o0" name="megasporophyll" name_original="megasporophylls" type="structure">
-<character char_type="range_value" from="8" from_unit="cm" name="length" to="12" to_unit="cm" />
-<character is_modifier="false" name="pubescence" value="brown-tomentose" />
-</biological_entity>
-</statement>
-<statement id="d0_s1">
-<text>ovules 2-4, glabrous, lamina ovate 25-40 mm long, 15-25 mm wide, deeply pectinate, with 14-22 soft lateral spines 15-25 mm long, 2.5 mm wide, apical spine not distinct from lateral spines.</text>
-<biological_entity id="o1" name="ovule" name_original="ovules" type="structure">
-<character char_type="range_value" from="2" name="quantity" to="4" />
-<character is_modifier="false" name="pubescence" value="glabrous" />
-</biological_entity>
-<biological_entity id="o2" name="lamina" name_original="lamina" type="structure">
-<character is_modifier="false" name="shape" value="ovate" />
-<character char_type="range_value" from="25" from_unit="mm" name="length" to="40" to_unit="mm" />
-<character char_type="range_value" from="15" from_unit="mm" name="width" to="25" to_unit="mm" />
-<character is_modifier="false" modifier="deeply" name="shape" value="pectinate" />
-</biological_entity>
-<biological_entity constraint="lateral" id="o3" name="spine" name_original="spines" type="structure">
-<character char_type="range_value" from="14" is_modifier="true" name="quantity" to="22" />
-<character is_modifier="true" name="pubescence_or_texture" value="soft" />
-<character char_type="range_value" from="15" from_unit="mm" name="length" to="25" to_unit="mm" />
-<character name="width" unit="mm" value="2.5" />
-</biological_entity>
-<biological_entity constraint="apical" id="o4" name="spine" name_original="spine" type="structure">
-<character constraint="from lateral spines" constraintid="o5" is_modifier="false" modifier="not" name="fusion" value="distinct" />
-</biological_entity>
-<biological_entity constraint="lateral" id="o5" name="spine" name_original="spines" type="structure" />
-<relation from="o2" id="r0" name="with" negation="false" to="o3" />
-</statement>
-<statement id="d0_s2">
-<text>Chelicerae strong, length of spiracle 0.93 mm, width 0.60 mm.</text>
-<biological_entity id="o6" name="chelicera" name_original="chelicerae" type="structure">
-<character is_modifier="false" name="fragility" value="strong" />
-</biological_entity>
-<biological_entity id="o7" name="spiracle" name_original="spiracle" type="structure">
-<character name="length" unit="mm" value="0.93" />
-<character name="width" unit="mm" value="0.60" />
-</biological_entity>
-</statement>
-<statement id="d0_s3">
-<text>Petiole up to 80 cm long, sparsely armed with 0–15 (−30) prickles to 3.4 mm long, petiole base swollen and glabrous, up to 6 cm long, and 3.5−6 cm thick.</text>
-<biological_entity id="o8" name="petiole" name_original="petiole" type="structure">
-<character char_type="range_value" from="0" from_unit="cm" name="length" to="80" to_unit="cm" />
-<character constraint="with prickles" constraintid="o9" is_modifier="false" modifier="sparsely" name="architecture" value="armed" />
-</biological_entity>
-<biological_entity id="o9" name="prickle" name_original="prickles" type="structure">
-<character char_type="range_value" from="15" from_inclusive="false" is_modifier="true" name="atypical_quantity" to="30" />
-<character char_type="range_value" from="0" is_modifier="true" name="quantity" to="15" />
-<character char_type="range_value" from="0" from_unit="mm" name="length" to="3.4" to_unit="mm" />
-</biological_entity>
-<biological_entity constraint="petiole" id="o10" name="base" name_original="base" type="structure">
-<character is_modifier="false" name="shape" value="swollen" />
-<character is_modifier="false" name="pubescence" value="glabrous" />
-<character char_type="range_value" from="0" from_unit="cm" name="length" to="6" to_unit="cm" />
-<character char_type="range_value" from="3.5" from_unit="cm" name="thickness" to="6" to_unit="cm" />
-</biological_entity>
-</statement>
-</description>
-</bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+    <statement id="d0_s0">
+      <text>Megasporophylls 8-12 cm long, brown-tomentose;</text>
+      <biological_entity id="o0" name="megasporophyll" name_original="megasporophylls" type="structure">
+        <character char_type="range_value" from="8" from_unit="cm" name="length" to="12" to_unit="cm" />
+        <character is_modifier="false" name="pubescence" value="brown-tomentose" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s1">
+      <text>ovules 2-4, glabrous, lamina ovate 25-40 mm long, 15-25 mm wide, deeply pectinate, with 14-22 soft lateral spines 15-25 mm long, 2.5 mm wide, apical spine not distinct from lateral spines.</text>
+      <biological_entity id="o1" name="ovule" name_original="ovules" type="structure">
+        <character char_type="range_value" from="2" name="quantity" to="4" />
+        <character is_modifier="false" name="pubescence" value="glabrous" />
+      </biological_entity>
+      <biological_entity id="o2" name="lamina" name_original="lamina" type="structure">
+        <character is_modifier="false" name="shape" value="ovate" />
+        <character char_type="range_value" from="25" from_unit="mm" name="length" to="40" to_unit="mm" />
+        <character char_type="range_value" from="15" from_unit="mm" name="width" to="25" to_unit="mm" />
+        <character is_modifier="false" modifier="deeply" name="shape" value="pectinate" />
+      </biological_entity>
+      <biological_entity constraint="lateral" id="o3" name="spine" name_original="spines" type="structure">
+        <character char_type="range_value" from="14" is_modifier="true" name="quantity" to="22" />
+        <character is_modifier="true" name="pubescence_or_texture" value="soft" />
+        <character char_type="range_value" from="15" from_unit="mm" name="length" to="25" to_unit="mm" />
+        <character name="width" notes="" unit="mm" value="2.5" />
+      </biological_entity>
+      <biological_entity constraint="apical" id="o4" name="spine" name_original="spine" type="structure">
+        <character constraint="from lateral spines" constraintid="o5" is_modifier="false" modifier="not" name="fusion" value="distinct" />
+      </biological_entity>
+      <biological_entity constraint="lateral" id="o5" name="spine" name_original="spines" type="structure" />
+      <relation from="o2" id="r0" name="with" negation="false" to="o3" />
+    </statement>
+    <statement id="d0_s2">
+      <text>Chelicerae strong, length of spiracle 0.93 mm, width 0.60 mm.</text>
+      <biological_entity id="o6" name="chelicera" name_original="chelicerae" type="structure">
+        <character is_modifier="false" name="fragility" value="strong" />
+        <character name="width" notes="" unit="mm" value="0.60" />
+      </biological_entity>
+      <biological_entity id="o7" name="spiracle" name_original="spiracle" type="structure">
+        <character name="length" unit="mm" value="0.93" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s3">
+      <text>Petiole up to 80 cm long, sparsely armed with 0–15 (−30) prickles to 3.4 mm long, petiole base swollen and glabrous, up to 6 cm long, and 3.5−6 cm thick.</text>
+      <biological_entity id="o8" name="petiole" name_original="petiole" type="structure">
+        <character char_type="range_value" from="0" from_unit="cm" name="length" to="80" to_unit="cm" />
+        <character constraint="with prickles" constraintid="o9" is_modifier="false" modifier="sparsely" name="architecture" value="armed" />
+      </biological_entity>
+      <biological_entity id="o9" name="prickle" name_original="prickles" type="structure">
+        <character char_type="range_value" from="15" from_inclusive="false" is_modifier="true" name="atypical_quantity" to="30" />
+        <character char_type="range_value" from="0" is_modifier="true" name="quantity" to="15" />
+        <character char_type="range_value" from="0" from_unit="mm" name="length" to="3.4" to_unit="mm" />
+      </biological_entity>
+      <biological_entity constraint="petiole" id="o10" name="base" name_original="base" type="structure">
+        <character is_modifier="false" name="shape" value="swollen" />
+        <character is_modifier="false" name="pubescence" value="glabrous" />
+        <character char_type="range_value" from="0" from_unit="cm" name="length" to="6" to_unit="cm" />
+        <character char_type="range_value" from="3.5" from_unit="cm" name="thickness" to="6" to_unit="cm" />
+      </biological_entity>
+    </statement>
+  </description>
+</bio:treatment>
+<!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
 -->

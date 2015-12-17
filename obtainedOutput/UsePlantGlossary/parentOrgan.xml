@@ -5,38 +5,69 @@
       <author>Hong Cui</author>
       <date>2014</date>
     </source>
-<processed_by>
-<processor>
-<date>2015/07/29 13:45:19</date>
-<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
-<operator />
-<resource type="OTO Glossary" version="0.19">Plant</resource>
-</processor>
-<processor>
-<date>2015/07/29 13:45:20</date>
-<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
-<operator />
-<resource type="Ontology(ies)" version="N/A">PO,  PATO,  BSPO,  RO,</resource>
-</processor>
-</processed_by>
+    <processed_by>
+      <processor>
+        <date>2015/12/17 13:32:50</date>
+        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <operator />
+        <resource type="OTO Glossary" version="0.19">Plant</resource>
+      </processor>
+      <processor>
+        <date>2015/12/17 13:32:51</date>
+        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <operator />
+        <resource type="Ontology(ies)" version="N/A">PATO,  PO,  BSPO,  RO,</resource>
+      </processor>
+    </processed_by>
   </meta>
   <taxon_identification status="ACCEPTED">
     <taxon_name authority="example" rank="genus">Synthesised</taxon_name>
   </taxon_identification>
   <description type="morphology">
-<statement id="d0_s0">
-<text>Chelicerae with three teeth on promargin (middle tooth larger), four on retromargin.</text>
-<biological_entity id="o325" name="chelicera" name_original="chelicerae" type="structure" />
-<biological_entity id="o326" name="tooth" name_original="teeth" type="structure">
-<character is_modifier="true" name="quantity" value="3" />
-</biological_entity>
-<biological_entity id="o327" name="promargin" name_original="promargin" type="structure">
-<character constraint="on retromargin" constraintid="o328" name="quantity" value="4" />
-</biological_entity>
-<biological_entity id="o328" name="retromargin" name_original="retromargin" type="structure" />
-<relation from="o325" id="r55" name="with" negation="false" to="o326" />
-<relation from="o326" id="r56" name="on" negation="false" to="o327" />
-</statement>
-</description>
-</bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+    <statement id="d0_s0">
+      <text>Chelicerae with three teeth on promargin (middle tooth larger), four on retromargin.</text>
+      <biological_entity id="o336" name="chelicera" name_original="chelicerae" type="structure" />
+      <biological_entity id="o337" name="tooth" name_original="teeth" type="structure">
+        <character is_modifier="true" name="quantity" value="3" />
+      </biological_entity>
+      <biological_entity id="o338" name="promargin" name_original="promargin" type="structure">
+        <character constraint="on retromargin" constraintid="o339" name="quantity" value="4" />
+      </biological_entity>
+      <biological_entity id="o339" name="retromargin" name_original="retromargin" type="structure" />
+      <relation from="o336" id="r56" name="with" negation="false" to="o337" />
+      <relation from="o337" id="r57" name="on" negation="false" to="o338" />
+    </statement>
+    <statement id="d0_s1">
+      <text>Carapace very wide in front (fig. 97B, D), length 4.00 mm, width 3.13 mm. ovules 2-4, glabrous, lamina ovate 25-4 mm long, 15-25 mm wide, deeply pectinate, with 14-22 soft lateral spines 15-25 mm long, 2.5 mm wide, apical spine not distinct from lateral spines.</text>
+      <biological_entity id="o340" name="carapace" name_original="carapace" type="structure">
+        <character constraint="in front" constraintid="o341" is_modifier="false" modifier="very" name="width" value="wide" />
+        <character name="length" notes="" unit="mm" value="4.00" />
+        <character name="width" unit="mm" value="3.13" />
+      </biological_entity>
+      <biological_entity id="o341" name="front" name_original="front" type="structure" />
+      <biological_entity id="o342" name="ovule" name_original="ovules" type="structure">
+        <character char_type="range_value" from="2" name="quantity" to="4" />
+        <character is_modifier="false" name="pubescence" value="glabrous" />
+      </biological_entity>
+      <biological_entity id="o343" name="lamina" name_original="lamina" type="structure">
+        <character is_modifier="false" name="shape" value="ovate" />
+        <character char_type="range_value" from="25" from_unit="mm" name="length" to="4" to_unit="mm" />
+        <character char_type="range_value" from="15" from_unit="mm" name="width" to="25" to_unit="mm" />
+        <character is_modifier="false" modifier="deeply" name="shape" value="pectinate" />
+      </biological_entity>
+      <biological_entity constraint="lateral" id="o344" name="spine" name_original="spines" type="structure">
+        <character char_type="range_value" from="14" is_modifier="true" name="quantity" to="22" />
+        <character is_modifier="true" name="pubescence_or_texture" value="soft" />
+        <character char_type="range_value" from="15" from_unit="mm" name="length" to="25" to_unit="mm" />
+        <character name="width" notes="" unit="mm" value="2.5" />
+      </biological_entity>
+      <biological_entity constraint="apical" id="o345" name="spine" name_original="spine" type="structure">
+        <character constraint="from lateral spines" constraintid="o346" is_modifier="false" modifier="not" name="fusion" value="distinct" />
+      </biological_entity>
+      <biological_entity constraint="lateral" id="o346" name="spine" name_original="spines" type="structure" />
+      <relation from="o343" id="r58" name="with" negation="false" to="o344" />
+    </statement>
+  </description>
+</bio:treatment>
+<!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
 -->

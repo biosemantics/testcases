@@ -5,128 +5,129 @@
       <author>Hong Cui</author>
       <date>2014</date>
     </source>
-<processed_by>
-<processor>
-<date>2015/07/29 13:45:19</date>
-<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser</software>
-<operator />
-<resource type="OTO Glossary" version="0.19">Plant</resource>
-</processor>
-<processor>
-<date>2015/07/29 13:45:20</date>
-<software type="Semantic Markup" version="0.1.149-SNAPSHOT">CharaParser - Ontology Mapping</software>
-<operator />
-<resource type="Ontology(ies)" version="N/A">PO,  PATO,  BSPO,  RO,</resource>
-</processor>
-</processed_by>
+    <processed_by>
+      <processor>
+        <date>2015/12/17 13:32:50</date>
+        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <operator />
+        <resource type="OTO Glossary" version="0.19">Plant</resource>
+      </processor>
+      <processor>
+        <date>2015/12/17 13:32:51</date>
+        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <operator />
+        <resource type="Ontology(ies)" version="N/A">PATO,  PO,  BSPO,  RO,</resource>
+      </processor>
+    </processed_by>
   </meta>
   <taxon_identification status="ACCEPTED">
     <taxon_name authority="example" rank="genus">Spider</taxon_name>
   </taxon_identification>
   <description type="morphology">
-<statement id="d0_s0">
-<text>Tibia/metatarsus length: leg I, 1.17/1.03 mm;</text>
-<biological_entity constraint="leg" id="o39_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.03" />
-</biological_entity>
-<biological_entity constraint="leg" id="o39_1" name="tibia" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.17" />
-</biological_entity>
-</statement>
-<statement id="d0_s1">
-<text>leg II, 1.13/1.07 mm;</text>
-<biological_entity constraint="ii" id="o40_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.07" />
-</biological_entity>
-<biological_entity constraint="ii" id="o40_1" name="tibia" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.13" />
-</biological_entity>
-</statement>
-<statement id="d0_s2">
-<text>leg III, 0.97/1.13 mm;</text>
-<biological_entity constraint="iii" id="o41_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.13" />
-</biological_entity>
-<biological_entity constraint="iii" id="o41_1" name="tibia" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="0.97" />
-</biological_entity>
-</statement>
-<statement id="d0_s3">
-<text>leg IV, 1.40/1.63 mm.</text>
-<biological_entity constraint="iv" id="o42_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.63" />
-</biological_entity>
-<biological_entity constraint="iv" id="o42_1" name="tibia" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.40" />
-</biological_entity>
-</statement>
-<statement id="d0_s4">
-<text>Chelicerae with three teeth on promargin (middle tooth larger), four on retromargin.</text>
-<biological_entity id="o43" name="chelicera" name_original="chelicerae" type="structure" />
-<biological_entity id="o44" name="tooth" name_original="teeth" type="structure">
-<character is_modifier="true" name="quantity" value="3" />
-</biological_entity>
-<biological_entity id="o45" name="promargin" name_original="promargin" type="structure">
-<character constraint="on retromargin" constraintid="o46" name="quantity" value="4" />
-</biological_entity>
-<biological_entity id="o46" name="retromargin" name_original="retromargin" type="structure" />
-<relation from="o43" id="r2" name="with" negation="false" to="o44" />
-<relation from="o44" id="r3" name="on" negation="false" to="o45" />
-</statement>
-<statement id="d0_s5">
-<text>Color: brown with dark-brown pattern.</text>
-<biological_entity id="o47" name="whole_organism" name_original="" type="structure">
-<character is_modifier="false" name="coloration" value="brown with dark-brown" />
-</biological_entity>
-</statement>
-<statement id="d0_s6">
-<text>Spiracle-epigastrium 0.18 mm.</text>
-<biological_entity id="o48" name="spiracle-epigastrium" name_original="spiracle-epigastrium" type="structure">
-<character name="distance" unit="mm" value="0.18" />
-</biological_entity>
-</statement>
-<statement id="d0_s7">
-<text>Color: leg brown with dark-brown pattern.</text>
-<biological_entity id="o50" name="leg" name_original="leg" type="structure">
-<character is_modifier="false" name="coloration" value="brown with dark-brown" />
-</biological_entity>
-</statement>
-<statement id="d0_s8">
-<text>Length of tibia/metatarsus: leg I, 1.17/1.03 mm;</text>
-<biological_entity constraint="leg" id="o51_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.03" />
-</biological_entity>
-<biological_entity constraint="leg" id="o51_1" name="tibia" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.17" />
-</biological_entity>
-</statement>
-<statement id="d0_s9">
-<text>leg II, 1.13/1.07 mm;</text>
-<biological_entity constraint="ii" id="o52_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.07" />
-</biological_entity>
-<biological_entity constraint="ii" id="o52_1" name="tibia" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.13" />
-</biological_entity>
-</statement>
-<statement id="d0_s10">
-<text>leg III, 0.97/1.13 mm;</text>
-<biological_entity constraint="iii" id="o53_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.13" />
-</biological_entity>
-<biological_entity constraint="iii" id="o53_1" name="tibia" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="0.97" />
-</biological_entity>
-</statement>
-<statement id="d0_s11">
-<text>leg IV, 1.40/1.63 mm.</text>
-<biological_entity constraint="iv" id="o54_2" name="metatarsus" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.63" />
-</biological_entity>
-<biological_entity constraint="iv" id="o54_1" name="tibia" name_original="tibia/metatarsus" type="structure">
-<character name="length" unit="mm" value="1.40" />
-</biological_entity>
-</statement>
-</description>
-</bio:treatment><!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
+    <statement id="d0_s0">
+      <text>Tibia/metatarsus length: leg I, 1.17/1.03 mm;</text>
+      <biological_entity constraint="leg" id="o50_0" name="tibia" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.17" />
+      </biological_entity>
+      <biological_entity constraint="leg" id="o50_1" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.03" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s1">
+      <text>leg II, 1.13/1.07 mm;</text>
+      <biological_entity constraint="leg" id="o51_0" name="tibia" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.13" />
+      </biological_entity>
+      <biological_entity constraint="leg" id="o51_1" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.07" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s2">
+      <text>leg III, 0.97/1.13 mm;</text>
+      <biological_entity constraint="leg" id="o52_0" name="tibia" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="0.97" />
+      </biological_entity>
+      <biological_entity constraint="leg" id="o52_1" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.13" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s3">
+      <text>leg IV, 1.40/1.63 mm.</text>
+      <biological_entity constraint="leg" id="o53_0" name="tibia" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.40" />
+      </biological_entity>
+      <biological_entity constraint="leg" id="o53_1" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.63" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s4">
+      <text>Chelicerae with three teeth on promargin (middle tooth larger), four on retromargin.</text>
+      <biological_entity id="o54" name="chelicera" name_original="chelicerae" type="structure" />
+      <biological_entity id="o55" name="tooth" name_original="teeth" type="structure">
+        <character is_modifier="true" name="quantity" value="3" />
+      </biological_entity>
+      <biological_entity id="o56" name="promargin" name_original="promargin" type="structure">
+        <character constraint="on retromargin" constraintid="o57" name="quantity" value="4" />
+      </biological_entity>
+      <biological_entity id="o57" name="retromargin" name_original="retromargin" type="structure" />
+      <relation from="o54" id="r2" name="with" negation="false" to="o55" />
+      <relation from="o55" id="r3" name="on" negation="false" to="o56" />
+    </statement>
+    <statement id="d0_s5">
+      <text>Color: brown with dark-brown pattern.</text>
+      <biological_entity id="o58" name="whole_organism" name_original="" type="structure">
+        <character is_modifier="false" name="coloration" value="brown with dark-brown" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s6">
+      <text>Spiracle-epigastrium 0.18 mm.</text>
+      <biological_entity id="o59" name="epigastrium-spiracle" name_original="spiracle-epigastrium" type="structure">
+        <character name="distance" unit="mm" value="0.18" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s7">
+      <text>Color: leg brown with dark-brown pattern.</text>
+      <biological_entity id="o61" name="leg" name_original="leg" type="structure">
+        <character is_modifier="false" name="coloration" value="brown with dark-brown" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s8">
+      <text>Length of tibia/metatarsus: leg I, 1.17/1.03 mm;</text>
+      <biological_entity constraint="leg" id="o62_0" name="tibia" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.17" />
+      </biological_entity>
+      <biological_entity constraint="leg" id="o62_1" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.03" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s9">
+      <text>leg II, 1.13/1.07 mm;</text>
+      <biological_entity constraint="leg" id="o63_0" name="tibia" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.13" />
+      </biological_entity>
+      <biological_entity constraint="leg" id="o63_1" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.07" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s10">
+      <text>leg III, 0.97/1.13 mm;</text>
+      <biological_entity constraint="leg" id="o64_0" name="tibia" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="0.97" />
+      </biological_entity>
+      <biological_entity constraint="leg" id="o64_1" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.13" />
+      </biological_entity>
+    </statement>
+    <statement id="d0_s11">
+      <text>leg IV, 1.40/1.63 mm.</text>
+      <biological_entity constraint="leg" id="o65_0" name="tibia" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.40" />
+      </biological_entity>
+      <biological_entity constraint="leg" id="o65_1" name="metatarsus" name_original="tibia/metatarsus" type="structure">
+        <character name="length" unit="mm" value="1.63" />
+      </biological_entity>
+    </statement>
+  </description>
+</bio:treatment>
+<!--produced by $Id: VolumeFinalizer.java 1457 2013-03-23 01:02:44Z hong1.cui@gmail.com $
 -->
