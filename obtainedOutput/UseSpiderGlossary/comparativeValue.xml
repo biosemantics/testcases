@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics https://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupOutput.xsd">
   <meta>
     <source>
       <author>Hong Cui</author>
@@ -7,16 +7,16 @@
     </source>
     <processed_by>
       <processor>
-        <date>2015/12/17 13:19:33</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <date>2016/10/28 16:06:30</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser</software>
         <operator />
         <resource type="OTO Glossary" version="0.2">Spider</resource>
       </processor>
       <processor>
-        <date>2015/12/17 13:19:34</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <date>2016/10/28 16:06:31</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser - Ontology Mapping</software>
         <operator />
-        <resource type="Ontology(ies)" version="N/A">RO,  SPD,  PATO,  BSPO,</resource>
+        <resource type="Ontology(ies)" version="N/A">BSPO,  SPD,  RO,  PATO,</resource>
       </processor>
     </processed_by>
   </meta>
@@ -175,7 +175,7 @@
     <statement id="d0_s21">
       <text>Cypsela beaks, 3–, 4–10 mm, lengths, 1/2–, 2 times bodies;</text>
       <biological_entity constraint="cypsela" id="o97" name="beak" name_original="beaks" type="structure">
-        <character char_type="range_value" from="4" from_unit="mm" name="size" to="10" to_unit="mm" />
+        <character char_type="range_value" from="4" from_unit="mm" name="some_measurement" to="10" to_unit="mm" />
         <character constraint="body" constraintid="o98" is_modifier="false" name="length" value="1/2- , 2 times bodies" />
       </biological_entity>
       <biological_entity id="o98" name="body" name_original="bodies" type="structure" />
@@ -189,11 +189,11 @@
         <character char_type="range_value" from="spatulate" name="shape" notes="" to="obovate" />
         <character is_modifier="false" modifier="mostly" name="l_w_ratio" value="2-5" />
       </biological_entity>
-      <biological_entity id="o100" name="head" name_original="heads" ontologyid="http://purl.obolibrary.org/obo/SPD_0000016" type="structure" />
+      <biological_entity id="o100" name="head" name_original="heads" type="structure" />
     </statement>
     <statement id="d0_s23">
       <text>Heads radiate, borne singly or in 2s or 3s, or in tight to loose, corymbiform arrays;</text>
-      <biological_entity id="o101" name="head" name_original="heads" ontologyid="http://purl.obolibrary.org/obo/SPD_0000016" type="structure">
+      <biological_entity id="o101" name="head" name_original="heads" type="structure">
         <character is_modifier="false" name="architecture_or_arrangement" value="radiate" />
         <character is_modifier="false" name="arrangement" value="singly" />
         <character is_modifier="false" name="arrangement" value="in 2s or 3s , or in tight to loose , corymbiform arrays" />

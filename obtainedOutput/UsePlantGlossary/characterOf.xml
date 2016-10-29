@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics https://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupOutput.xsd">
   <meta>
     <source>
       <author>Hong Cui</author>
@@ -7,16 +7,16 @@
     </source>
     <processed_by>
       <processor>
-        <date>2015/12/17 13:32:50</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <date>2016/10/28 16:55:36</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser</software>
         <operator />
         <resource type="OTO Glossary" version="0.19">Plant</resource>
       </processor>
       <processor>
-        <date>2015/12/17 13:32:51</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <date>2016/10/28 16:55:37</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser - Ontology Mapping</software>
         <operator />
-        <resource type="Ontology(ies)" version="N/A">PATO,  PO,  BSPO,  RO,</resource>
+        <resource type="Ontology(ies)" version="N/A">BSPO,  PO,  RO,  PATO,</resource>
       </processor>
     </processed_by>
   </meta>
@@ -133,13 +133,13 @@
         <character name="length" unit="mm" value="1.70" />
       </biological_entity>
       <biological_entity id="o38" name="leg-ii" name_original="leg-ii" type="structure">
-        <character name="size_or_shape" unit="mm" value="2.80/1.38" />
+        <character name="some_measurement_or_shape" unit="mm" value="2.80/1.38" />
       </biological_entity>
       <biological_entity id="o39" name="leg-iii" name_original="leg-iii" type="structure">
-        <character name="size_or_shape" unit="mm" value="2.05/0.86" />
+        <character name="some_measurement_or_shape" unit="mm" value="2.05/0.86" />
       </biological_entity>
       <biological_entity id="o40" name="leg-iv" name_original="leg-iv" type="structure">
-        <character name="size_or_shape" unit="mm" value="3.00/1.30" />
+        <character name="some_measurement_or_shape" unit="mm" value="3.00/1.30" />
       </biological_entity>
     </statement>
     <statement id="d0_s13">

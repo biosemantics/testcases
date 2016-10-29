@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics https://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupOutput.xsd">
   <meta>
     <source>
       <author>Hong Cui</author>
@@ -7,16 +7,16 @@
     </source>
     <processed_by>
       <processor>
-        <date>2015/12/17 13:32:50</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <date>2016/10/28 16:55:36</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser</software>
         <operator />
         <resource type="OTO Glossary" version="0.19">Plant</resource>
       </processor>
       <processor>
-        <date>2015/12/17 13:32:51</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <date>2016/10/28 16:55:37</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser - Ontology Mapping</software>
         <operator />
-        <resource type="Ontology(ies)" version="N/A">PATO,  PO,  BSPO,  RO,</resource>
+        <resource type="Ontology(ies)" version="N/A">BSPO,  PO,  RO,  PATO,</resource>
       </processor>
     </processed_by>
   </meta>
@@ -26,20 +26,20 @@
   <description type="morphology">
     <statement id="d0_s0">
       <text>Leaflets papyraceous, lanceolate, acute at apex, cuneate at base, margins serrate in upper two-thirds, 12-15 cm long, 1-2 cm wide.</text>
-      <biological_entity id="o347" name="leaflet" name_original="leaflets" type="structure">
+      <biological_entity id="o373" name="leaflet" name_original="leaflets" type="structure">
         <character is_modifier="false" name="texture" value="papyraceous" />
         <character is_modifier="false" name="shape" value="lanceolate" />
-        <character constraint="at apex" constraintid="o348" is_modifier="false" name="shape" value="acute" />
-        <character constraint="at base" constraintid="o349" is_modifier="false" name="shape" notes="" value="cuneate" />
+        <character constraint="at apex" constraintid="o374" is_modifier="false" name="shape" value="acute" />
+        <character constraint="at base" constraintid="o375" is_modifier="false" name="shape" notes="" value="cuneate" />
       </biological_entity>
-      <biological_entity id="o348" name="apex" name_original="apex" type="structure" />
-      <biological_entity id="o349" name="base" name_original="base" type="structure" />
-      <biological_entity id="o350" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
-        <character constraint="in upper 2/3" constraintid="o351" is_modifier="false" name="architecture_or_shape" value="serrate" />
+      <biological_entity id="o374" name="apex" name_original="apex" type="structure" />
+      <biological_entity id="o375" name="base" name_original="base" type="structure" />
+      <biological_entity id="o376" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
+        <character constraint="in upper 2/3" constraintid="o377" is_modifier="false" name="architecture_or_shape" value="serrate" />
         <character char_type="range_value" from="12" from_unit="cm" name="length" notes="" to="15" to_unit="cm" />
         <character char_type="range_value" from="1" from_unit="cm" name="width" to="2" to_unit="cm" />
       </biological_entity>
-      <biological_entity constraint="upper" id="o351" name="2/3" name_original="2/3" type="structure" />
+      <biological_entity constraint="upper" id="o377" name="2/3" name_original="2/3" type="structure" />
     </statement>
   </description>
 </bio:treatment>

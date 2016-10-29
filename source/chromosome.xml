@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics https://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupOutput.xsd">
+  <meta>
+    <source>
+      <author>Fernald</author>
+      <date>1950</date>
+      <title>Gray's Manual of Botany</title>
+    </source>
+    <processed_by>
+      <processor>
+        <date>Thursday, November 12, 2015</date>
+        <software type="Text Capture Input Generator" version="1.0" />
+        <operator>Hong cui (hong1.cui@gmail.com)</operator>
+      </processor>
+    </processed_by>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <taxon_name rank="family" authority="Linnaeus" date="1735">Rosaceae</taxon_name>
+  </taxon_identification>
+  <description type="morphology">2n=14; x=7; n=2n=10, 18-20, or 24; n=9</description>
+</bio:treatment>

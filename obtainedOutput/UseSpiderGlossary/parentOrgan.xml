@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics https://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupOutput.xsd">
   <meta>
     <source>
       <author>Hong Cui</author>
@@ -7,16 +7,16 @@
     </source>
     <processed_by>
       <processor>
-        <date>2015/12/17 13:19:33</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <date>2016/10/28 16:06:30</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser</software>
         <operator />
         <resource type="OTO Glossary" version="0.2">Spider</resource>
       </processor>
       <processor>
-        <date>2015/12/17 13:19:34</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <date>2016/10/28 16:06:31</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser - Ontology Mapping</software>
         <operator />
-        <resource type="Ontology(ies)" version="N/A">RO,  SPD,  PATO,  BSPO,</resource>
+        <resource type="Ontology(ies)" version="N/A">BSPO,  SPD,  RO,  PATO,</resource>
       </processor>
     </processed_by>
   </meta>
@@ -26,46 +26,46 @@
   <description type="morphology">
     <statement id="d0_s0">
       <text>Chelicerae with three teeth on promargin (middle tooth larger), four on retromargin.</text>
-      <biological_entity id="o336" name="chelicera" name_original="chelicerae" type="structure" />
-      <biological_entity id="o337" name="tooth" name_original="teeth" type="structure">
+      <biological_entity id="o362" name="chelicera" name_original="chelicerae" type="structure" />
+      <biological_entity id="o363" name="tooth" name_original="teeth" type="structure">
         <character is_modifier="true" name="quantity" value="3" />
       </biological_entity>
-      <biological_entity id="o338" name="promargin" name_original="promargin" type="structure">
-        <character constraint="on retromargin" constraintid="o339" name="quantity" value="4" />
+      <biological_entity id="o364" name="promargin" name_original="promargin" type="structure">
+        <character constraint="on retromargin" constraintid="o365" name="quantity" value="4" />
       </biological_entity>
-      <biological_entity id="o339" name="retromargin" name_original="retromargin" type="structure" />
-      <relation from="o336" id="r59" name="with" negation="false" to="o337" />
-      <relation from="o337" id="r60" name="on" negation="false" to="o338" />
+      <biological_entity id="o365" name="retromargin" name_original="retromargin" type="structure" />
+      <relation from="o362" id="r63" name="with" negation="false" to="o363" />
+      <relation from="o363" id="r64" name="on" negation="false" to="o364" />
     </statement>
     <statement id="d0_s1">
       <text>Carapace very wide in front (fig. 97B, D), length 4.00 mm, width 3.13 mm. ovules 2-4, glabrous, lamina ovate 25-4 mm long, 15-25 mm wide, deeply pectinate, with 14-22 soft lateral spines 15-25 mm long, 2.5 mm wide, apical spine not distinct from lateral spines.</text>
-      <biological_entity id="o340" name="carapace" name_original="carapace" type="structure">
-        <character constraint="in front" constraintid="o341" is_modifier="false" modifier="very" name="width" value="wide" />
+      <biological_entity id="o366" name="carapace" name_original="carapace" type="structure">
+        <character constraint="in front" constraintid="o367" is_modifier="false" modifier="very" name="width" value="wide" />
         <character name="length" notes="" unit="mm" value="4.00" />
         <character name="width" unit="mm" value="3.13" />
       </biological_entity>
-      <biological_entity id="o341" name="front" name_original="front" type="structure" />
-      <biological_entity id="o342" name="ovule" name_original="ovules" type="structure">
+      <biological_entity id="o367" name="front" name_original="front" type="structure" />
+      <biological_entity id="o368" name="ovule" name_original="ovules" type="structure">
         <character char_type="range_value" from="2" name="quantity" to="4" />
         <character is_modifier="false" name="pubescence" value="glabrous" />
       </biological_entity>
-      <biological_entity id="o343" name="lamina" name_original="lamina" type="structure">
+      <biological_entity id="o369" name="lamina" name_original="lamina" type="structure">
         <character is_modifier="false" name="shape" value="ovate" />
         <character char_type="range_value" from="25" from_unit="mm" name="length" to="4" to_unit="mm" />
         <character char_type="range_value" from="15" from_unit="mm" name="width" to="25" to_unit="mm" />
         <character is_modifier="false" modifier="deeply" name="shape" value="pectinate" />
       </biological_entity>
-      <biological_entity constraint="lateral" id="o344" name="spine" name_original="spines" type="structure">
+      <biological_entity constraint="lateral" id="o370" name="spine" name_original="spines" type="structure">
         <character char_type="range_value" from="14" is_modifier="true" name="quantity" to="22" />
         <character is_modifier="true" name="pubescence_or_texture" value="soft" />
         <character char_type="range_value" from="15" from_unit="mm" name="length" to="25" to_unit="mm" />
         <character name="width" notes="" unit="mm" value="2.5" />
       </biological_entity>
-      <biological_entity constraint="apical" id="o345" name="spine" name_original="spine" type="structure">
-        <character constraint="from lateral spines" constraintid="o346" is_modifier="false" modifier="not" name="fusion" value="distinct" />
+      <biological_entity constraint="apical" id="o371" name="spine" name_original="spine" type="structure">
+        <character constraint="from lateral spines" constraintid="o372" is_modifier="false" modifier="not" name="fusion" value="distinct" />
       </biological_entity>
-      <biological_entity constraint="lateral" id="o346" name="spine" name_original="spines" type="structure" />
-      <relation from="o343" id="r61" name="with" negation="false" to="o344" />
+      <biological_entity constraint="lateral" id="o372" name="spine" name_original="spines" type="structure" />
+      <relation from="o369" id="r65" name="with" negation="false" to="o370" />
     </statement>
   </description>
 </bio:treatment>

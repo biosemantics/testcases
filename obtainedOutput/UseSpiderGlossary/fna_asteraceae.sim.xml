@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics https://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupOutput.xsd">
   <meta>
     <source>
       <author>Hong Cui</author>
@@ -7,16 +7,16 @@
     </source>
     <processed_by>
       <processor>
-        <date>2015/12/17 13:19:33</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <date>2016/10/28 16:06:30</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser</software>
         <operator />
         <resource type="OTO Glossary" version="0.2">Spider</resource>
       </processor>
       <processor>
-        <date>2015/12/17 13:19:34</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <date>2016/10/28 16:06:31</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser - Ontology Mapping</software>
         <operator />
-        <resource type="Ontology(ies)" version="N/A">RO,  SPD,  PATO,  BSPO,</resource>
+        <resource type="Ontology(ies)" version="N/A">BSPO,  SPD,  RO,  PATO,</resource>
       </processor>
     </processed_by>
   </meta>
@@ -26,7 +26,7 @@
   <description type="morphology">
     <statement id="d0_s0">
       <text>Blades lanceolate to oblong, (8-) 10-15 (-18) × (2-) 3-5 (-9) cm overall;</text>
-      <biological_entity id="o164" name="blade" name_original="blades" type="structure">
+      <biological_entity id="o190" name="blade" name_original="blades" type="structure">
         <character is_modifier="false" name="shape" notes="[duplicate value]" value="lanceolate" />
         <character is_modifier="false" name="shape" notes="[duplicate value]" value="oblong" />
         <character char_type="range_value" from="lanceolate" name="shape" to="oblong" />
@@ -40,7 +40,7 @@
     </statement>
     <statement id="d0_s1">
       <text>Leaves obovate, (2 –) 5 – 20 (– 30 +) × (1 –) 2 – 5 (– 7) cm, margins pinnati-sect;</text>
-      <biological_entity id="o165" name="leaf" name_original="leaves" type="structure">
+      <biological_entity id="o191" name="leaf" name_original="leaves" type="structure">
         <character is_modifier="false" name="shape" value="obovate" />
         <character char_type="range_value" from="2" from_unit="cm" name="atypical_length" to="5" to_inclusive="false" to_unit="cm" />
         <character char_type="range_value" from="20" from_inclusive="false" from_unit="cm" name="atypical_length" to="30" to_unit="cm" upper_restricted="false" />
@@ -49,25 +49,25 @@
         <character char_type="range_value" from="5" from_inclusive="false" from_unit="cm" name="atypical_width" to="7" to_unit="cm" />
         <character char_type="range_value" from="2" from_unit="cm" name="width" to="5" to_unit="cm" />
       </biological_entity>
-      <biological_entity constraint="margins" id="o166" name="pinnati-sect" name_original="pinnati-sect" type="taxon_name" />
+      <biological_entity constraint="margins" id="o192" name="pinnati-sect" name_original="pinnati-sect" type="taxon_name" />
     </statement>
     <statement id="d0_s2">
       <text>Pappi usually ± equaling corollas, sometimes coroniform or 0.2n = (22 –) 34 (– 54) univalents, less often 17 pairs;</text>
-      <biological_entity id="o167" name="pappus" name_original="pappi" type="structure">
+      <biological_entity id="o193" name="pappus" name_original="pappi" type="structure">
         <character is_modifier="false" modifier="sometimes" name="shape" notes="" value="coroniform" />
         <character name="presence" value="absent" />
       </biological_entity>
-      <biological_entity id="o168" name="corolla" name_original="corollas" type="structure">
+      <biological_entity id="o194" name="corolla" name_original="corollas" type="structure">
         <character is_modifier="true" modifier="usually more or less" name="variability" value="equaling" />
       </biological_entity>
-      <biological_entity constraint="2n" id="o169" name="chromosome" name_original="" type="structure">
+      <biological_entity constraint="2n" id="o195" name="chromosome" name_original="" type="structure">
         <character char_type="range_value" from="22" name="atypical_quantity" to="34" to_inclusive="false" unit=",less often  pairs" />
         <character char_type="range_value" from="34" from_inclusive="false" name="atypical_quantity" to="54" unit=",less often  pairs" />
         <character name="quantity" unit=",less often  pairs" value="34" />
         <character name="quantity" unit=",less often  pairs" value="17" />
       </biological_entity>
-      <biological_entity id="o170" name="univalent" name_original="univalents" type="structure" />
-      <biological_entity constraint="2n" id="o171" name="chromosome" name_original="" type="structure">
+      <biological_entity id="o196" name="univalent" name_original="univalents" type="structure" />
+      <biological_entity constraint="2n" id="o197" name="chromosome" name_original="" type="structure">
         <character char_type="range_value" from="22" name="atypical_quantity" to="34" to_inclusive="false" unit=",less often  pairs" />
         <character char_type="range_value" from="34" from_inclusive="false" name="atypical_quantity" to="54" unit=",less often  pairs" />
         <character name="quantity" unit=",less often  pairs" value="34" />
@@ -76,121 +76,121 @@
     </statement>
     <statement id="d0_s3">
       <text>Basal and proximal cauline leaves red;</text>
-      <biological_entity constraint="basal and proximal cauline" id="o172" name="leaf" name_original="leaves" type="structure">
+      <biological_entity constraint="basal and proximal cauline" id="o198" name="leaf" name_original="leaves" type="structure">
         <character is_modifier="false" name="coloration" value="red" />
       </biological_entity>
     </statement>
     <statement id="d0_s4">
       <text>Outer scales 20-25, 0.5-1 mm, contrasting with 35-40+, 4.5-6+ mm inner bristles.</text>
-      <biological_entity constraint="outer" id="o173" name="scale" name_original="scales" type="structure">
+      <biological_entity constraint="outer" id="o199" name="scale" name_original="scales" type="structure">
         <character char_type="range_value" from="20" name="quantity" to="25" />
-        <character char_type="range_value" from="0.5" from_unit="mm" name="size" to="1" to_unit="mm" />
+        <character char_type="range_value" from="0.5" from_unit="mm" name="some_measurement" to="1" to_unit="mm" />
       </biological_entity>
-      <biological_entity constraint="inner" id="o174" name="bristle" name_original="bristles" type="structure">
+      <biological_entity constraint="inner" id="o200" name="bristle" name_original="bristles" type="structure">
         <character char_type="range_value" from="35" is_modifier="true" name="quantity" to="40" upper_restricted="false" />
-        <character char_type="range_value" from="4.5" from_unit="mm" is_modifier="true" name="size" to="6" to_unit="mm" upper_restricted="false" />
+        <character char_type="range_value" from="4.5" from_unit="mm" is_modifier="true" name="some_measurement" to="6" to_unit="mm" upper_restricted="false" />
       </biological_entity>
-      <relation from="o174" id="r21" name="contrasting with" negation="false" to="o174" />
+      <relation from="o200" id="r27" name="contrasting with" negation="false" to="o200" />
     </statement>
     <statement id="d0_s5">
       <text>Leaves opposite, or proximal opposite and distal alternate.</text>
-      <biological_entity id="o175" name="leaf" name_original="leaves" type="structure">
+      <biological_entity id="o201" name="leaf" name_original="leaves" type="structure">
         <character is_modifier="false" name="arrangement" value="opposite" />
       </biological_entity>
-      <biological_entity constraint="proximal" id="o176" name="leaf" name_original="leaves" type="structure">
+      <biological_entity constraint="proximal" id="o202" name="leaf" name_original="leaves" type="structure">
         <character is_modifier="false" name="arrangement" value="opposite" />
       </biological_entity>
-      <biological_entity constraint="distal" id="o177" name="leaf" name_original="leaves" type="structure">
+      <biological_entity constraint="distal" id="o203" name="leaf" name_original="leaves" type="structure">
         <character is_modifier="false" name="arrangement" value="alternate" />
       </biological_entity>
     </statement>
     <statement id="d0_s6">
       <text>Pappi of 2–3 awns plus shorter bristles or scales, or wholly of minute scales.</text>
-      <biological_entity id="o178" name="pappus" name_original="pappi" type="structure" />
-      <biological_entity id="o179" name="awn" name_original="awns" type="structure">
+      <biological_entity id="o204" name="pappus" name_original="pappi" type="structure" />
+      <biological_entity id="o205" name="awn" name_original="awns" type="structure">
         <character char_type="range_value" from="2" is_modifier="true" name="quantity" to="3" />
       </biological_entity>
-      <biological_entity constraint="shorter" id="o180" name="bristle" name_original="bristles" type="structure" />
-      <biological_entity constraint="shorter" id="o181" name="scale" name_original="scales" type="structure" />
-      <biological_entity id="o182" name="scale" name_original="scales" type="structure">
+      <biological_entity constraint="shorter" id="o206" name="bristle" name_original="bristles" type="structure" />
+      <biological_entity constraint="shorter" id="o207" name="scale" name_original="scales" type="structure" />
+      <biological_entity id="o208" name="scale" name_original="scales" type="structure">
         <character is_modifier="true" name="size" value="minute" />
       </biological_entity>
-      <relation from="o178" id="r22" name="consist_of" negation="false" to="o179" />
-      <relation from="o178" id="r23" modifier="wholly" name="consists_of" negation="false" to="o182" />
+      <relation from="o204" id="r28" name="consist_of" negation="false" to="o205" />
+      <relation from="o204" id="r29" modifier="wholly" name="consists_of" negation="false" to="o208" />
     </statement>
     <statement id="d0_s7">
       <text>Roots usually taproots, sometime fibrous.</text>
-      <biological_entity id="o183" name="root" name_original="roots" type="structure">
+      <biological_entity id="o209" name="root" name_original="roots" type="structure">
         <character is_modifier="false" modifier="sometime" name="texture" notes="" value="fibrous" />
       </biological_entity>
-      <biological_entity id="o184" name="taproot" name_original="taproots" type="structure" />
+      <biological_entity id="o210" name="taproot" name_original="taproots" type="structure" />
     </statement>
     <statement id="d0_s8">
       <text>Tips of outer and mid phyllaries acute;</text>
-      <biological_entity id="o185" name="tip" name_original="tips" type="structure">
+      <biological_entity id="o211" name="tip" name_original="tips" type="structure">
         <character is_modifier="false" name="shape" value="acute" />
       </biological_entity>
-      <biological_entity constraint="outer and mid" id="o186" name="phyllary" name_original="phyllaries" type="structure" />
-      <relation from="o185" id="r24" name="part_of" negation="false" to="o186" />
+      <biological_entity constraint="outer and mid" id="o212" name="phyllary" name_original="phyllaries" type="structure" />
+      <relation from="o211" id="r30" name="part_of" negation="false" to="o212" />
     </statement>
     <statement id="d0_s9">
       <text>Subulate leaves inserted at 62°.</text>
-      <biological_entity id="o187" name="leaf" name_original="leaves" type="structure">
+      <biological_entity id="o213" name="leaf" name_original="leaves" type="structure">
         <character is_modifier="true" name="shape" value="subulate" />
         <character is_modifier="false" modifier="62°" name="position" value="inserted" />
       </biological_entity>
     </statement>
     <statement id="d0_s10">
       <text>mid-stems (30-100+);</text>
-      <biological_entity id="o188" name="mid-stem" name_original="mid-stems" type="structure">
+      <biological_entity id="o214" name="mid-stem" name_original="mid-stems" type="structure">
         <character char_type="range_value" from="30" name="atypical_quantity" to="100" upper_restricted="false" />
       </biological_entity>
     </statement>
     <statement id="d0_s11">
       <text>Rachis widths mostly 2-3 times lobe widths, leaves green;</text>
-      <biological_entity id="o189" name="rachis" name_original="rachis" type="structure">
-        <character constraint="lobe" constraintid="o190" is_modifier="false" modifier="mostly" name="width" value="2-3 times lobe widths" />
+      <biological_entity id="o215" name="rachis" name_original="rachis" type="structure">
+        <character constraint="lobe" constraintid="o216" is_modifier="false" modifier="mostly" name="width" value="2-3 times lobe widths" />
       </biological_entity>
-      <biological_entity id="o190" name="lobe" name_original="lobe" type="structure" />
-      <biological_entity id="o191" name="leaf" name_original="leaves" type="structure">
+      <biological_entity id="o216" name="lobe" name_original="lobe" type="structure" />
+      <biological_entity id="o217" name="leaf" name_original="leaves" type="structure">
         <character is_modifier="false" name="coloration" value="green" />
       </biological_entity>
     </statement>
     <statement id="d0_s12">
       <text>Cypselae flattened, 2– (3–4) -nerved;</text>
-      <biological_entity id="o192" name="cypsela" name_original="cypselae" type="structure">
+      <biological_entity id="o218" name="cypsela" name_original="cypselae" type="structure">
         <character is_modifier="false" name="shape" value="flattened" />
         <character is_modifier="false" name="architecture" value="2-(3-4)-nerved" />
       </biological_entity>
     </statement>
     <statement id="d0_s13">
       <text>pappi of outer, shorter bristles or scales plus inner, longer bristles;</text>
-      <biological_entity id="o193" name="pappus" name_original="pappi" type="structure" constraint="bristle">
+      <biological_entity id="o219" name="pappus" name_original="pappi" type="structure" constraint="bristle">
         <character is_modifier="false" name="position" value="inner" />
       </biological_entity>
-      <biological_entity constraint="shorter" id="o194" name="bristle" name_original="bristles" type="structure">
+      <biological_entity constraint="shorter" id="o220" name="bristle" name_original="bristles" type="structure">
         <character is_modifier="true" name="position" value="outer" />
       </biological_entity>
-      <biological_entity id="o195" name="scale" name_original="scales" type="structure" />
-      <biological_entity constraint="longer" id="o196" name="bristle" name_original="bristles" type="structure" />
-      <relation from="o193" id="r25" name="part_of" negation="false" to="o194" />
-      <relation from="o193" id="r26" name="part_of" negation="false" to="o195" />
+      <biological_entity id="o221" name="scale" name_original="scales" type="structure" />
+      <biological_entity constraint="longer" id="o222" name="bristle" name_original="bristles" type="structure" />
+      <relation from="o219" id="r31" name="part_of" negation="false" to="o220" />
+      <relation from="o219" id="r32" name="part_of" negation="false" to="o221" />
     </statement>
     <statement id="d0_s14">
       <text>apices of inner erect, abaxial faces gray-tomentose, ± twisted.</text>
-      <biological_entity id="o197" name="apex" name_original="apices" type="structure" constraint="pappus">
+      <biological_entity id="o223" name="apex" name_original="apices" type="structure" constraint="pappus">
         <character is_modifier="false" name="orientation" value="erect" />
       </biological_entity>
-      <biological_entity constraint="inner" id="o198" name="pappus" name_original="pappi" type="structure" />
-      <biological_entity constraint="abaxial" id="o199" name="face" name_original="faces" type="structure">
+      <biological_entity constraint="inner" id="o224" name="pappus" name_original="pappi" type="structure" />
+      <biological_entity constraint="abaxial" id="o225" name="face" name_original="faces" type="structure">
         <character is_modifier="false" name="pubescence" value="gray-tomentose" />
         <character is_modifier="false" modifier="more or less" name="architecture" value="twisted" />
       </biological_entity>
-      <relation from="o197" id="r27" name="part_of" negation="false" to="o198" />
+      <relation from="o223" id="r33" name="part_of" negation="false" to="o224" />
     </statement>
     <statement id="d0_s15">
       <text>Phyllaries in 5–7 series, weakly unequal, dark green to brownish, lanceolate (outer) to linear (inner), abaxial faces without (or with very obscure) glutinous ridge;</text>
-      <biological_entity id="o200" name="phyllary" name_original="phyllaries" type="structure">
+      <biological_entity id="o226" name="phyllary" name_original="phyllaries" type="structure">
         <character is_modifier="false" modifier="weakly" name="size" notes="" value="unequal" />
         <character is_modifier="false" name="coloration" notes="[duplicate value]" value="dark green" />
         <character is_modifier="false" name="coloration" notes="[duplicate value]" value="brownish" />
@@ -199,93 +199,93 @@
         <character is_modifier="false" name="shape" notes="[duplicate value]" value="linear" />
         <character char_type="range_value" from="lanceolate" name="shape" to="linear" />
       </biological_entity>
-      <biological_entity id="o201" name="series" name_original="series" type="structure">
+      <biological_entity id="o227" name="series" name_original="series" type="structure">
         <character char_type="range_value" from="5" is_modifier="true" name="quantity" to="7" />
       </biological_entity>
-      <biological_entity id="o203" name="ridge" name_original="ridge" type="structure">
+      <biological_entity id="o229" name="ridge" name_original="ridge" type="structure">
         <character is_modifier="true" name="coating" value="glutinous" />
       </biological_entity>
-      <relation from="o200" id="r28" name="in" negation="false" to="o201" />
-      <relation from="o202" id="r29" name="without" negation="false" to="o203" />
+      <relation from="o226" id="r34" name="in" negation="false" to="o227" />
+      <relation from="o228" id="r35" name="without" negation="false" to="o229" />
     </statement>
     <statement id="d0_s16">
       <text>outer and middle appressed or apices spreading, at least outer irregularly spiny-fringed, finely serrulate, spines slender, 3–5 mm;</text>
-      <biological_entity constraint="abaxial" id="o202" name="face" name_original="faces" type="structure" />
-      <biological_entity constraint="outer" id="o204" name="face" name_original="faces" type="structure" />
-      <biological_entity constraint="middle" id="o205" name="face" name_original="faces" type="structure">
+      <biological_entity constraint="abaxial" id="o228" name="face" name_original="faces" type="structure" />
+      <biological_entity constraint="outer" id="o230" name="face" name_original="faces" type="structure" />
+      <biological_entity constraint="middle" id="o231" name="face" name_original="faces" type="structure">
         <character is_modifier="false" name="fixation_or_orientation" value="appressed" />
       </biological_entity>
-      <biological_entity constraint="outer" id="o206" name="apex" name_original="apices" type="structure">
+      <biological_entity constraint="outer" id="o232" name="apex" name_original="apices" type="structure">
         <character is_modifier="false" name="orientation" value="spreading" />
         <character is_modifier="false" modifier="at-least" name="position" value="outer" />
         <character is_modifier="false" modifier="irregularly" name="architecture" value="spiny-fringed" />
         <character is_modifier="false" modifier="finely" name="architecture_or_shape" value="serrulate" />
       </biological_entity>
-      <biological_entity id="o207" name="spine" name_original="spines" ontologyid="http://purl.obolibrary.org/obo/SPD_0000315" type="structure">
+      <biological_entity id="o233" name="spine" name_original="spines" type="structure">
         <character is_modifier="false" name="size" value="slender" />
-        <character char_type="range_value" from="3" from_unit="mm" name="size" to="5" to_unit="mm" />
+        <character char_type="range_value" from="3" from_unit="mm" name="some_measurement" to="5" to_unit="mm" />
       </biological_entity>
     </statement>
     <statement id="d0_s17">
       <text>apices of inner erect, abaxial faces gray-tomentose, ± twisted.</text>
-      <biological_entity id="o208" name="apex" name_original="apices" type="structure" constraint="face">
+      <biological_entity id="o234" name="apex" name_original="apices" type="structure" constraint="face">
         <character is_modifier="false" name="pubescence" value="gray-tomentose" />
         <character is_modifier="false" modifier="more or less" name="architecture" value="twisted" />
       </biological_entity>
-      <biological_entity constraint="abaxial" id="o209" name="face" name_original="faces" type="structure">
+      <biological_entity constraint="abaxial" id="o235" name="face" name_original="faces" type="structure">
         <character is_modifier="true" name="position" value="inner" />
         <character is_modifier="true" name="orientation" value="erect" />
       </biological_entity>
-      <relation from="o208" id="r30" name="part_of" negation="false" to="o209" />
+      <relation from="o234" id="r36" name="part_of" negation="false" to="o235" />
     </statement>
     <statement id="d0_s18">
       <text>Pappi usually of 2 series, outer of readily falling, short bristles, inner persistent or falling as unit, of basally connate, usually longer, plumose bristles.</text>
-      <biological_entity id="o210" name="pappus" name_original="pappi" type="structure" />
-      <biological_entity id="o211" name="series" name_original="series" type="structure">
+      <biological_entity id="o236" name="pappus" name_original="pappi" type="structure" />
+      <biological_entity id="o237" name="series" name_original="series" type="structure">
         <character is_modifier="true" name="quantity" value="2" />
       </biological_entity>
-      <biological_entity constraint="outer" id="o212" name="pappus" name_original="pappi" type="structure" />
-      <biological_entity id="o213" name="bristle" name_original="bristles" type="structure">
+      <biological_entity constraint="outer" id="o238" name="pappus" name_original="pappi" type="structure" />
+      <biological_entity id="o239" name="bristle" name_original="bristles" type="structure">
         <character is_modifier="true" modifier="readily" name="life_cycle" value="falling" />
         <character is_modifier="true" name="height_or_length_or_size" value="short" />
       </biological_entity>
-      <biological_entity constraint="inner" id="o214" name="pappus" name_original="pappi" type="structure">
+      <biological_entity constraint="inner" id="o240" name="pappus" name_original="pappi" type="structure">
         <character is_modifier="false" name="duration" value="persistent" />
-        <character constraint="as unit" constraintid="o215" is_modifier="false" name="life_cycle" value="falling" />
+        <character constraint="as unit" constraintid="o241" is_modifier="false" name="life_cycle" value="falling" />
       </biological_entity>
-      <biological_entity id="o215" name="unit" name_original="unit" type="structure" />
-      <biological_entity id="o216" name="bristle" name_original="bristles" type="structure">
+      <biological_entity id="o241" name="unit" name_original="unit" type="structure" />
+      <biological_entity id="o242" name="bristle" name_original="bristles" type="structure">
         <character is_modifier="true" modifier="basally" name="fusion" value="connate" />
         <character is_modifier="true" modifier="usually" name="length_or_size" value="longer" />
         <character is_modifier="true" name="shape" value="plumose" />
       </biological_entity>
-      <relation from="o210" id="r31" name="consist_of" negation="false" to="o211" />
-      <relation from="o212" id="r32" name="part_of" negation="false" to="o213" />
-      <relation from="o214" id="r33" name="part_of" negation="false" to="o216" />
+      <relation from="o236" id="r37" name="consist_of" negation="false" to="o237" />
+      <relation from="o238" id="r38" name="part_of" negation="false" to="o239" />
+      <relation from="o240" id="r39" name="part_of" negation="false" to="o242" />
     </statement>
     <statement id="d0_s19">
       <text>Margins 1-2 times divided into linear or oblong segments;</text>
-      <biological_entity id="o217" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
-        <character constraint="segment" constraintid="o218" is_modifier="false" name="size_or_quantity" value="1-2 times divided into linear or oblong segments" />
+      <biological_entity id="o243" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
+        <character constraint="segment" constraintid="o244" is_modifier="false" name="size_or_quantity" value="1-2 times divided into linear or oblong segments" />
       </biological_entity>
-      <biological_entity id="o218" name="segment" name_original="segments" type="structure" />
+      <biological_entity id="o244" name="segment" name_original="segments" type="structure" />
     </statement>
     <statement id="d0_s20">
       <text>petioles reduced distally 0-1/4 lengths of blades;</text>
-      <biological_entity id="o219" name="petiole" name_original="petioles" type="structure">
+      <biological_entity id="o245" name="petiole" name_original="petioles" type="structure">
         <character is_modifier="false" modifier="distally" name="size" value="reduced" />
         <character char_type="range_value" from="0 lengths of blades" name="length" to="1/4 lengths of blades" />
       </biological_entity>
     </statement>
     <statement id="d0_s21">
       <text>branches 0-10+, usually arising in distal 1/2, ascending, usually reaching a moreorless common height;</text>
-      <biological_entity constraint="distal" id="o221" name="1/2" name_original="1/2" type="structure" />
+      <biological_entity constraint="distal" id="o247" name="1/2" name_original="1/2" type="structure" />
     </statement>
     <statement id="d0_s22">
       <text>outer pectinately spiny 1/2 their length with many lateral spines;</text>
-      <biological_entity id="o220" name="branch" name_original="branches" type="structure">
+      <biological_entity id="o246" name="branch" name_original="branches" type="structure">
         <character char_type="range_value" from="0" name="quantity" to="10" upper_restricted="false" />
-        <character constraint="in distal 1/2" constraintid="o221" is_modifier="false" modifier="usually" name="orientation" value="arising" />
+        <character constraint="in distal 1/2" constraintid="o247" is_modifier="false" modifier="usually" name="orientation" value="arising" />
         <character is_modifier="false" name="orientation" notes="" value="ascending" />
         <character is_modifier="false" modifier="usually" name="position_relational" value="reaching" />
         <character is_modifier="false" modifier="more or less" name="height" value="common" />
@@ -296,87 +296,87 @@
     </statement>
     <statement id="d0_s23">
       <text>peduncle lengths 0.5-3 times cypsela bodies at flowering;</text>
-      <biological_entity id="o222" name="peduncle" name_original="peduncle" type="structure">
-        <character constraint="body; at flowering" constraintid="o223" is_modifier="false" name="length" value="0.5-3 times cypsela bodies" />
+      <biological_entity id="o248" name="peduncle" name_original="peduncle" type="structure">
+        <character constraint="body; at flowering" constraintid="o249" is_modifier="false" name="length" value="0.5-3 times cypsela bodies" />
       </biological_entity>
-      <biological_entity constraint="cypsela" id="o223" name="body" name_original="bodies" type="structure" />
+      <biological_entity constraint="cypsela" id="o249" name="body" name_original="bodies" type="structure" />
     </statement>
     <statement id="d0_s24">
       <text>corolla lobes 2 times as-long-as corolla throat;</text>
-      <biological_entity constraint="corolla" id="o224" name="lobe" name_original="lobes" type="structure">
-        <character constraint="throat" constraintid="o225" is_modifier="false" name="length" value="2 times as long as corolla throat" />
+      <biological_entity constraint="corolla" id="o250" name="lobe" name_original="lobes" type="structure">
+        <character constraint="throat" constraintid="o251" is_modifier="false" name="length" value="2 times as long as corolla throat" />
       </biological_entity>
-      <biological_entity constraint="corolla" id="o225" name="throat" name_original="throat" type="structure" />
+      <biological_entity constraint="corolla" id="o251" name="throat" name_original="throat" type="structure" />
     </statement>
     <statement id="d0_s25">
       <text>leaves usually 0-5 times longer than wide;</text>
-      <biological_entity id="o226" name="leaf" name_original="leaves" type="structure">
+      <biological_entity id="o252" name="leaf" name_original="leaves" type="structure">
         <character is_modifier="false" name="l_w_ratio" value="0-5" />
       </biological_entity>
     </statement>
     <statement id="d0_s26">
       <text>leaf lengths usually 10+ times longer widths;</text>
-      <biological_entity id="o227" name="leaf" name_original="leaf" type="structure">
+      <biological_entity id="o253" name="leaf" name_original="leaf" type="structure">
         <character is_modifier="false" modifier="usually" name="l_w_ratio" value="10+" />
       </biological_entity>
     </statement>
     <statement id="d0_s27">
       <text>blades usually 1-2+ times pinnately lobed;</text>
-      <biological_entity id="o228" name="blade" name_original="blades" type="structure">
+      <biological_entity id="o254" name="blade" name_original="blades" type="structure">
         <character is_modifier="false" name="shape" value="1-2+ times pinnately lobed " />
       </biological_entity>
     </statement>
     <statement id="d0_s28">
       <text>peduncle lengths 2-5 times leafy portions of stems;</text>
-      <biological_entity id="o230" name="portion" name_original="portions" type="structure" />
-      <biological_entity id="o231" name="stem" name_original="stems" type="structure" />
+      <biological_entity id="o256" name="portion" name_original="portions" type="structure" />
+      <biological_entity id="o257" name="stem" name_original="stems" type="structure" />
     </statement>
     <statement id="d0_s29">
       <text>lengths of proximal branches 2 times array heights;</text>
-      <biological_entity id="o229" name="peduncle" name_original="peduncle" type="structure">
-        <character constraint="of stems" constraintid="o231" is_modifier="false" name="length" value="2-5 times leafy portions" />
+      <biological_entity id="o255" name="peduncle" name_original="peduncle" type="structure">
+        <character constraint="of stems" constraintid="o257" is_modifier="false" name="length" value="2-5 times leafy portions" />
       </biological_entity>
-      <biological_entity constraint="proximal" id="o232" name="branch" name_original="branches" type="structure">
-        <character constraint="array" constraintid="o233" is_modifier="false" name="length" value="2 times array heights" />
+      <biological_entity constraint="proximal" id="o258" name="branch" name_original="branches" type="structure">
+        <character constraint="array" constraintid="o259" is_modifier="false" name="length" value="2 times array heights" />
       </biological_entity>
-      <biological_entity id="o233" name="array" name_original="array" type="structure" />
+      <biological_entity id="o259" name="array" name_original="array" type="structure" />
     </statement>
     <statement id="d0_s30">
       <text>tubes 2 times longer than narrowly funnelform throats;</text>
-      <biological_entity id="o234" name="tube" name_original="tubes" type="structure">
-        <character constraint="throat" constraintid="o235" is_modifier="false" name="length_or_size" value="2 times longer than narrowly funnelform throats" />
+      <biological_entity id="o260" name="tube" name_original="tubes" type="structure">
+        <character constraint="throat" constraintid="o261" is_modifier="false" name="length_or_size" value="2 times longer than narrowly funnelform throats" />
       </biological_entity>
-      <biological_entity id="o235" name="throat" name_original="throats" type="structure" />
+      <biological_entity id="o261" name="throat" name_original="throats" type="structure" />
     </statement>
     <statement id="d0_s31">
       <text>tubes 1/4-1/2 times more or less funnelform throats;</text>
-      <biological_entity id="o237" name="throat" name_original="throats" type="structure" />
+      <biological_entity id="o263" name="throat" name_original="throats" type="structure" />
     </statement>
     <statement id="d0_s32">
       <text>lengths mostly 3.5-6 times longest diams;</text>
-      <biological_entity id="o236" name="tube" name_original="tubes" type="structure">
-        <character constraint="throat" constraintid="o237" is_modifier="false" name="size_or_quantity" value="1/4-1/2 times more or less funnelform throats" />
+      <biological_entity id="o262" name="tube" name_original="tubes" type="structure">
+        <character constraint="throat" constraintid="o263" is_modifier="false" name="size_or_quantity" value="1/4-1/2 times more or less funnelform throats" />
         <character is_modifier="false" modifier="mostly" name="length" value="3.5-6 times longest diams" />
       </biological_entity>
     </statement>
     <statement id="d0_s33">
       <text>arrays 2-3 times as-long-as wide;</text>
-      <biological_entity id="o238" name="array" name_original="arrays" type="structure">
+      <biological_entity id="o264" name="array" name_original="arrays" type="structure">
         <character is_modifier="false" name="l_w_ratio" value="2-3" />
       </biological_entity>
     </statement>
     <statement id="d0_s34">
       <text>blades of cauline leaves mostly oblanceolate, lengths 4–7+ times widths;</text>
-      <biological_entity id="o239" name="blade" name_original="blades" type="structure" constraint="leaf">
+      <biological_entity id="o265" name="blade" name_original="blades" type="structure" constraint="leaf">
         <character is_modifier="false" modifier="mostly" name="shape" value="oblanceolate" />
         <character is_modifier="false" name="l_w_ratio" value="4-7+" />
       </biological_entity>
-      <biological_entity constraint="cauline" id="o240" name="leaf" name_original="leaves" type="structure" />
-      <relation from="o239" id="r34" name="part_of" negation="false" to="o240" />
+      <biological_entity constraint="cauline" id="o266" name="leaf" name_original="leaves" type="structure" />
+      <relation from="o265" id="r40" name="part_of" negation="false" to="o266" />
     </statement>
     <statement id="d0_s35">
       <text>leaf-blades oblong or elliptic to lance-elliptic or lanceolate, lengths 1.5–4+ widths;</text>
-      <biological_entity id="o241" name="leaf-blade" name_original="leaf-blades" type="structure">
+      <biological_entity id="o267" name="leaf-blade" name_original="leaf-blades" type="structure">
         <character is_modifier="false" name="shape" value="oblong" />
         <character is_modifier="false" name="arrangement_or_shape" value="elliptic" />
         <character is_modifier="false" name="shape" value="lance-elliptic" />
@@ -386,66 +386,66 @@
     </statement>
     <statement id="d0_s36">
       <text>cypsela widths 0.6 – 0.75 times lengths;</text>
-      <biological_entity id="o242" name="cypselum" name_original="cypsela" type="structure">
+      <biological_entity id="o268" name="cypselum" name_original="cypsela" type="structure">
         <character is_modifier="false" name="l_w_ratio" value="1/(0.6-0.75)" />
       </biological_entity>
     </statement>
     <statement id="d0_s37">
       <text>cypsela beaks, 3–, 4–10 mm, lengths, 1/2–, 2 times bodies;</text>
-      <biological_entity constraint="cypsela" id="o243" name="beak" name_original="beaks" type="structure">
-        <character char_type="range_value" from="4" from_unit="mm" name="size" to="10" to_unit="mm" />
-        <character constraint="body" constraintid="o244" is_modifier="false" name="length" value="1/2- , 2 times bodies" />
+      <biological_entity constraint="cypsela" id="o269" name="beak" name_original="beaks" type="structure">
+        <character char_type="range_value" from="4" from_unit="mm" name="some_measurement" to="10" to_unit="mm" />
+        <character constraint="body" constraintid="o270" is_modifier="false" name="length" value="1/2- , 2 times bodies" />
       </biological_entity>
-      <biological_entity id="o244" name="body" name_original="bodies" type="structure" />
+      <biological_entity id="o270" name="body" name_original="bodies" type="structure" />
     </statement>
     <statement id="d0_s38">
       <text>capitular leaves mostly not appressed to heads, spatulate to obovate, lengths mostly 2-5 widths;</text>
-      <biological_entity constraint="capitular" id="o245" name="leaf" name_original="leaves" type="structure">
-        <character constraint="to heads" constraintid="o246" is_modifier="false" modifier="mostly not" name="fixation_or_orientation" value="appressed" />
+      <biological_entity constraint="capitular" id="o271" name="leaf" name_original="leaves" type="structure">
+        <character constraint="to heads" constraintid="o272" is_modifier="false" modifier="mostly not" name="fixation_or_orientation" value="appressed" />
         <character is_modifier="false" name="shape" notes="[duplicate value]" value="spatulate" />
         <character is_modifier="false" name="shape" notes="[duplicate value]" value="obovate" />
         <character char_type="range_value" from="spatulate" name="shape" notes="" to="obovate" />
         <character is_modifier="false" modifier="mostly" name="l_w_ratio" value="2-5" />
       </biological_entity>
-      <biological_entity id="o246" name="head" name_original="heads" ontologyid="http://purl.obolibrary.org/obo/SPD_0000016" type="structure" />
+      <biological_entity id="o272" name="head" name_original="heads" type="structure" />
     </statement>
     <statement id="d0_s39">
       <text>heads radiate, borne singly or in 2s or 3s, or in tight to loose, corymbiform arrays;</text>
-      <biological_entity id="o247" name="head" name_original="heads" ontologyid="http://purl.obolibrary.org/obo/SPD_0000016" type="structure">
+      <biological_entity id="o273" name="head" name_original="heads" type="structure">
         <character is_modifier="false" name="architecture_or_arrangement" value="radiate" />
         <character is_modifier="false" name="arrangement" value="singly" />
         <character is_modifier="false" name="arrangement" value="in 2s or 3s , or in tight to loose , corymbiform arrays" />
       </biological_entity>
-      <biological_entity id="o248" name="array" name_original="arrays" type="structure">
+      <biological_entity id="o274" name="array" name_original="arrays" type="structure">
         <character is_modifier="true" name="arrangement_or_density" value="tight" />
         <character is_modifier="true" name="architecture_or_fragility" value="loose" />
         <character is_modifier="true" name="architecture" value="corymbiform" />
       </biological_entity>
-      <relation from="o247" id="r35" name="in 2s or 3s , or in" negation="false" to="o248" />
+      <relation from="o273" id="r41" name="in 2s or 3s , or in" negation="false" to="o274" />
     </statement>
     <statement id="d0_s40">
       <text>phyllaries green or often purple, with appressed, green or tan, coarse setae, sometimes reduced to a single seta per phyllary;</text>
-      <biological_entity id="o249" name="phyllary" name_original="phyllaries" type="structure">
+      <biological_entity id="o275" name="phyllary" name_original="phyllaries" type="structure">
         <character is_modifier="false" name="coloration" value="green" />
         <character is_modifier="false" modifier="often" name="coloration_or_density" value="purple" />
+        <character constraint="to seta" constraintid="o277" is_modifier="false" modifier="sometimes" name="size" notes="" value="reduced" />
       </biological_entity>
-      <biological_entity id="o250" name="seta" name_original="setae" type="structure">
+      <biological_entity id="o276" name="seta" name_original="setae" type="structure">
         <character is_modifier="true" name="fixation_or_orientation" value="appressed" />
         <character is_modifier="true" name="coloration" value="green" />
         <character is_modifier="true" name="coloration" value="tan" />
         <character is_modifier="true" name="relief" value="coarse" />
       </biological_entity>
-      <biological_entity id="o251" name="seta" name_original="seta" type="structure">
+      <biological_entity id="o277" name="seta" name_original="seta" type="structure">
         <character is_modifier="true" name="quantity" value="single" />
       </biological_entity>
-      <biological_entity id="o252" name="phyllary" name_original="phyllary" type="structure" />
-      <relation from="o249" id="r36" name="with" negation="false" to="o250" />
-      <relation from="o249" id="r37" modifier="sometimes" name="reduced to a" negation="false" to="o251" />
-      <relation from="o249" id="r38" name="per" negation="false" to="o252" />
+      <biological_entity id="o278" name="phyllary" name_original="phyllary" type="structure" />
+      <relation from="o275" id="r42" name="with" negation="false" to="o276" />
+      <relation from="o277" id="r43" name="per" negation="false" to="o278" />
     </statement>
     <statement id="d0_s41">
       <text>ray corollas yellow to orange-yellow or occasionally suffused with red;</text>
-      <biological_entity constraint="ray" id="o253" name="corolla" name_original="corollas" type="structure">
+      <biological_entity constraint="ray" id="o279" name="corolla" name_original="corollas" type="structure">
         <character is_modifier="false" name="coloration" notes="[duplicate value]" value="yellow" />
         <character is_modifier="false" name="coloration" notes="[duplicate value]" value="orange-yellow" />
         <character is_modifier="false" modifier="occasionally" name="coloration" notes="[duplicate value]" value="suffused with red" />
@@ -454,11 +454,11 @@
     </statement>
     <statement id="d0_s42">
       <text>corollas yellow, laminae 6-15 mm;</text>
-      <biological_entity id="o254" name="corolla" name_original="corollas" type="structure">
+      <biological_entity id="o280" name="corolla" name_original="corollas" type="structure">
         <character is_modifier="false" name="coloration" value="yellow" />
       </biological_entity>
-      <biological_entity id="o255" name="lamina" name_original="laminae" type="structure">
-        <character char_type="range_value" from="6" from_unit="mm" name="size" to="15" to_unit="mm" />
+      <biological_entity id="o281" name="lamina" name_original="laminae" type="structure">
+        <character char_type="range_value" from="6" from_unit="mm" name="some_measurement" to="15" to_unit="mm" />
       </biological_entity>
     </statement>
     <statement id="d0_s43">
@@ -466,7 +466,7 @@
     </statement>
     <statement id="d0_s44">
       <text>subtending bracts ovate, usually large, leaflike, well differentiated;</text>
-      <biological_entity id="o256" name="array" name_original="arrays" type="structure">
+      <biological_entity id="o282" name="array" name_original="arrays" type="structure">
         <character is_modifier="false" modifier="not" name="architecture" value="leafy" />
         <character is_modifier="false" modifier="narrowly to broadly" name="architecture" value="secund" />
         <character is_modifier="false" name="architecture" value="pyramidal" />
@@ -477,37 +477,35 @@
         <character is_modifier="false" name="architecture_or_shape" value="leaflike" />
         <character is_modifier="false" modifier="well" name="variability" value="differentiated" />
       </biological_entity>
-      <biological_entity id="o257" name="bract" name_original="bracts" type="structure" />
-      <relation from="o256" id="r39" name="subtending" negation="false" to="o257" />
+      <biological_entity id="o283" name="bract" name_original="bracts" type="structure" />
+      <relation from="o282" id="r44" name="subtending" negation="false" to="o283" />
     </statement>
     <statement id="d0_s45">
       <text>ray laminae yellow, usually each with a proximal, redbrown to purple spot or band, 15-20+ mm;</text>
-      <biological_entity constraint="ray" id="o258" name="lamina" name_original="laminae" type="structure">
+      <biological_entity constraint="ray" id="o284" name="lamina" name_original="laminae" type="structure">
         <character is_modifier="false" name="coloration" value="yellow" />
         <character is_modifier="false" name="coloration" notes="" value="redbrown to purple spot" />
-        <character char_type="range_value" from="15" from_unit="mm" name="size" notes="" to="20" to_unit="mm" upper_restricted="false" />
+        <character char_type="range_value" from="15" from_unit="mm" name="some_measurement" notes="" to="20" to_unit="mm" upper_restricted="false" />
       </biological_entity>
-      <biological_entity id="o259" name="proximal" name_original="proximal" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000061" type="structure">
-        <character is_modifier="true" name="quantity" value="1" />
-      </biological_entity>
-      <biological_entity id="o260" name="band" name_original="band" type="structure" />
-      <relation from="o258" id="r40" modifier="usually" name="with" negation="false" to="o259" />
+      <biological_entity id="o285" name="proximal" name_original="proximal" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000061" type="structure" />
+      <biological_entity id="o286" name="band" name_original="band" type="structure" />
+      <relation from="o284" id="r45" modifier="usually" name="with" negation="false" to="o285" />
     </statement>
     <statement id="d0_s46">
       <text>stems ascending to erect, branched from at or near bases;</text>
-      <biological_entity id="o261" name="stem" name_original="stems" type="structure">
+      <biological_entity id="o287" name="stem" name_original="stems" type="structure">
         <character is_modifier="false" name="orientation" notes="[duplicate value]" value="ascending" />
         <character is_modifier="false" name="orientation" notes="[duplicate value]" value="erect" />
         <character char_type="range_value" from="ascending" name="orientation" to="erect" />
-        <character constraint="from bases" constraintid="o262" is_modifier="false" name="architecture" value="branched" />
+        <character constraint="from bases" constraintid="o288" is_modifier="false" name="architecture" value="branched" />
       </biological_entity>
-      <biological_entity id="o262" name="base" name_original="bases" type="structure" />
+      <biological_entity id="o288" name="base" name_original="bases" type="structure" />
     </statement>
     <statement id="d0_s47">
       <text>blades pinnately veined or ± 3-nerved from at or near bases, deltate-ovate, lance-elliptic, lanceolate, lanceovate, or ovate, margins serrate, abaxial faces usually gland-dotted and hirsute, puberulent, pubescent, scabrous, or stipitate-glandular, sometimes glabrate, adaxial faces mostly puberulent to scabrous-hirsute and glabrescent, sometimes glabrate or glabrous;</text>
-      <biological_entity id="o263" name="blade" name_original="blades" type="structure">
+      <biological_entity id="o289" name="blade" name_original="blades" type="structure">
         <character is_modifier="false" modifier="pinnately" name="architecture" value="veined" />
-        <character constraint="at or near bases" constraintid="o264" is_modifier="false" modifier="more or less" name="architecture" value="3-nerved" />
+        <character constraint="at or near bases" constraintid="o290" is_modifier="false" modifier="more or less" name="architecture" value="3-nerved" />
         <character is_modifier="false" name="shape" notes="" value="deltate-ovate" />
         <character is_modifier="false" name="shape" value="lance-elliptic" />
         <character is_modifier="false" name="shape" value="lanceolate" />
@@ -516,11 +514,11 @@
         <character is_modifier="false" name="shape" value="lanceovate" />
         <character is_modifier="false" name="shape" value="ovate" />
       </biological_entity>
-      <biological_entity id="o264" name="base" name_original="bases" type="structure" />
-      <biological_entity id="o265" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
+      <biological_entity id="o290" name="base" name_original="bases" type="structure" />
+      <biological_entity id="o291" name="margin" name_original="margins" ontologyid="http://purl.obolibrary.org/obo/BSPO_0000006" type="structure">
         <character is_modifier="false" name="architecture_or_shape" value="serrate" />
       </biological_entity>
-      <biological_entity constraint="abaxial" id="o266" name="face" name_original="faces" type="structure">
+      <biological_entity constraint="abaxial" id="o292" name="face" name_original="faces" type="structure">
         <character is_modifier="false" modifier="usually" name="coloration" value="gland-dotted" />
         <character is_modifier="false" name="pubescence" value="hirsute" />
         <character is_modifier="false" name="pubescence" value="puberulent" />
@@ -531,7 +529,7 @@
         <character is_modifier="false" name="pubescence" value="stipitate-glandular" />
         <character is_modifier="false" modifier="sometimes" name="pubescence" value="glabrate" />
       </biological_entity>
-      <biological_entity constraint="adaxial" id="o267" name="face" name_original="faces" type="structure">
+      <biological_entity constraint="adaxial" id="o293" name="face" name_original="faces" type="structure">
         <character is_modifier="false" modifier="mostly" name="pubescence" notes="[duplicate value]" value="puberulent" />
         <character is_modifier="false" name="pubescence" notes="[duplicate value]" value="scabrous-hirsute" />
         <character char_type="range_value" from="mostly puberulent" name="pubescence" to="scabrous-hirsute" />
@@ -542,28 +540,28 @@
     </statement>
     <statement id="d0_s48">
       <text>pappi of 1–4 scales in 1 series, or of, 5–8 scales in 2, abruptly unequal series, longest scales, 1–, 2–8 mm. 2n = 12;</text>
-      <biological_entity id="o268" name="pappus" name_original="pappi" type="structure" />
-      <biological_entity id="o269" name="scale" name_original="scales" type="structure">
+      <biological_entity id="o294" name="pappus" name_original="pappi" type="structure" />
+      <biological_entity id="o295" name="scale" name_original="scales" type="structure">
         <character char_type="range_value" from="1" is_modifier="true" name="quantity" to="4" />
       </biological_entity>
-      <biological_entity id="o270" name="series" name_original="series" type="structure">
+      <biological_entity id="o296" name="series" name_original="series" type="structure">
         <character is_modifier="true" name="quantity" value="1" />
         <character char_type="range_value" from="5" name="quantity" to="8" />
       </biological_entity>
-      <biological_entity id="o271" name="scale" name_original="scales" type="structure" />
-      <biological_entity id="o272" name="series" name_original="series" type="structure">
+      <biological_entity id="o297" name="scale" name_original="scales" type="structure" />
+      <biological_entity id="o298" name="series" name_original="series" type="structure">
         <character is_modifier="true" name="quantity" value="2" />
         <character is_modifier="true" modifier="abruptly" name="size" value="unequal" />
       </biological_entity>
-      <biological_entity constraint="longest" id="o273" name="scale" name_original="scales" type="structure">
-        <character char_type="range_value" from="2" from_unit="mm" name="size" to="8" to_unit="mm" />
+      <biological_entity constraint="longest" id="o299" name="scale" name_original="scales" type="structure">
+        <character char_type="range_value" from="2" from_unit="mm" name="some_measurement" to="8" to_unit="mm" />
       </biological_entity>
-      <biological_entity constraint="2n" id="o274" name="chromosome" name_original="" type="structure">
+      <biological_entity constraint="2n" id="o300" name="chromosome" name_original="" type="structure">
         <character name="quantity" value="12" />
       </biological_entity>
-      <relation from="o268" id="r41" name="consist_of" negation="false" to="o269" />
-      <relation from="o269" id="r42" name="in" negation="false" to="o270" />
-      <relation from="o271" id="r43" name="in" negation="false" to="o272" />
+      <relation from="o294" id="r46" name="consist_of" negation="false" to="o295" />
+      <relation from="o295" id="r47" name="in" negation="false" to="o296" />
+      <relation from="o297" id="r48" name="in" negation="false" to="o298" />
     </statement>
   </description>
 </bio:treatment>

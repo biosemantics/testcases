@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics https://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupOutput.xsd">
   <meta>
     <source>
       <author>Hong Cui</author>
@@ -7,16 +7,16 @@
     </source>
     <processed_by>
       <processor>
-        <date>2015/12/17 13:32:50</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <date>2016/10/28 16:55:36</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser</software>
         <operator />
         <resource type="OTO Glossary" version="0.19">Plant</resource>
       </processor>
       <processor>
-        <date>2015/12/17 13:32:51</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <date>2016/10/28 16:55:37</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser - Ontology Mapping</software>
         <operator />
-        <resource type="Ontology(ies)" version="N/A">PATO,  PO,  BSPO,  RO,</resource>
+        <resource type="Ontology(ies)" version="N/A">BSPO,  PO,  RO,  PATO,</resource>
       </processor>
     </processed_by>
   </meta>
@@ -26,7 +26,7 @@
   <description type="morphology">
     <statement id="d0_s0">
       <text>Subulate leaves inserted at 62°.</text>
-      <biological_entity id="o355" name="leaf" name_original="leaves" type="structure">
+      <biological_entity id="o381" name="leaf" name_original="leaves" type="structure">
         <character is_modifier="true" name="shape" value="subulate" />
         <character is_modifier="false" modifier="62°" name="position" value="inserted" />
       </biological_entity>

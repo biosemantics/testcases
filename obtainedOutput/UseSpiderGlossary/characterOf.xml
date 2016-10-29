@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics http://raw.githubusercontent.com/biosemantics/schemas/0.0.1/semanticMarkupOutput.xsd">
+<bio:treatment xmlns:bio="http://www.github.com/biosemantics" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.github.com/biosemantics https://raw.githubusercontent.com/biosemantics/schemas/master/semanticMarkupOutput.xsd">
   <meta>
     <source>
       <author>Hong Cui</author>
@@ -7,16 +7,16 @@
     </source>
     <processed_by>
       <processor>
-        <date>2015/12/17 13:19:33</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser</software>
+        <date>2016/10/28 16:06:30</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser</software>
         <operator />
         <resource type="OTO Glossary" version="0.2">Spider</resource>
       </processor>
       <processor>
-        <date>2015/12/17 13:19:34</date>
-        <software type="Semantic Markup" version="0.1.160-SNAPSHOT">CharaParser - Ontology Mapping</software>
+        <date>2016/10/28 16:06:31</date>
+        <software type="Semantic Markup" version="0.1.184-SNAPSHOT">CharaParser - Ontology Mapping</software>
         <operator />
-        <resource type="Ontology(ies)" version="N/A">RO,  SPD,  PATO,  BSPO,</resource>
+        <resource type="Ontology(ies)" version="N/A">BSPO,  SPD,  RO,  PATO,</resource>
       </processor>
     </processed_by>
   </meta>
@@ -56,7 +56,7 @@
     </statement>
     <statement id="d0_s4">
       <text>Length of proximal epigastrium 2 times array heights;</text>
-      <biological_entity constraint="proximal" id="o25" name="epigastric-area" name_original="epigastrium" type="structure">
+      <biological_entity constraint="proximal" id="o25" name="epigastrium" name_original="epigastrium" type="structure">
         <character constraint="array" constraintid="o26" is_modifier="false" name="length" value="2 times array heights" />
       </biological_entity>
       <biological_entity id="o26" name="array" name_original="array" type="structure" />
@@ -133,13 +133,13 @@
         <character name="length" unit="mm" value="1.70" />
       </biological_entity>
       <biological_entity id="o38" name="leg-ii" name_original="leg-ii" type="structure">
-        <character name="size_or_shape" unit="mm" value="2.80/1.38" />
+        <character name="some_measurement_or_shape" unit="mm" value="2.80/1.38" />
       </biological_entity>
       <biological_entity id="o39" name="leg-iii" name_original="leg-iii" type="structure">
-        <character name="size_or_shape" unit="mm" value="2.05/0.86" />
+        <character name="some_measurement_or_shape" unit="mm" value="2.05/0.86" />
       </biological_entity>
       <biological_entity id="o40" name="leg-iv" name_original="leg-iv" type="structure">
-        <character name="size_or_shape" unit="mm" value="3.00/1.30" />
+        <character name="some_measurement_or_shape" unit="mm" value="3.00/1.30" />
       </biological_entity>
     </statement>
     <statement id="d0_s13">
@@ -151,7 +151,7 @@
     </statement>
     <statement id="d0_s14">
       <text>Abdomen badly preserved, spiracle–epigastrium 2.77 mm, spiracle–spinnerets 0.43 mm.</text>
-      <biological_entity id="o42" name="abdomen" name_original="abdomen" ontologyid="http://purl.obolibrary.org/obo/SPD_0000003" type="structure">
+      <biological_entity id="o42" name="abdomen" name_original="abdomen" type="structure">
         <character is_modifier="false" modifier="badly" name="condition" value="preserved" />
       </biological_entity>
       <biological_entity id="o43" name="epigastrium-spiracle" name_original="spiracle-epigastrium" type="structure">
